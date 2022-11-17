@@ -24,17 +24,14 @@
       <a routerLinkActive="active-router-link" routerLink="/find-support" #findSupportLink
         [attr.aria-current]="findSupportLink.routerLinkActive ? 'page' : false" class="find-support">
         <span class="text">Find Support</span>
-        <!-- <img src="/red_ellipse.svg" /> -->
       </a>
       <a routerLinkActive="active-router-link" routerLink="/opportunities/" #opportunitiesLink
         [attr.aria-current]="opportunitiesLink.routerLinkActive ? 'page' : false" class="opportunities">
         <span class="text">Opportunities</span>
-        <!-- <img src="/red_ellipse.svg" /> -->
       </a>
       <a routerLinkActive="active-router-link" routerLink="/request-an-investigation" #requestInvestigationLink
         [attr.aria-current]="requestInvestigationLink.routerLinkActive ? 'page' : false">
         <span class="text">Request an Investigation</span>
-        <!-- <img src="/red_ellipse.svg" /> -->
       </a>
     </div>
     <button mat-button class="action-button mobile-menu-button" (click)="toggleMobileMenu()">
@@ -55,21 +52,6 @@
         <span class="text">Create Report</span>
         <img src="/red_ellipse.svg" />
       </a>
-      <!-- <a routerLinkActive="active-router-link" routerLink="/find-support" #findSupportLink
-        [attr.aria-current]="findSupportLink.routerLinkActive ? 'page' : false" class="find-support ">
-        <span class="text">Find Support</span>
-        <img src="/red_ellipse.svg" />
-      </a> -->
-      <!-- <a routerLinkActive="active-router-link" routerLink="/opportunities/" #opportunitiesLink
-        [attr.aria-current]="opportunitiesLink.routerLinkActive ? 'page' : false" class="opportunities">
-        <span class="text">Opportunities</span>
-        <img src="/red_ellipse.svg" />
-      </a> -->
-      <!-- <a routerLinkActive="active-router-link" routerLink="/request-an-investigation" #requestInvestigationLink
-        [attr.aria-current]="requestInvestigationLink.routerLinkActive ? 'page' : false">
-        <span class="text">Request an Investigation</span>
-        <img src="/red_ellipse.svg" />
-      </a> -->
     </div>
     <div class="nav-links nav-item sign-out-nav" *ngIf="userIsSignedIn">
       <button class="sign-out-button" (click)="revokeAuthorization()">

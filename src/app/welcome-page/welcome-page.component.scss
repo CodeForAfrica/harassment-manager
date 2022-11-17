@@ -25,7 +25,6 @@
 .login-header::before {
   content: '';
   position: absolute;
-  // top: 60px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -305,10 +304,6 @@ h2 {
 }
 
 @media all and (min-width: 1152px) {
-  .login-header::before {
-    // top: 80px;
-  }
-
   .title {
     max-width: 1024px;
   }

@@ -78,7 +78,6 @@ export class AppComponent {
   }
 
   shouldShowToolbar(): boolean {
-    // return this.router.url !== '/';
     return true;
   }
 
