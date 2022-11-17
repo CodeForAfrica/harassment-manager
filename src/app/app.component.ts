@@ -78,7 +78,8 @@ export class AppComponent {
   }
 
   shouldShowToolbar(): boolean {
-    return this.router.url !== '/';
+    // return this.router.url !== '/';
+    return true;
   }
 
   shouldShowFeedbackButton() {

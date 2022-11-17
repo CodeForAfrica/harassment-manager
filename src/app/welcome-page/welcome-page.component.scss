@@ -25,13 +25,14 @@
 .login-header::before {
   content: '';
   position: absolute;
-  top: 60px;
+  // top: 60px;
   bottom: 0;
   left: 0;
   right: 0;
   background-color: #1625d9;
   background-image: url('/header_bg.svg');
   z-index: -1;
+  height: 100%;
 }
 
 .title {
@@ -305,7 +306,7 @@ h2 {
 
 @media all and (min-width: 1152px) {
   .login-header::before {
-    top: 80px;
+    // top: 80px;
   }
 
   .title {
