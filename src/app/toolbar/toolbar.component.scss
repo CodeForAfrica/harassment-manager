@@ -278,7 +278,8 @@ app-report-progress-bar {
   }
 
   .sign-out-nav {
-    display: none;
+    // display: none;
+    justify-content: flex-end;
   }
 }
 
@@ -420,7 +421,7 @@ app-report-progress-bar {
       }
 
       a {
-        justify-content: center !important;
+        // justify-content: center !important;
       }
 
       a,
