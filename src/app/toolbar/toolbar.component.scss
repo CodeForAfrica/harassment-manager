@@ -389,6 +389,10 @@ app-report-progress-bar {
     line-height: 1.2173913043;
     margin-right: 30px;
   }
+
+  a:nth-last-child(1) {
+    margin-right: 0;
+  }
 }
 
 @media all and (min-width: 768px) {
