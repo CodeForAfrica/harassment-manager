@@ -16,10 +16,24 @@
 
 <mat-toolbar class="toolbar">
   <mat-toolbar-row class="toolbar-row" [ngClass]="isMobileMenuOpen ? 'hidden-nav': ''  ">
-    <a routerLink="/home" class="title-wrapper">
+    <a routerLink="/" class="title-wrapper">
       <div class="icon-placeholder"></div>
       <span class="title">FeedShield</span>
     </a>
+    <div class="top-nav">
+      <a routerLinkActive="active-router-link" routerLink="/find-support" #findSupportLink
+        [attr.aria-current]="findSupportLink.routerLinkActive ? 'page' : false" class="find-support">
+        <span class="text">Find Support</span>
+      </a>
+      <a routerLinkActive="active-router-link" routerLink="/opportunities/" #opportunitiesLink
+        [attr.aria-current]="opportunitiesLink.routerLinkActive ? 'page' : false" class="opportunities">
+        <span class="text">Opportunities</span>
+      </a>
+      <a routerLinkActive="active-router-link" routerLink="/request-an-investigation" #requestInvestigationLink
+        [attr.aria-current]="requestInvestigationLink.routerLinkActive ? 'page' : false">
+        <span class="text">Request an Investigation</span>
+      </a>
+    </div>
     <button mat-button class="action-button mobile-menu-button" (click)="toggleMobileMenu()">
       <mat-icon svgIcon="hamburger_menu"></mat-icon>
     </button>
@@ -36,21 +50,6 @@
       <a routerLinkActive="active-router-link" [routerLink]="getCreateReportRouterLink()" #createReportLink
         [attr.aria-current]="createReportLink.routerLinkActive ? 'page' : false">
         <span class="text">Create Report</span>
-        <img src="/red_ellipse.svg" />
-      </a>
-      <a routerLinkActive="active-router-link" routerLink="/find-support" #findSupportLink
-        [attr.aria-current]="findSupportLink.routerLinkActive ? 'page' : false" class="find-support">
-        <span class="text">Find Support</span>
-        <img src="/red_ellipse.svg" />
-      </a>
-      <a routerLinkActive="active-router-link" routerLink="/opportunities/" #opportunitiesLink
-        [attr.aria-current]="opportunitiesLink.routerLinkActive ? 'page' : false" class="opportunities">
-        <span class="text">Opportunities</span>
-        <img src="/red_ellipse.svg" />
-      </a>
-      <a routerLinkActive="active-router-link" routerLink="/request-an-investigation" #requestInvestigationLink
-        [attr.aria-current]="requestInvestigationLink.routerLinkActive ? 'page' : false">
-        <span class="text">Request an Investigation</span>
         <img src="/red_ellipse.svg" />
       </a>
     </div>
@@ -85,11 +84,11 @@
         <img src="/red_ellipse.svg" />
       </a>
     </div>
-    <div class="nav-links nav-item">
+    <!-- <div class="nav-links nav-item">
       <a class="sign-out-button" (click)="revokeAuthorization()">
         <span>Sign out</span>
       </a>
-    </div>
+    </div> -->
   </mat-toolbar-row>
 
   <mat-toolbar-row class="toolbar-row" *ngIf="showBuildReportStepper">

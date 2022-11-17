@@ -278,7 +278,7 @@ app-report-progress-bar {
   }
 
   .sign-out-nav {
-    display: none;
+    justify-content: flex-end;
   }
 }
 
@@ -374,6 +374,26 @@ app-report-progress-bar {
   display: none;
 }
 
+.top-nav {
+  flex: 1;
+  justify-content: space-between;
+  display: none;
+
+  a {
+    text-decoration: none;
+    align-self: center;
+    color: #000;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.2173913043;
+    margin-right: 30px;
+  }
+
+  a:nth-last-child(1) {
+    margin-right: 0;
+  }
+}
+
 @media all and (min-width: 768px) {
   .toolbar {
     .toolbar-row {
@@ -401,10 +421,6 @@ app-report-progress-bar {
           align-self: flex-end;
           margin-bottom: -12px;
         }
-      }
-
-      a {
-        justify-content: center !important;
       }
 
       a,
@@ -496,6 +512,10 @@ app-report-progress-bar {
 
   .last-edited {
     display: block;
+  }
+
+  .top-nav {
+    display: flex;
   }
 }
 
