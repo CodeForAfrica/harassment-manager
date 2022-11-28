@@ -40,6 +40,7 @@ import { ShareReportComponent } from './share-report/share-report.component';
 import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
 import { RequestInvestigationComponent } from './request-investigation/request-investigation.component';
+import { GlossaryComponent } from './glossary/glossary.component';
 
 /**
  * Custom RouteReuseStrategy that reuses the CreateReportComponent so that the
@@ -120,6 +121,11 @@ export class CustomRouteReuseStrategy implements RouteReuseStrategy {
 }
 
 export const routes: Routes = [
+  {
+    path: 'glossary',
+    component: GlossaryComponent,
+    data: { title: 'Glossary' },
+  },
   {
     path: 'crisis-helpline',
     component: CrisisHelplineComponent,
