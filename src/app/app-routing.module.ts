@@ -27,6 +27,7 @@ import { CreateReportComponent } from './create-report/create-report.component';
 import { CrisisHelplineComponent } from './crisis-helpline/crisis-helpline.component';
 import { FindSupportComponent } from './find-support/find-support.component';
 import { EarlyAdoptersOpportunityPageComponent } from './opportunities-early-adopters/opportunities-early-adopters-page.component';
+import { GlossaryComponent } from './glossary/glossary.component';
 import { HelpCenterComponent } from './help-center/help-center.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { OauthApiService } from './oauth_api.service';
@@ -40,7 +41,6 @@ import { ShareReportComponent } from './share-report/share-report.component';
 import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
 import { RequestInvestigationComponent } from './request-investigation/request-investigation.component';
-import { GlossaryComponent } from './glossary/glossary.component';
 
 /**
  * Custom RouteReuseStrategy that reuses the CreateReportComponent so that the

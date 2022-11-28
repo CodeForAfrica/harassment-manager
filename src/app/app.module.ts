@@ -81,6 +81,7 @@ import { FindSupportListItemComponent } from './find-support-list-item/find-supp
 import { FindSupportTileComponent } from './find-support-tile/find-support-tile.component';
 import { FindSupportComponent } from './find-support/find-support.component';
 import { FooterComponent } from './footer/footer.component';
+import { GlossaryComponent } from './glossary/glossary.component';
 import { HelpCenterComponent } from './help-center/help-center.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { IntroStepperComponent } from './intro-stepper/intro-stepper.component';
@@ -109,7 +110,6 @@ import { TwitterApiService } from './twitter_api.service';
 import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 import { PrivacyPageComponent } from './privacy-page/privacy-page.component';
 import { RequestInvestigationComponent } from './request-investigation/request-investigation.component';
-import { GlossaryComponent } from './glossary/glossary.component';
 
 @NgModule({
   declarations: [
@@ -134,6 +134,7 @@ import { GlossaryComponent } from './glossary/glossary.component';
     FindSupportListItemComponent,
     FindSupportTileComponent,
     FooterComponent,
+    GlossaryComponent,
     HelpCenterComponent,
     HomePageComponent,
     HrefOnlyDownloadDirective,
@@ -159,7 +160,6 @@ import { GlossaryComponent } from './glossary/glossary.component';
     WelcomePageComponent,
     PrivacyPageComponent,
     RequestInvestigationComponent,
-    GlossaryComponent,
   ],
   imports: [
     A11yModule,
