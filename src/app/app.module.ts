@@ -81,6 +81,7 @@ import { FindSupportListItemComponent } from './find-support-list-item/find-supp
 import { FindSupportTileComponent } from './find-support-tile/find-support-tile.component';
 import { FindSupportComponent } from './find-support/find-support.component';
 import { FooterComponent } from './footer/footer.component';
+import { GlossaryComponent } from './glossary/glossary.component';
 import { HelpCenterComponent } from './help-center/help-center.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { IntroStepperComponent } from './intro-stepper/intro-stepper.component';
@@ -133,6 +134,7 @@ import { RequestInvestigationComponent } from './request-investigation/request-i
     FindSupportListItemComponent,
     FindSupportTileComponent,
     FooterComponent,
+    GlossaryComponent,
     HelpCenterComponent,
     HomePageComponent,
     HrefOnlyDownloadDirective,
