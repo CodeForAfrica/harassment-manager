@@ -157,6 +157,11 @@ h2 {
   margin: 0;
 }
 
+.info-explainer {
+  padding: 20px;
+  text-align: center;
+}
+
 .info-section {
   overflow: hidden;
 }
@@ -272,6 +277,12 @@ h2 {
     align-items: flex-start;
     width: 364px;
   }
+  .info-explainer {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 728px;
+    padding: 0;
+  }
 
   .panel {
     column-gap: 30px;
@@ -386,7 +397,9 @@ h2 {
     font-size: 52px;
     line-height: math.div(60, 52);
   }
-
+  .info-explainer {
+    max-width: 1024px;
+  }
   .panel {
     max-width: 1024px;
 
@@ -458,7 +471,9 @@ h2 {
     font-size: 64px;
     line-height: math.div(80.25, 64);
   }
-
+  .info-explainer {
+    max-width: 1144px;
+  }
   .panel {
     column-gap: 75px;
     max-width: 1144px;
