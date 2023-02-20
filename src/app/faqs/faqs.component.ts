@@ -80,7 +80,7 @@ export class FAQSComponent {
       selected: false
     }, 
     {
-      title: "What is the timeframe for which I can create a report on my Tweets using Feedshield?",
+      title: "Report Timeframe",
       anchorSelector: '.what-is-the-timeframe-for-which-i-can-create-a-report-on-my-tweets-using-feedshield',
       selected: false
     }
@@ -92,7 +92,7 @@ export class FAQSComponent {
   faqContent: FaqContent[] = [
     {
       title: 'What is it?',
-      content: 'FeedShield helps you to take back control of your Twitter feed. It is a free web application designed for human rights defenders, such as journalists and activists, but open for anyone to use. It syncs with the user’s Twitter account, automatically recognising and flagging harmful comments. The resulting analysis helps users limit their exposure to abusive content, by allowing them to block, mute or save comments at scale. It also allows users to create reports to store or share with investigators or other watch dogs as needed. FeedShield further helps users connect with allies, from crisis counsellors on a dedicated helpline, to local experts or support organisations.',
+      content: 'FeedShield helps you to take back control of your Twitter feed. It is a free web application designed for human rights defenders, such as journalists and activists, but open for anyone to use. It syncs with the user’s Twitter account, automatically recognising and flagging harmful comments from the last one week. The resulting analysis helps users limit their exposure to abusive content, by allowing them to block, mute or save comments at scale. It also allows users to create reports to store or share with investigators or other watchdogs as needed. FeedShield further helps users connect with allies, from crisis counsellors on a dedicated helpline, to local experts or support organisations.',
       selector: 'what-is-it'
     },
     {
@@ -113,7 +113,7 @@ export class FAQSComponent {
     {
       title: "How do I use it?",
       selector: 'how-do-i-use-it',
-      content: 'Once you’ve logged on to your dashboard, through your Twitter account, FeedShield rates each Tweet that mentions you with a toxicity score, and categorises them based on how likely they are to be harmful. You’re able to view or hide each comment from within FeedShield itself. Once you’ve reviewed all the comments, you can then collate harmful tweets into a single report that can be shared with Twitter or other parties so that you can get support to deal with the online abuse. You can also export your report and save it either on Google Drive or locally by downloading a PDF, printing a copy, or saving a CSV file to review later. The accounts you include in your reports will not be notified, so you will not be at risk of further harassment. FeedShield will also never post to Twitter on your behalf. Find out more with the detailed tutorial <a href="/">here</a>.'
+      content: "Once you’ve logged on to your dashboard through your Twitter account, FeedShield rates each tweet that mentions you within the last one week and assigns each one a toxicity score based on how likely they are to be harmful. You can then view or hide comments within FeedShield, curate them into reports and even share them with other parties that can support you deal with the abuse. You can also export your report and save it either on Google Drive or locally by downloading a PDF, printing a copy, or saving a CSV file without notifying the abusers. FeedShield won't post anything on your behalf. Find out more in this tutorial  <a href='/'>here</a>."
     },
     {
       title: "Is my data private?",
