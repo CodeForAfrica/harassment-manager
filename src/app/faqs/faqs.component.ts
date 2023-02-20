@@ -78,6 +78,11 @@ export class FAQSComponent {
       title: "How do I learn about future opportunities?",
       anchorSelector: '.how-do-i-learn-about-future-opportunities',
       selected: false
+    }, 
+    {
+      title: "What is the timeframe for which I can create a report on my Tweets using Feedshield?",
+      anchorSelector: '.what-is-the-timeframe-for-which-i-can-create-a-report-on-my-tweets-using-feedshield',
+      selected: false
     }
   ];
 
@@ -144,6 +149,11 @@ export class FAQSComponent {
       title: "How do I learn about future opportunities?",
       selector: 'how-do-i-learn-about-future-opportunities',
       content: 'The FeedShield team will be offering regular training, and other material and technical support to institutional partners. We will be also offering research fellowships to better understand how online trolls are coordinating their harassment of women in particular.If you are interested in keeping updated, email <a href="mailto:feedshield@codeforafrica.org">feedshield@codeforafrica.org</a>  with a request to be added to our community list.'
+    }, 
+    {
+      title: "What is the timeframe for which I can create a report on my Tweets using Feedshield?",
+      selector: 'what-is-the-timeframe-for-which-i-can-create-a-report-on-my-tweets-using-feedshield',
+      content: 'FeedShield allows you to generate reports on tweets that have been live within the most recent 7 days.'
     }
   ]
 
