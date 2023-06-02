@@ -13,6 +13,14 @@
           "style": "scss"
         }
       },
+      "i18n": {
+        "sourceLocale": "en",
+        "locales": {
+          "fr": {
+            "translation": "src/locale/messages.fr.xlf"
+          }
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -63,6 +71,13 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true
+            },
+            "fr": {
+              "localize": [
+                "fr"
+              ],
+              "outputPath": "dist/harassment-manager/fr",
+              "i18nMissingTranslation": "error"
             }
           }
         },
@@ -78,6 +93,9 @@
             },
             "production": {
               "browserTarget": "harassment-manager:build:production"
+            },
+            "fr": {
+              "browserTarget": "harassment-manager:build:fr"
             }
           },
           "defaultConfiguration": "development"

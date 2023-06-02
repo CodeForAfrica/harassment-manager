@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="explainer-content-women" datatype="html">
+        <source> Women journalists and other public figures in Africa are routinely targeted in coordinated attacks by online trolls. Trolls flood their target&apos;s social feeds with demeaning or threatening content as a way of drowning out or silencing women&apos;s voices on sensitive topics.</source>
+        <target>Les femmes journalistes et autres personnalités publiques en Afrique sont régulièrement ciblées par des attaques coordonnées de trolls en ligne. Les trolls inondent les fils d&apos;actualité de leur cible avec du contenu dégradant ou menaçant afin d&apos;étouffer ou de faire taire les voix des femmes sur des sujets sensibles.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">56,65</context>
+        </context-group>
+        <note priority="1" from="description">explainer-content-women </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
