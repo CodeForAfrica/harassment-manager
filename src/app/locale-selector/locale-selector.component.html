@@ -1,0 +1,11 @@
+<!-- Language Switch -->
+<div class="language-switch">
+    <mat-form-field appearance="outline" class="language-select">
+        <mat-label>Language</mat-label>
+        <mat-select [(value)]="selectedLocale" (selectionChange)="changeLanguage($event.value)">
+            <mat-option *ngFor="let locale of locales" [value]="locale">
+                {{locale.label}}
+            </mat-option>
+        </mat-select>
+    </mat-form-field>
+</div>

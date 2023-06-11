@@ -109,6 +109,7 @@ import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 import { PrivacyPageComponent } from './privacy-page/privacy-page.component';
 import { RequestInvestigationComponent } from './request-investigation/request-investigation.component';
 import { FAQSComponent } from './faqs/faqs.component';
+import { LocaleSelectorComponent } from './locale-selector/locale-selector.component';
 
 @NgModule({
   declarations: [
@@ -158,6 +159,7 @@ import { FAQSComponent } from './faqs/faqs.component';
     PrivacyPageComponent,
     RequestInvestigationComponent,
     FAQSComponent,
+    LocaleSelectorComponent,
   ],
   imports: [
     A11yModule,
