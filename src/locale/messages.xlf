@@ -10,6 +10,13 @@
         </context-group>
         <note priority="1" from="description">sign-out-text </note>
       </trans-unit>
+      <trans-unit id="1ea0da44f4a8db39a6054873ff282b5436208b41" datatype="html">
+        <source>/en/1st Illustration.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">30,35</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="555eb356a0e45e76ba9bba4f96a0278331fb7170" datatype="html">
         <source>Three people.</source>
         <context-group purpose="location">
@@ -37,6 +44,13 @@
         </context-group>
         <note priority="1" from="description">call-to-action-headline </note>
       </trans-unit>
+      <trans-unit id="a20b4859962796c7b4f9ee98c01e8d5260a6d448" datatype="html">
+        <source>/en/red_ellipse.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">47,55</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="explainer-content-women" datatype="html">
         <source> Women journalists and other public figures in Africa are routinely targeted in coordinated attacks by online trolls. Trolls flood their target&apos;s social feeds with demeaning or threatening content as a way of drowning out or silencing women&apos;s voices on sensitive topics.</source>
         <context-group purpose="location">
@@ -53,8 +67,15 @@
         </context-group>
         <note priority="1" from="description">explainer-content-women2 </note>
       </trans-unit>
+      <trans-unit id="c21f433f3dbc8edd779544b97c2b7b275c5dd140" datatype="html">
+        <source>/en/info_section_1_illustration.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">69,74</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="info-section-content-1" datatype="html">
-        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="nsic investigator"/>Document the evidence,<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt; unmask the"/> unmask the trolls</source>
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="ic investigators"/>Document the evidence,<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt; unmask the"/> unmask the trolls</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
           <context context-type="linenumber">72,76</context>

@@ -285,10 +285,34 @@
       </trans-unit>
       <trans-unit id="app_name" datatype="html">
         <source>&quot;FeedShield&quot;</source>
-        <target>&quot;FeedShield&quot;</target>
+        <target>FeedShield</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.ts</context>
           <context context-type="linenumber">32,36</context>
+        </context-group>
+      </trans-unit>
+            <trans-unit id="1ea0da44f4a8db39a6054873ff282b5436208b41" datatype="html">
+        <source>/en/1st Illustration.svg</source>
+        <target>/fr/1st Illustration.svg</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">30,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a20b4859962796c7b4f9ee98c01e8d5260a6d448" datatype="html">
+        <source>/en/red_ellipse.svg</source>
+        <target>/fr/red_ellipse.svg</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">47,55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c21f433f3dbc8edd779544b97c2b7b275c5dd140" datatype="html">
+        <source>/en/info_section_1_illustration.svg</source>
+        <target>/fr/info_section_1_illustration.svg</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">69,74</context>
         </context-group>
       </trans-unit>
     </body>
