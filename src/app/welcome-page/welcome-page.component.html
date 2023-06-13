@@ -20,23 +20,23 @@
       <div class="text">{{ appName }}</div>
     </a>
     <div *ngIf="userIsSignedIn">
-      <button class="button" (click)="revokeAuthorization()">Sign Out</button>
+      <button class="button" (click)="revokeAuthorization()" i18n="sign-out-text @@sign-out-text">Sign Out</button>
     </div>
   </div>
 
 
   <div class="login-section">
     <div class="hero-container right">
-      <img class="header-cta-img" src="/en/1st Illustration.svg" alt="Three people." />
+      <img class="header-cta-img" src="/en/1st Illustration.svg" i18n-alt alt="Three people." />
     </div>
 
     <div class="description">
-      <h1>
+      <h1 i18n="call-to-action @@cta-large">
         <span>Say Goodbye to</span>
         Online Trolls
       </h1>
 
-      <p>
+      <p i18n="call-to-action-headline @@cta-headline">
         Unfollow, mute and block toxic content.<br />
         Take back control of your online experience with FeedShield.
       </p>
@@ -57,7 +57,7 @@
       trolls.
       Trolls flood their target's social feeds with demeaning or threatening content as a way of drowning out or
       silencing women's voices on sensitive topics.</p>
-    <p>
+    <p i18n="explainer-content-women2 @@explainer-content-women2">
       FeedShield is an online toolkit to help human rights defenders turn the tide, by documenting the abuse and
       unmasking the trolls.
     </p>
@@ -69,15 +69,15 @@
     <img class="section-img" src="/en/info_section_1_illustration.svg" />
 
     <div class="box">
-      <h2><span>Document the evidence,</span> unmask the trolls</h2>
+      <h2 i18n="info-section-content @@info-section-content-1"><span>Document the evidence,</span> unmask the trolls</h2>
 
-      <p>
+      <p i18n="info-section-content-text @@info-section-content-1-text">
         Find out how to use FeedShield to flag abusive content targeting you, so you can report the abuse to the
         platforms or get our forensic investigators to track the culprits.
       </p>
 
       <button class="button" routerLink="/faqs">
-        <span>Find out how</span>
+        <span  i18n="info-section-content-cta @@info-section-content-1-cta">Find out how</span>
         <img src="/en/blue_ellipse.svg" />
       </button>
     </div>
@@ -85,8 +85,8 @@
 
   <div class="panel">
     <div class="box">
-      <h2><span i18n>You're</span> not alone!</h2>
-      <p>
+      <h2 i18n="info-section-content @@info-section-content-2"><span>You're</span> not alone!</h2>
+      <p i18n="info-section-content-text @@info-section-content-2-text">
         FeedShield is building a network of allies. Our fact-checkers (Africa’s
         largest network) and forensic investigators are also on standby to help
         you debunk allegations or expose the puppet-masters behind smear
@@ -94,7 +94,7 @@
       </p>
 
       <button class="button" routerLink="/request-investigation">
-        <span>Contact the investigators</span>
+        <span i18n="info-section-content-text @@info-section-content-2-cta">Contact the investigators</span>
         <img src="/en/blue_ellipse.svg" />
       </button>
     </div>
@@ -106,15 +106,15 @@
     <img class="section-img" src="/en/info_section_3_illustration.png" />
 
     <div class="box">
-      <h2>Need help?</h2>
+      <h2 i18n="info-section-content @@info-section-content-3">Need help?</h2>
 
-      <p>
+      <p i18n="info-section-content-text @@info-section-content-3-text">
         Contact an expert crisis counselling professional trained to connect you to local appropriate industry bodies or
         support agencies and ensure incidents are appropriately addressed
       </p>
 
       <button i18n-href class="button" routerLink="/helpline">
-        <span>Contact helpline</span>
+        <span i18n="info-section-content-text @@info-section-content-3-cta">Contact helpline</span>
         <img src="/en/blue_ellipse.svg" />
       </button>
     </div>
@@ -122,15 +122,15 @@
 
   <div class="panel">
     <div class="box">
-      <h2>Find Support</h2>
-      <p>
+      <h2 i18n="info-section-content @@info-section-content-4">Find Support</h2>
+      <p i18n="info-section-content-text @@info-section-content-4-text">
         Do you want to connect with human rights defending organisations who are helping fight against online
         harassment? FeedShield is part of an international coalition of campaigning CSOs and watchdog media industry
         organisations who are building resources, training champions, and helping support people targeted by trolls.
       </p>
 
       <button class="button" routerLink="/resources">
-        <span>Connect with allies</span>
+        <span i18n="info-section-content-text @@info-section-content-4-cta">Connect with allies</span>
         <img src="/en/blue_ellipse.svg" />
       </button>
     </div>
@@ -142,15 +142,15 @@
     <img class="section-img" src="/en/opportunities_illustration_home.svg" />
 
     <div class="box">
-      <h2>Join Us</h2>
+      <h2 i18n="info-section-content @@info-section-content-5">Join Us</h2>
 
-      <p>
+      <p i18n="info-section-content-text @@info-section-content-5-text">
         Do you want to take an active role in combating online abuse? Are you interested in being one of the first users
         of the FeedShield tool? Are there other ways you see yourself working with us?
       </p>
 
       <button class="button" routerLink="/opportunities">
-        <span>Find opportunities</span>
+        <span i18n="info-section-content-text @@info-section-content-5-cta">Find opportunities</span>
         <img src="/en/blue_ellipse.svg" />
       </button>
     </div>
@@ -159,21 +159,21 @@
 </div>
 
 <div class="faq-section">
-  <h2>FAQs</h2>
+  <h2 i18n="FAQ-header @@faq-header">FAQs</h2>
 
   <mat-expansion-panel>
     <mat-expansion-panel-header collapsedHeight="82px" expandedHeight="82px">
-      <mat-panel-title>How does FeedShield work?</mat-panel-title>
+      <mat-panel-title i18n="@@faq1">How does FeedShield work?</mat-panel-title>
     </mat-expansion-panel-header>
-    <p>
+    <p  i18n="@@faq1-answ1">
       FeedShield syncs with your Twitter account and uses machine learning technology to identify abusive comments.
       The tool rates each comment with a toxicity score and lets you take action - by muting or blocking accounts in
       bulk - without having to read the abusive messages. While all comments are automatically hidden, you can unhide
       them if you want to.
     </p>
-    <p>You can also collate harmful comments into a single report. This report can be downloaded and shared with
+    <p  i18n="@@faq1-answ2">You can also collate harmful comments into a single report. This report can be downloaded and shared with
       Twitter and other trusted third parties as needed.</p>
-    <p>
+    <p  i18n="@@faq1-answ3">
       Abusive accounts will not know that they have been featured in a report. No third party - including Code for
       Africa and Twitter - will be able to access any of the reports you create, unless shared directly with them.
       Draft reports are temporarily stored in the tool to enable you to complete them. Once downloaded or abandoned,
@@ -182,9 +182,9 @@
   </mat-expansion-panel>
   <mat-expansion-panel>
     <mat-expansion-panel-header collapsedHeight="82px" expandedHeight="82px">
-      <mat-panel-title>How is my data protected?</mat-panel-title>
+      <mat-panel-title  i18n="@@faq2">How is my data protected?</mat-panel-title>
     </mat-expansion-panel-header>
-    <p>
+    <p  i18n="@@faq2-answ">
       Yes, your data is kept private when you use FeedShield. We only collect essential information such as your name
       and
       email address, and we will never share your personal data with third parties without your consent. We only use
@@ -194,16 +194,16 @@
   </mat-expansion-panel>
   <mat-expansion-panel>
     <mat-expansion-panel-header collapsedHeight="82px" expandedHeight="82px">
-      <mat-panel-title>What languages does the tool work with?</mat-panel-title>
+      <mat-panel-title  i18n="@@faq3">What languages does the tool work with?</mat-panel-title>
     </mat-expansion-panel-header>
-    <p>
+    <p  i18n="@@faq3-answ">
       The FeedShield Tool is currently available in English. We are working on French and Arabic languages, so please
       check
       back soon for updates.
     </p>
   </mat-expansion-panel>
   <button class="button help-button" routerLink="/faqs">
-    <span>Explore FAQ'S</span>
+    <span  i18n="@@faq-explore">Explore FAQ'S</span>
     <img src="/en/blue_ellipse.svg" />
   </button>
 </div>

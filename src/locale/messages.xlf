@@ -2,19 +2,253 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="sign-out-text" datatype="html">
+        <source>Sign Out</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">23,30</context>
+        </context-group>
+        <note priority="1" from="description">sign-out-text </note>
+      </trans-unit>
+      <trans-unit id="555eb356a0e45e76ba9bba4f96a0278331fb7170" datatype="html">
+        <source>Three people.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">30,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cta-large" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="/p&gt;
+
+      &lt;div c"/>Say Goodbye to<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;
+        On"/> Online Trolls </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">35,44</context>
+        </context-group>
+        <note priority="1" from="description">call-to-action </note>
+      </trans-unit>
+      <trans-unit id="cta-headline" datatype="html">
+        <source> Unfollow, mute and block toxic content.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;
+        Take back control"/> Take back control of your online experience with FeedShield. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">40,41</context>
+        </context-group>
+        <note priority="1" from="description">call-to-action-headline </note>
+      </trans-unit>
       <trans-unit id="explainer-content-women" datatype="html">
         <source> Women journalists and other public figures in Africa are routinely targeted in coordinated attacks by online trolls. Trolls flood their target&apos;s social feeds with demeaning or threatening content as a way of drowning out or silencing women&apos;s voices on sensitive topics.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">56,65</context>
+          <context context-type="linenumber">56,61</context>
         </context-group>
         <note priority="1" from="description">explainer-content-women </note>
       </trans-unit>
-      <trans-unit id="14c2cef4db4156a08efe999b574f121f8960b611" datatype="html">
-        <source>You&apos;re</source>
+      <trans-unit id="explainer-content-women2" datatype="html">
+        <source> FeedShield is an online toolkit to help human rights defenders turn the tide, by documenting the abuse and unmasking the trolls. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">88,91</context>
+          <context context-type="linenumber">61,72</context>
+        </context-group>
+        <note priority="1" from="description">explainer-content-women2 </note>
+      </trans-unit>
+      <trans-unit id="info-section-content-1" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="nsic investigator"/>Document the evidence,<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt; unmask the"/> unmask the trolls</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">72,76</context>
+        </context-group>
+        <note priority="1" from="description">info-section-content </note>
+      </trans-unit>
+      <trans-unit id="info-section-content-1-text" datatype="html">
+        <source> Find out how to use FeedShield to flag abusive content targeting you, so you can report the abuse to the platforms or get our forensic investigators to track the culprits. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">75,81</context>
+        </context-group>
+        <note priority="1" from="description">info-section-content-text </note>
+      </trans-unit>
+      <trans-unit id="info-section-content-1-cta" datatype="html">
+        <source>Find out how</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">80,88</context>
+        </context-group>
+        <note priority="1" from="description">info-section-content-cta </note>
+      </trans-unit>
+      <trans-unit id="info-section-content-2" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="by to help"/>You&apos;re<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt; not alone!"/> not alone!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">88,92</context>
+        </context-group>
+        <note priority="1" from="description">info-section-content </note>
+      </trans-unit>
+      <trans-unit id="info-section-content-2-text" datatype="html">
+        <source> FeedShield is building a network of allies. Our fact-checkers (Africa’s largest network) and forensic investigators are also on standby to help you debunk allegations or expose the puppet-masters behind smear campaigns. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">90,97</context>
+        </context-group>
+        <note priority="1" from="description">info-section-content-text </note>
+      </trans-unit>
+      <trans-unit id="info-section-content-2-cta" datatype="html">
+        <source>Contact the investigators</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">97,106</context>
+        </context-group>
+        <note priority="1" from="description">info-section-content-text </note>
+      </trans-unit>
+      <trans-unit id="info-section-content-3" datatype="html">
+        <source>Need help?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">109,112</context>
+        </context-group>
+        <note priority="1" from="description">info-section-content </note>
+      </trans-unit>
+      <trans-unit id="info-section-content-3-text" datatype="html">
+        <source> Contact an expert crisis counselling professional trained to connect you to local appropriate industry bodies or support agencies and ensure incidents are appropriately addressed </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">112,118</context>
+        </context-group>
+        <note priority="1" from="description">info-section-content-text </note>
+      </trans-unit>
+      <trans-unit id="info-section-content-3-cta" datatype="html">
+        <source>Contact helpline</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">117,125</context>
+        </context-group>
+        <note priority="1" from="description">info-section-content-text </note>
+      </trans-unit>
+      <trans-unit id="info-section-content-4" datatype="html">
+        <source>Find Support</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">125,128</context>
+        </context-group>
+        <note priority="1" from="description">info-section-content </note>
+      </trans-unit>
+      <trans-unit id="info-section-content-4-text" datatype="html">
+        <source> Do you want to connect with human rights defending organisations who are helping fight against online harassment? FeedShield is part of an international coalition of campaigning CSOs and watchdog media industry organisations who are building resources, training champions, and helping support people targeted by trolls. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">127,134</context>
+        </context-group>
+        <note priority="1" from="description">info-section-content-text </note>
+      </trans-unit>
+      <trans-unit id="info-section-content-4-cta" datatype="html">
+        <source>Connect with allies</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">133,142</context>
+        </context-group>
+        <note priority="1" from="description">info-section-content-text </note>
+      </trans-unit>
+      <trans-unit id="info-section-content-5" datatype="html">
+        <source>Join Us</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">145,148</context>
+        </context-group>
+        <note priority="1" from="description">info-section-content </note>
+      </trans-unit>
+      <trans-unit id="info-section-content-5-text" datatype="html">
+        <source> Do you want to take an active role in combating online abuse? Are you interested in being one of the first users of the FeedShield tool? Are there other ways you see yourself working with us? </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">148,154</context>
+        </context-group>
+        <note priority="1" from="description">info-section-content-text </note>
+      </trans-unit>
+      <trans-unit id="info-section-content-5-cta" datatype="html">
+        <source>Find opportunities</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">153,165</context>
+        </context-group>
+        <note priority="1" from="description">info-section-content-text </note>
+      </trans-unit>
+      <trans-unit id="faq-header" datatype="html">
+        <source>FAQs</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">163,166</context>
+        </context-group>
+        <note priority="1" from="description">FAQ-header </note>
+      </trans-unit>
+      <trans-unit id="faq1" datatype="html">
+        <source>How does FeedShield work?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">166,169</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="faq1-answ1" datatype="html">
+        <source> FeedShield syncs with your Twitter account and uses machine learning technology to identify abusive comments. The tool rates each comment with a toxicity score and lets you take action - by muting or blocking accounts in bulk - without having to read the abusive messages. While all comments are automatically hidden, you can unhide them if you want to. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">169,174</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="faq1-answ2" datatype="html">
+        <source>You can also collate harmful comments into a single report. This report can be downloaded and shared with Twitter and other trusted third parties as needed.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">174,178</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="faq1-answ3" datatype="html">
+        <source> Abusive accounts will not know that they have been featured in a report. No third party - including Code for Africa and Twitter - will be able to access any of the reports you create, unless shared directly with them. Draft reports are temporarily stored in the tool to enable you to complete them. Once downloaded or abandoned, the report will be deleted from FeedShield. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">177,185</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="faq2" datatype="html">
+        <source>How is my data protected?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">185,188</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="faq2-answ" datatype="html">
+        <source> Yes, your data is kept private when you use FeedShield. We only collect essential information such as your name and email address, and we will never share your personal data with third parties without your consent. We only use your personal data for the purpose for which it was collected. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">188,196</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="faq3" datatype="html">
+        <source>What languages does the tool work with?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">197,200</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="faq3-answ" datatype="html">
+        <source> The FeedShield Tool is currently available in English. We are working on French and Arabic languages, so please check back soon for updates. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">200,207</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="faq-explore" datatype="html">
+        <source>Explore FAQ&apos;S</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">206,210</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="app_name" datatype="html">
+        <source>&quot;FeedShield&quot;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.ts</context>
+          <context context-type="linenumber">32,36</context>
         </context-group>
       </trans-unit>
     </body>
