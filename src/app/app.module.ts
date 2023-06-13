@@ -19,7 +19,7 @@ import { OverlayModule } from '@angular/cdk/overlay';
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import { APP_BASE_HREF } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
-import { NgModule } from '@angular/core';
+import { NgModule, LOCALE_ID } from '@angular/core';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFireAuthModule } from '@angular/fire/compat/auth';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
@@ -110,6 +110,7 @@ import { PrivacyPageComponent } from './privacy-page/privacy-page.component';
 import { RequestInvestigationComponent } from './request-investigation/request-investigation.component';
 import { FAQSComponent } from './faqs/faqs.component';
 import { LocaleSelectorComponent } from './locale-selector/locale-selector.component';
+import { LocaleService } from './locale.service';
 
 @NgModule({
   declarations: [
@@ -225,7 +226,14 @@ import { LocaleSelectorComponent } from './locale-selector/locale-selector.compo
         },
       },
     },
-    { provide: APP_BASE_HREF, useValue: '/' },
+    {
+      provide: APP_BASE_HREF,
+      useFactory: (localService:LocaleService) => {
+        return '/' + localService.getLocale();
+      },
+      deps: [LocaleService] 
+    }
+    // { provide: APP_BASE_HREF, useValue: '/' },
   ],
   bootstrap: [AppComponent],
 })

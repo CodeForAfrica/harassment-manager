@@ -64,3 +64,4 @@ service_account_key.json
 src/app/gapi.service.ts
 src/app/oauth_api.service.ts
 src/environments
+.firebase/

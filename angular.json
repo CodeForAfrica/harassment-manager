@@ -17,8 +17,7 @@
         "sourceLocale": "en",
         "locales": {
           "fr": {
-            "translation": "src/locale/messages.fr.json",
-            "baseHref": "/fr/"
+            "translation": "src/locale/messages.fr.xlf"
           }
         }
       },
@@ -26,6 +25,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "localize":true,
+            "i18nMissingTranslation": "error",
             "allowedCommonJsDependencies": [
               "@babel/runtime-corejs3",
               "raf",
@@ -76,9 +77,7 @@
             "fr": {
               "localize": [
                 "fr"
-              ],
-              "outputPath": "dist/harassment-manager/fr",
-              "i18nMissingTranslation": "error"
+              ]
             }
           }
         },
@@ -104,7 +103,9 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "harassment-manager:build"
+            "browserTarget": "harassment-manager:build",
+            "format": "xlf",
+            "outputPath": "src/locale"
           }
         },
         "test": {
