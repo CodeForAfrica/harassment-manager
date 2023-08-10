@@ -23,6 +23,7 @@ import { environment } from './environments/environment';
 import 'hammerjs';
 
 Sentry.init({
+  environment: environment.production ? 'production' : 'development',
   dsn: environment.sentry.dsn,
   integrations: [
     new Sentry.BrowserTracing({

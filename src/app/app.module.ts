@@ -19,7 +19,7 @@ import { OverlayModule } from '@angular/cdk/overlay';
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import { APP_BASE_HREF } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
-import { ErrorHandler, NgModule } from '@angular/core';
+import { APP_INITIALIZER, ErrorHandler, NgModule } from '@angular/core';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFireAuthModule } from '@angular/fire/compat/auth';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
@@ -229,18 +229,20 @@ import * as Sentry from '@sentry/angular-ivy';
     {
       provide: ErrorHandler,
       useValue: Sentry.createErrorHandler({
-        showDialog: true,
+        showDialog: false,
       }),
     },
     {
       provide: Sentry.TraceService,
       deps: [Router],
+    },
+    {
+      provide: APP_INITIALIZER,
+      useFactory: () => () => {},
+      deps: [Sentry.TraceService],
+      multi: true,
     }
   ],
   bootstrap: [AppComponent],
 })
-export class AppModule {
-  constructor(
-    trace: Sentry.TraceService,
-  ) { }
-}
+export class AppModule {}
