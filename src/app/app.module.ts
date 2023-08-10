@@ -245,4 +245,4 @@ import * as Sentry from '@sentry/angular-ivy';
   ],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }
