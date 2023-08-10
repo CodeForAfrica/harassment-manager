@@ -19,7 +19,7 @@ import { OverlayModule } from '@angular/cdk/overlay';
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import { APP_BASE_HREF } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
-import { NgModule } from '@angular/core';
+import { ErrorHandler, NgModule } from '@angular/core';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFireAuthModule } from '@angular/fire/compat/auth';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
@@ -50,7 +50,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { RouterModule } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { environment } from '../environments/environment';
 import { ActionWarningDialogComponent } from './action-warning-dialog/action-warning-dialog.component';
@@ -109,6 +109,8 @@ import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 import { PrivacyPageComponent } from './privacy-page/privacy-page.component';
 import { RequestInvestigationComponent } from './request-investigation/request-investigation.component';
 import { FAQSComponent } from './faqs/faqs.component';
+
+import * as Sentry from '@sentry/angular-ivy';
 
 @NgModule({
   declarations: [
@@ -224,7 +226,21 @@ import { FAQSComponent } from './faqs/faqs.component';
       },
     },
     { provide: APP_BASE_HREF, useValue: '/' },
+    {
+      provide: ErrorHandler,
+      useValue: Sentry.createErrorHandler({
+        showDialog: true,
+      }),
+    },
+    {
+      provide: Sentry.TraceService,
+      deps: [Router],
+    }
   ],
   bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {
+  constructor(
+    trace: Sentry.TraceService,
+  ) { }
+}
