@@ -43,6 +43,7 @@
     "@google-cloud/debug-agent": "^5.2.8",
     "@google-cloud/logging": "^9.8.0",
     "@google-cloud/trace-agent": "^5.1.6",
+    "@sentry/angular-ivy": "^7.62.0",
     "@types/compression": "^1.7.2",
     "@types/cors": "^2.8.12",
     "@types/d3-dsv": "^3.0.0",
