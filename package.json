@@ -22,9 +22,7 @@
     "watch:app": "ng serve --port 8080",
     "watch:server": "NODE_ENV='development' nodemon --max_old_space_size=4096 --inspect build/server/run_server.js build/config/server_config.json",
     "watch:tsc": "tsc -w -p src/tsconfig.server.json",
-    "i18n:extract": "ng extract-i18n",
-    "start:fr": "ng serve --configuration=fr",
-    "build:fr": "ng build --configuration=fr"
+    "i18n:extract": "ng extract-i18n"
   },
   "private": true,
   "dependencies": {
