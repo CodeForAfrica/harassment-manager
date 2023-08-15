@@ -113,7 +113,6 @@ import { FAQSComponent } from './faqs/faqs.component';
 
 import * as Sentry from '@sentry/angular-ivy';
 import { LocaleSelectorComponent } from './locale-selector/locale-selector.component';
-import { LocaleService } from './locale.service';
 
 @NgModule({
   declarations: [
@@ -232,12 +231,11 @@ import { LocaleService } from './locale.service';
     },
     {
       provide: APP_BASE_HREF,
-      useFactory: (localService:LocaleService) => {
-        return '/' + localService.getLocale();
+      useFactory: (locale:string) =>{
+        return `/${locale}`;
       },
-      deps: [LocaleService] 
+      deps: [LOCALE_ID] 
     },
-    // { provide: APP_BASE_HREF, useValue: '/' },
     {
       provide: ErrorHandler,
       useValue: Sentry.createErrorHandler({
