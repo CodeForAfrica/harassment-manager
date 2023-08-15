@@ -44,7 +44,13 @@
 
       <div class="login-buttons">
         <button class="button twitter-button" (click)="loginWithTwitter()">
-          <span> {{ userIsSignedIn ? "Visit Dashboard":  "Start with Twitter"}} </span>
+          <ng-container *ngIf="userIsSignedIn; else notSignedIn">
+            <span i18n="visit-dash @@visit-dash" >
+              Visit Dashboard </span>
+          </ng-container>
+          <ng-template #notSignedIn>
+            <span i18n="sign-in-text @@sign-in-text">Start with Twitter</span>
+          </ng-template>
           <img i18n-src src="/en/red_ellipse.svg" />
         </button>
       </div>
