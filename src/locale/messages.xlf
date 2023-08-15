@@ -2,6 +2,104 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="3a8524e510c08c1676c0005b22a2ba5345cdc3af" datatype="html">
+        <source>/en/cfa_brand.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">20,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="summary" datatype="html">
+        <source> Trolls use online violence to silence civic watchdogs. FeedShield is a free tool powered by Jigsaw, using its Harassment Manager toolkit, and implemented by Code for Africa (CfA) to help Twitter users document and manage online harassment and abuse. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">26,34</context>
+        </context-group>
+        <note priority="1" from="description">summary </note>
+      </trans-unit>
+      <trans-unit id="powered-by" datatype="html">
+        <source>Powered by</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">38,42</context>
+        </context-group>
+        <note priority="1" from="description">powered-by </note>
+      </trans-unit>
+      <trans-unit id="e089093f8777bc5cebebc1cb7972aa3e45f149e6" datatype="html">
+        <source>/en/Jigsaw_logo.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">40,48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="resources" datatype="html">
+        <source>Resources</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">48,51</context>
+        </context-group>
+        <note priority="1" from="description">resources </note>
+      </trans-unit>
+      <trans-unit id="f7f98574774e362681a21f0c35ee6704fa910652" datatype="html">
+        <source>FAQ&apos;s</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">50,51</context>
+        </context-group>
+        <note priority="1" from="description">faqs</note>
+      </trans-unit>
+      <trans-unit id="e4024d08158fa16a98f3178a7dd1734b2024031f" datatype="html">
+        <source>Opportunities</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">50,56</context>
+        </context-group>
+        <note priority="1" from="description">opportunities</note>
+      </trans-unit>
+      <trans-unit id="3c78b53bca33467190c0b7a01320bc093a2b1427" datatype="html">
+        <source>Privacy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">51,58</context>
+        </context-group>
+        <note priority="1" from="description">privacy</note>
+      </trans-unit>
+      <trans-unit id="08ebc31fa9a8a686d53eefde3d9a0a2a3d3944c8" datatype="html">
+        <source>Stay in touch</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">57,60</context>
+        </context-group>
+        <note priority="1" from="description">stay-in-touch</note>
+      </trans-unit>
+      <trans-unit id="a483d7afc289e136f05dc7da7fca4cf3167f0580" datatype="html">
+        <source>/en/twitter.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">60,64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="96453915a1296174f62b384629ade3272a1712f1" datatype="html">
+        <source>/en/facebook.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">64,67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1f307a76c7fd5803b7a5d403061a4570771ca172" datatype="html">
+        <source>/en/instagram.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">67,70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6c1fe420825c6bb3db6059fc2f432f92e583063c" datatype="html">
+        <source>/en/linkedin.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">70,77</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="sign-out-text" datatype="html">
         <source>Sign Out</source>
         <context-group purpose="location">
