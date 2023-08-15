@@ -22,6 +22,7 @@
     <div *ngIf="userIsSignedIn">
       <button class="button" (click)="revokeAuthorization()" i18n="sign-out-text @@sign-out-text">Sign Out</button>
     </div>
+    <app-locale-selector></app-locale-selector>
   </div>
 
 
@@ -44,7 +45,7 @@
       <div class="login-buttons">
         <button class="button twitter-button" (click)="loginWithTwitter()">
           <span> {{ userIsSignedIn ? "Visit Dashboard":  "Start with Twitter"}} </span>
-          <img i18n-src  src="/en/red_ellipse.svg" />
+          <img i18n-src src="/en/red_ellipse.svg" />
         </button>
       </div>
     </div>
@@ -66,10 +67,11 @@
 
 <div class="info-section">
   <div class="panel">
-    <img class="section-img" i18n-src  src="/en/info_section_1_illustration.svg" />
+    <img class="section-img" i18n-src src="/en/info_section_1_illustration.svg" />
 
     <div class="box">
-      <h2 i18n="info-section-content @@info-section-content-1"><span>Document the evidence,</span> unmask the trolls</h2>
+      <h2 i18n="info-section-content @@info-section-content-1"><span>Document the evidence,</span> unmask the trolls
+      </h2>
 
       <p i18n="info-section-content-text @@info-section-content-1-text">
         Find out how to use FeedShield to flag abusive content targeting you, so you can report the abuse to the
@@ -77,7 +79,7 @@
       </p>
 
       <button class="button" routerLink="/faqs">
-        <span  i18n="info-section-content-cta @@info-section-content-1-cta">Find out how</span>
+        <span i18n="info-section-content-cta @@info-section-content-1-cta">Find out how</span>
         <img src="/en/blue_ellipse.svg" />
       </button>
     </div>
@@ -165,15 +167,16 @@
     <mat-expansion-panel-header collapsedHeight="82px" expandedHeight="82px">
       <mat-panel-title i18n="@@faq1">How does FeedShield work?</mat-panel-title>
     </mat-expansion-panel-header>
-    <p  i18n="@@faq1-answ1">
+    <p i18n="@@faq1-answ1">
       FeedShield syncs with your Twitter account and uses machine learning technology to identify abusive comments.
       The tool rates each comment with a toxicity score and lets you take action - by muting or blocking accounts in
       bulk - without having to read the abusive messages. While all comments are automatically hidden, you can unhide
       them if you want to.
     </p>
-    <p  i18n="@@faq1-answ2">You can also collate harmful comments into a single report. This report can be downloaded and shared with
+    <p i18n="@@faq1-answ2">You can also collate harmful comments into a single report. This report can be downloaded and
+      shared with
       Twitter and other trusted third parties as needed.</p>
-    <p  i18n="@@faq1-answ3">
+    <p i18n="@@faq1-answ3">
       Abusive accounts will not know that they have been featured in a report. No third party - including Code for
       Africa and Twitter - will be able to access any of the reports you create, unless shared directly with them.
       Draft reports are temporarily stored in the tool to enable you to complete them. Once downloaded or abandoned,
@@ -182,9 +185,9 @@
   </mat-expansion-panel>
   <mat-expansion-panel>
     <mat-expansion-panel-header collapsedHeight="82px" expandedHeight="82px">
-      <mat-panel-title  i18n="@@faq2">How is my data protected?</mat-panel-title>
+      <mat-panel-title i18n="@@faq2">How is my data protected?</mat-panel-title>
     </mat-expansion-panel-header>
-    <p  i18n="@@faq2-answ">
+    <p i18n="@@faq2-answ">
       Yes, your data is kept private when you use FeedShield. We only collect essential information such as your name
       and
       email address, and we will never share your personal data with third parties without your consent. We only use
@@ -194,16 +197,16 @@
   </mat-expansion-panel>
   <mat-expansion-panel>
     <mat-expansion-panel-header collapsedHeight="82px" expandedHeight="82px">
-      <mat-panel-title  i18n="@@faq3">What languages does the tool work with?</mat-panel-title>
+      <mat-panel-title i18n="@@faq3">What languages does the tool work with?</mat-panel-title>
     </mat-expansion-panel-header>
-    <p  i18n="@@faq3-answ">
+    <p i18n="@@faq3-answ">
       The FeedShield Tool is currently available in English. We are working on French and Arabic languages, so please
       check
       back soon for updates.
     </p>
   </mat-expansion-panel>
   <button class="button help-button" routerLink="/faqs">
-    <span  i18n="@@faq-explore">Explore FAQ'S</span>
+    <span i18n="@@faq-explore">Explore FAQ'S</span>
     <img src="/en/blue_ellipse.svg" />
   </button>
 </div>
