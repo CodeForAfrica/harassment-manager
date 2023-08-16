@@ -2,57 +2,37 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="3a8524e510c08c1676c0005b22a2ba5345cdc3af" datatype="html">
-        <source>/en/cfa_brand.svg</source>
-        <target>/fr/cfa_brand.svg</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
-          <context context-type="linenumber">20,26</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="summary" datatype="html">
+      <trans-unit id="0e9e4cfe01383d396696a9ba8c873f0676cffc60" datatype="html">
         <source> Trolls use online violence to silence civic watchdogs. FeedShield is a free tool powered by Jigsaw, using its Harassment Manager toolkit, and implemented by Code for Africa (CfA) to help Twitter users document and manage online harassment and abuse. </source>
         <target>Les trolls utilisent la violence en ligne pour réduire au silence les gens pratiquant la surveillance civique. FeedShield est un outil gratuit développé par Jigsaw, utilisant sa boîte à outils de gestion du harcèlement, et mis en œuvre par Code for Africa (CfA) pour aider les utilisateurs de Twitter à documenter et à gérer le harcèlement et les abus en ligne.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/footer/footer.component.html</context>
           <context context-type="linenumber">26,34</context>
         </context-group>
-        <note priority="1" from="description">summary </note>
       </trans-unit>
-      <trans-unit id="powered-by" datatype="html">
+      <trans-unit id="596d65263456e81ac98fb7f8d616bf01adfc17a8" datatype="html">
         <source>Powered by</source>
         <target>Développé par</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/footer/footer.component.html</context>
-          <context context-type="linenumber">38,42</context>
-        </context-group>
-        <note priority="1" from="description">powered-by </note>
-      </trans-unit>
-      <trans-unit id="e089093f8777bc5cebebc1cb7972aa3e45f149e6" datatype="html">
-        <source>/en/Jigsaw_logo.svg</source>
-        <target>/fr/Jigsaw_logo.svg</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
-          <context context-type="linenumber">40,48</context>
+          <context context-type="linenumber">38,41</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="resources" datatype="html">
+      <trans-unit id="452ef1b96854fe05618303ee601f8fed3b866c9f" datatype="html">
         <source>Resources</source>
         <target>Ressources</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/footer/footer.component.html</context>
           <context context-type="linenumber">48,51</context>
         </context-group>
-        <note priority="1" from="description">resources </note>
       </trans-unit>
       <trans-unit id="f7f98574774e362681a21f0c35ee6704fa910652" datatype="html">
         <source>FAQ&apos;s</source>
         <target>Foire aux questions (FAQ)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/footer/footer.component.html</context>
-          <context context-type="linenumber">50,51</context>
+          <context context-type="linenumber">50,55</context>
         </context-group>
-        <note priority="1" from="description">faqs</note>
       </trans-unit>
       <trans-unit id="e4024d08158fa16a98f3178a7dd1734b2024031f" datatype="html">
         <source>Opportunities</source>
@@ -61,7 +41,6 @@
           <context context-type="sourcefile">src/app/footer/footer.component.html</context>
           <context context-type="linenumber">50,57</context>
         </context-group>
-        <note priority="1" from="description">opportunities</note>
       </trans-unit>
       <trans-unit id="3c78b53bca33467190c0b7a01320bc093a2b1427" datatype="html">
         <source>Privacy</source>
@@ -70,7 +49,6 @@
           <context context-type="sourcefile">src/app/footer/footer.component.html</context>
           <context context-type="linenumber">51,58</context>
         </context-group>
-        <note priority="1" from="description">privacy</note>
       </trans-unit>
       <trans-unit id="08ebc31fa9a8a686d53eefde3d9a0a2a3d3944c8" datatype="html">
         <source>Stay in touch</source>
@@ -79,55 +57,13 @@
           <context context-type="sourcefile">src/app/footer/footer.component.html</context>
           <context context-type="linenumber">57,60</context>
         </context-group>
-        <note priority="1" from="description">stay-in-touch</note>
       </trans-unit>
-      <trans-unit id="a483d7afc289e136f05dc7da7fca4cf3167f0580" datatype="html">
-        <source>/en/twitter.svg</source>
-        <target>/fr/twitter.svg</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
-          <context context-type="linenumber">60,64</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="96453915a1296174f62b384629ade3272a1712f1" datatype="html">
-        <source>/en/facebook.svg</source>
-        <target>/fr/facebook.svg</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
-          <context context-type="linenumber">64,67</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="1f307a76c7fd5803b7a5d403061a4570771ca172" datatype="html">
-        <source>/en/instagram.svg</source>
-        <target>/fr/instagram.svg</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
-          <context context-type="linenumber">67,70</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="6c1fe420825c6bb3db6059fc2f432f92e583063c" datatype="html">
-        <source>/en/linkedin.svg</source>
-        <target>/fr/linkedin.svg</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
-          <context context-type="linenumber">70,77</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="sign-out-text" datatype="html">
+      <trans-unit id="640eec093c685babaa3265137215e3cc92ad704d" datatype="html">
         <source>Sign Out</source>
         <target>Se déconnecter</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
           <context context-type="linenumber">23,31</context>
-        </context-group>
-        <note priority="1" from="description">sign-out-text </note>
-      </trans-unit>
-      <trans-unit id="1ea0da44f4a8db39a6054873ff282b5436208b41" datatype="html">
-        <source>/en/1st Illustration.svg</source>
-         <target>/fr/1st Illustration.svg</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">31,36</context>
         </context-group>
       </trans-unit>
       <trans-unit id="555eb356a0e45e76ba9bba4f96a0278331fb7170" datatype="html">
@@ -135,27 +71,20 @@
         <target>Trois personnes.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">31,38</context>
+          <context context-type="linenumber">31,41</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="cta-large" datatype="html">
-        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="/p&gt;
-
-      &lt;div c"/>Say Goodbye to<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;
+      <trans-unit id="74135f6c1af1a57905b19ffa8b1e48f363582360" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="class=&quot;login-but"/>Say Goodbye to<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;
         On"/> Online Trolls </source>
-        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="/p&gt;
-
-      &lt;div c"/>
-        Dites adieu aux
-      <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="class=&quot;login-but"/>Dites adieu aux<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;
         On"/> trolls en ligne </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
           <context context-type="linenumber">36,45</context>
         </context-group>
-        <note priority="1" from="description">call-to-action </note>
       </trans-unit>
-      <trans-unit id="cta-headline" datatype="html">
+      <trans-unit id="add64b79a1cb931f4f1765d1abc10984ef15db75" datatype="html">
         <source> Unfollow, mute and block toxic content.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;
         Take back control"/> Take back control of your online experience with FeedShield. </source>
         <target> Désabonnez-vous, mettez en sourdine et bloquez les contenus toxiques.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;
@@ -164,35 +93,23 @@
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
           <context context-type="linenumber">41,42</context>
         </context-group>
-        <note priority="1" from="description">call-to-action-headline </note>
       </trans-unit>
-      <trans-unit id="visit-dash" datatype="html">
+      <trans-unit id="71f1fb2a7cebc36a28d6d09b19a144829ba233c1" datatype="html">
         <source> Visit Dashboard </source>
-        <target> Visiter le tableau de bord </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
           <context context-type="linenumber">49,53</context>
         </context-group>
-        <note priority="1" from="description">visit-dash </note>
       </trans-unit>
-      <trans-unit id="sign-in-text" datatype="html">
+      <trans-unit id="a8f9e922aae6e1c0f8ec11abef6f6ee4993ce80e" datatype="html">
         <source>Start with Twitter</source>
         <target>Démarrer avec Twitter</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">52,61</context>
-        </context-group>
-        <note priority="1" from="description">sign-in-text </note>
-      </trans-unit>
-      <trans-unit id="a20b4859962796c7b4f9ee98c01e8d5260a6d448" datatype="html">
-        <source>/en/red_ellipse.svg</source>
-        <target>/fr/red_ellipse.svg</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">54,62</context>
+          <context context-type="linenumber">52,60</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="explainer-content-women" datatype="html">
+      <trans-unit id="cf1c180ed19b50685f2d79c81cc88d6d6a9853ed" datatype="html">
         <source> Women journalists and other public figures in Africa are routinely targeted in coordinated attacks by online trolls. Trolls flood their target&apos;s social feeds with demeaning or threatening content as a way of drowning out or silencing women&apos;s voices on sensitive topics.</source>
         <target>Les femmes journalistes et autres personnalités publiques en Afrique sont régulièrement la cible d'attaques coordonnées par des trolls en ligne.
         Ces derniers inondent les fils sociaux de leurs cibles de contenus dégradants ou menaçants afin d'étouffer ou de réduire au silence les voix des femmes sur des sujets sensibles
@@ -201,108 +118,87 @@
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
           <context context-type="linenumber">63,68</context>
         </context-group>
-        <note priority="1" from="description">explainer-content-women </note>
       </trans-unit>
-      <trans-unit id="explainer-content-women2" datatype="html">
+      <trans-unit id="bc75f38abb1704626220d7165748c3e3352f53d3" datatype="html">
         <source> FeedShield is an online toolkit to help human rights defenders turn the tide, by documenting the abuse and unmasking the trolls. </source>
         <target>FeedShield est une boîte à outils en ligne qui aide les défenseurs des droits humains à inverser la tendance en documentant les abus et en démasquant les trolls.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">68,79</context>
-        </context-group>
-        <note priority="1" from="description">explainer-content-women2 </note>
-      </trans-unit>
-      <trans-unit id="c21f433f3dbc8edd779544b97c2b7b275c5dd140" datatype="html">
-        <source>/en/info_section_1_illustration.svg</source>
-        <target>/fr/info_section_1_illustration.svg</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">76,80</context>
+          <context context-type="linenumber">68,76</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="info-section-content-1" datatype="html">
-        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="r forensic invest"/>Document the evidence,<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt; unmask the"/> unmask the trolls </source>
-        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="nsic investigator"/>Documenter les preuves,
-        <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt; démasquez les"/> démasquez les trolls</target>
+      <trans-unit id="7d55737f174ce6b47bedc1fc8459e15c58a401dd" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="vestigators to tr"/>Document the evidence,<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt; unmask the"/> unmask the trolls </source>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="vestigators to tr"/>Documenter les preuves,<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt; unmask the"/> démasquez les trolls</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
           <context context-type="linenumber">79,84</context>
         </context-group>
-        <note priority="1" from="description">info-section-content </note>
       </trans-unit>
-      <trans-unit id="info-section-content-1-text" datatype="html">
+      <trans-unit id="344b47e5299e2e7d4fbcf57ec63749d31f805e6e" datatype="html">
         <source> Find out how to use FeedShield to flag abusive content targeting you, so you can report the abuse to the platforms or get our forensic investigators to track the culprits. </source>
          <target>Découvrez comment utiliser FeedShield pour signaler les contenus abusifs qui vous ciblent, afin que vous puissiez les signaler aux plateformes ou demander à nos enquêteurs de retrouver les coupables. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
           <context context-type="linenumber">83,89</context>
         </context-group>
-        <note priority="1" from="description">info-section-content-text </note>
       </trans-unit>
-      <trans-unit id="info-section-content-1-cta" datatype="html">
+      <trans-unit id="89ee8fee86055ecb50754a30c70fb3b0722a07f8" datatype="html">
         <source>Find out how</source>
         <target>Découvrez comment</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
           <context context-type="linenumber">88,96</context>
         </context-group>
-        <note priority="1" from="description">info-section-content-cta </note>
       </trans-unit>
-      <trans-unit id="info-section-content-2" datatype="html">
-        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="by to help"/>You&apos;re<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt; not alone!"/> not alone!</source>
-         <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="by to help"/>Vous n&apos;êtes<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt; pas seul!"/> pas seul!</target>
+      <trans-unit id="a857ccefb24ca39d7acb2353694282b57da3e488" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="you debun"/>You&apos;re<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt; not alone!"/> not alone!</source>
+        <taregt><x id="START_TAG_SPAN" ctype="x-span" equiv-text="you debun"/>Vous n&apos;êtes<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt; not alone!"/> pas seul!</taregt>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
           <context context-type="linenumber">96,100</context>
         </context-group>
-        <note priority="1" from="description">info-section-content </note>
       </trans-unit>
-      <trans-unit id="info-section-content-2-text" datatype="html">
+      <trans-unit id="b725a05679c50b921d57e605af4773bd239fedc2" datatype="html">
         <source> FeedShield is building a network of allies. Our fact-checkers (Africa’s largest network) and forensic investigators are also on standby to help you debunk allegations or expose the puppet-masters behind smear campaigns. </source>
         <target>FeedShield met en place un réseau d'alliés. Nos vérificateurs de faits (le plus grand réseau d'Afrique) et nos enquêteurs sont également prêts à vous aider à démystifier les allégations ou à démasquer les responsables des campagnes de diffamation. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
           <context context-type="linenumber">98,105</context>
         </context-group>
-        <note priority="1" from="description">info-section-content-text </note>
       </trans-unit>
-      <trans-unit id="info-section-content-2-cta" datatype="html">
+      <trans-unit id="6507df4ba7b9f90050274bb62a8959e34f8bade5" datatype="html">
         <source>Contact the investigators</source>
         <target>Contacter les enquêteurs</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">105,113</context>
+          <context context-type="linenumber">105,110</context>
         </context-group>
-        <note priority="1" from="description">info-section-content-text </note>
       </trans-unit>
-      <trans-unit id="info-section-content-3" datatype="html">
+      <trans-unit id="dbcb1043ef9863a615caf8fe43167602d997a020" datatype="html">
         <source>Need help?</source>
-         <target>Besoin d'aide ?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">117,120</context>
+          <context context-type="linenumber">117,121</context>
         </context-group>
-        <note priority="1" from="description">info-section-content </note>
       </trans-unit>
-      <trans-unit id="info-section-content-3-text" datatype="html">
+      <trans-unit id="aa556ecefe228bfc82fd9d5c55da26007277da3d" datatype="html">
         <source> Contact an expert crisis counselling professional trained to connect you to local appropriate industry bodies or support agencies and ensure incidents are appropriately addressed </source>
         <target>Contactez un expert professionnel du conseil en cas de crise, formé pour vous mettre en relation avec les organismes sectoriels locaux appropriés ou les agences de soutien et veiller à ce que les incidents soient traités de manière appropriée </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
           <context context-type="linenumber">120,126</context>
         </context-group>
-        <note priority="1" from="description">info-section-content-text </note>
       </trans-unit>
-      <trans-unit id="info-section-content-3-cta" datatype="html">
+      <trans-unit id="050f9286ddecaeeb7b6af2bd8b0e88f68f9bb40b" datatype="html">
         <source>Contact helpline</source>
         <target>Contacter le service d'assistance téléphonique</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
           <context context-type="linenumber">125,133</context>
         </context-group>
-        <note priority="1" from="description">info-section-content-text </note>
       </trans-unit>
-      <trans-unit id="info-section-content-4" datatype="html">
+      <trans-unit id="e2f673871ee0494b07f83bfc40c178217dd5c732" datatype="html">
         <source>Find Support</source>
          <target>Trouver du soutien</target>
         <context-group purpose="location">
@@ -311,61 +207,55 @@
         </context-group>
         <note priority="1" from="description">info-section-content </note>
       </trans-unit>
-      <trans-unit id="info-section-content-4-text" datatype="html">
+      <trans-unit id="1ec3858a0d658f54695f596d9fcc92ac62463b04" datatype="html">
         <source> Do you want to connect with human rights defending organisations who are helping fight against online harassment? FeedShield is part of an international coalition of campaigning CSOs and watchdog media industry organisations who are building resources, training champions, and helping support people targeted by trolls. </source>
         <target>Voulez-vous entrer en contact avec des organisations de défense des droits humains qui aident à lutter contre le harcèlement en ligne ? FeedShield fait partie d'une coalition internationale d'organisations de la société civile et d'organisations de surveillance de l'industrie des médias qui mettent en place des ressources, forment des champions et aident à soutenir les personnes ciblées par les trolls.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
           <context context-type="linenumber">135,142</context>
         </context-group>
-        <note priority="1" from="description">info-section-content-text </note>
       </trans-unit>
-      <trans-unit id="info-section-content-4-cta" datatype="html">
+      <trans-unit id="223ce8a57edb569db9d03b5c114606cd4d3c5e88" datatype="html">
         <source>Connect with allies</source>
         <target>Se connecter avec des alliés</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">141,149</context>
+          <context context-type="linenumber">141,146</context>
         </context-group>
-        <note priority="1" from="description">info-section-content-text </note>
       </trans-unit>
-      <trans-unit id="info-section-content-5" datatype="html">
+      <trans-unit id="a16dd02bd27a93d1e14932721357707d5b29cdf6" datatype="html">
         <source>Join Us</source>
         <target>Rejoignez-nous</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">153,156</context>
+          <context context-type="linenumber">153,157</context>
         </context-group>
-        <note priority="1" from="description">info-section-content </note>
       </trans-unit>
-      <trans-unit id="info-section-content-5-text" datatype="html">
+      <trans-unit id="51f052a81d838a6283dc1886f8c9e780dbfff10e" datatype="html">
         <source> Do you want to take an active role in combating online abuse? Are you interested in being one of the first users of the FeedShield tool? Are there other ways you see yourself working with us? </source>
         <target>Voulez-vous jouer un rôle actif dans la lutte contre les abus en ligne ? Souhaitez-vous être l'un des premiers utilisateurs de l'outil FeedShield ? Y a-t-il d'autres façons de travailler avec nous ?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
           <context context-type="linenumber">156,162</context>
         </context-group>
-        <note priority="1" from="description">info-section-content-text </note>
       </trans-unit>
-      <trans-unit id="info-section-content-5-cta" datatype="html">
+      <trans-unit id="de7fc693d631c240623c69aefec49bb7300e8a15" datatype="html">
         <source>Find opportunities</source>
         <target>Trouver des opportunités</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">161,173</context>
+          <context context-type="linenumber">161,172</context>
         </context-group>
-        <note priority="1" from="description">info-section-content-text </note>
       </trans-unit>
-      <trans-unit id="faq-header" datatype="html">
+      <trans-unit id="ba5d43bddb88a8e7518f7a9ac506ae9c41fed6b1" datatype="html">
         <source>FAQs</source>
         <target>Foire aux questions (FAQs)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
           <context context-type="linenumber">171,174</context>
         </context-group>
-        <note priority="1" from="description">FAQ-header </note>
       </trans-unit>
-      <trans-unit id="faq1" datatype="html">
+      <trans-unit id="f35bbaad38ae77d18037ba3ea2551a24651269f4" datatype="html">
         <source>How does FeedShield work?</source>
         <target>Comment fonctionne FeedShield?</target>
         <context-group purpose="location">
@@ -373,7 +263,7 @@
           <context context-type="linenumber">174,177</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="faq1-answ1" datatype="html">
+      <trans-unit id="eb12a7a003dc539c7ff0f7d873b3a409c8086eb2" datatype="html">
         <source> FeedShield syncs with your Twitter account and uses machine learning technology to identify abusive comments. The tool rates each comment with a toxicity score and lets you take action - by muting or blocking accounts in bulk - without having to read the abusive messages. While all comments are automatically hidden, you can unhide them if you want to. </source>
         <target>FeedShield se synchronise avec votre compte Twitter et utilise une technologie d'apprentissage automatique pour identifier les commentaires abusifs. L'outil attribue à chaque commentaire un score de toxicité et vous permet d'agir - en supprimant ou en bloquant des comptes en masse - sans avoir à lire les messages abusifs. Tous les commentaires sont automatiquement masqués, mais vous pouvez les désactiver si vous le souhaitez</target>
         <context-group purpose="location">
@@ -381,7 +271,7 @@
           <context context-type="linenumber">177,183</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="faq1-answ2" datatype="html">
+      <trans-unit id="ef9a55b9fba2a9385cf1d73723a3d057cf84ac6b" datatype="html">
         <source>You can also collate harmful comments into a single report. This report can be downloaded and shared with Twitter and other trusted third parties as needed.</source>
         <target>Vous pouvez également rassembler les commentaires préjudiciables dans un rapport unique. Ce rapport peut être téléchargé et partagé avec Twitter et d'autres tiers de confiance si nécessaire.</target>
         <context-group purpose="location">
@@ -389,15 +279,15 @@
           <context context-type="linenumber">182,187</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="faq1-answ3" datatype="html">
+      <trans-unit id="69f24bdf75d2e1c257b0531c1f90acc5921115e9" datatype="html">
         <source> Abusive accounts will not know that they have been featured in a report. No third party - including Code for Africa and Twitter - will be able to access any of the reports you create, unless shared directly with them. Draft reports are temporarily stored in the tool to enable you to complete them. Once downloaded or abandoned, the report will be deleted from FeedShield. </source>
         <target>Les comptes abusifs ne sauront pas qu'ils ont fait l'objet d'un rapport. Aucune tierce partie - y compris Code for Africa et Twitter - ne pourra accéder aux rapports que vous créez, à moins qu'ils ne soient partagés directement avec eux. Les projets de rapports sont temporairement stockés dans l'outil pour vous permettre de les compléter. Une fois téléchargé ou abandonné, le rapport sera supprimé de FeedShield </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">186,194</context>
+          <context context-type="linenumber">186,193</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="faq2" datatype="html">
+      <trans-unit id="30ae9a2e7b16716a1d0a1b53a0dd3df40dbbccbc" datatype="html">
         <source>How is my data protected?</source>
         <target>Comment mes données sont-elles protégées ?</target>
         <context-group purpose="location">
@@ -405,7 +295,7 @@
           <context context-type="linenumber">194,197</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="faq2-answ" datatype="html">
+      <trans-unit id="0d990342633dec535cef03cd0acd6af5f763a72c" datatype="html">
         <source> Yes, your data is kept private when you use FeedShield. We only collect essential information such as your name and email address, and we will never share your personal data with third parties without your consent. We only use your personal data for the purpose for which it was collected. </source>
         <target>Oui, vos données restent confidentielles lorsque vous utilisez FeedShield. Nous ne recueillons que les informations essentielles telles que votre nom et votre adresse électronique, et nous ne partagerons jamais vos données personnelles avec des tiers sans votre consentement. Nous n'utilisons vos données personnelles que dans le but pour lequel elles ont été collectées.</target>
         <context-group purpose="location">
@@ -413,7 +303,7 @@
           <context context-type="linenumber">197,205</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="faq3" datatype="html">
+      <trans-unit id="c59445038f320e26bab4f7cd32a5d5d3fa2240e3" datatype="html">
         <source>What languages does the tool work with?</source>
         <target>Dans quelle langue l'outil fonctionne-t-il ?</target>
         <context-group purpose="location">
@@ -421,7 +311,7 @@
           <context context-type="linenumber">206,209</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="faq3-answ" datatype="html">
+      <trans-unit id="90b2b5a85620926042d374e6fc5a2b6716c3a9af" datatype="html">
         <source> The FeedShield Tool is currently available in English. We are working on French and Arabic languages, so please check back soon for updates. </source>
         <target>L'outil FeedShield est actuellement disponible en anglais. Nous travaillons sur les langues française et arabe, alors revenez bientôt pour des mises à jour. </target>
         <context-group purpose="location">
@@ -429,7 +319,7 @@
           <context context-type="linenumber">209,216</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="faq-explore" datatype="html">
+      <trans-unit id="60437a8c6233c6957aca9adad1903b0924111a1a" datatype="html">
         <source>Explore FAQ&apos;S</source>
         <target>Explorer les foires aux questions (FAQs)</target>
         <context-group purpose="location">
