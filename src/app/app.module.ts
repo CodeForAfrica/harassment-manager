@@ -19,7 +19,7 @@ import { OverlayModule } from '@angular/cdk/overlay';
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import { APP_BASE_HREF } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
-import { APP_INITIALIZER, ErrorHandler, NgModule } from '@angular/core';
+import { APP_INITIALIZER, ErrorHandler, NgModule, LOCALE_ID } from '@angular/core';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFireAuthModule } from '@angular/fire/compat/auth';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
@@ -38,6 +38,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatListModule } from '@angular/material/list';
+import {MatMenuModule} from '@angular/material/menu';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatSelectModule } from '@angular/material/select';
@@ -111,6 +112,7 @@ import { RequestInvestigationComponent } from './request-investigation/request-i
 import { FAQSComponent } from './faqs/faqs.component';
 
 import * as Sentry from '@sentry/angular-ivy';
+import { LocaleSelectorComponent } from './locale-selector/locale-selector.component';
 
 @NgModule({
   declarations: [
@@ -160,6 +162,7 @@ import * as Sentry from '@sentry/angular-ivy';
     PrivacyPageComponent,
     RequestInvestigationComponent,
     FAQSComponent,
+    LocaleSelectorComponent,
   ],
   imports: [
     A11yModule,
@@ -184,6 +187,7 @@ import * as Sentry from '@sentry/angular-ivy';
     MatIconModule,
     MatInputModule,
     MatListModule,
+    MatMenuModule,
     MomentDateModule,
     MatPaginatorModule,
     MatProgressSpinnerModule,
@@ -225,7 +229,13 @@ import * as Sentry from '@sentry/angular-ivy';
         },
       },
     },
-    { provide: APP_BASE_HREF, useValue: '/' },
+    {
+      provide: APP_BASE_HREF,
+      useFactory: (locale:string) =>{
+        return `/${locale}`;
+      },
+      deps: [LOCALE_ID] 
+    },
     {
       provide: ErrorHandler,
       useValue: Sentry.createErrorHandler({

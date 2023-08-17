@@ -1,0 +1,12 @@
+<div>
+    <button mat-button [matMenuTriggerFor]="menu">
+        <mat-icon>language</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+        <div *ngFor="let locale of locales">
+            <a mat-menu-item href="/{{locale.code}}">
+                <span>{{locale.label}}</span>
+            </a>
+        </div>
+    </mat-menu>
+</div>

@@ -21,6 +21,8 @@ import { DomSanitizer } from '@angular/platform-browser';
 import { Router } from '@angular/router';
 import { FirestoreService } from '../firestore.service';
 import { OauthApiService } from '../oauth_api.service';
+import { LOCALE_ID, Inject } from '@angular/core';
+
 
 @Component({
   selector: 'app-welcome-page',
@@ -39,7 +41,8 @@ export class WelcomePageComponent {
     private sanitizer: DomSanitizer,
     private iconRegistry: MatIconRegistry,
     private router: Router,
-    private liveAnnouncer: LiveAnnouncer
+    private liveAnnouncer: LiveAnnouncer,
+    @Inject(LOCALE_ID) public locale: string
   ) {
     this.iconRegistry.addSvgIcon(
       'twitter_icon',
