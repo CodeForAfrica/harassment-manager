@@ -17,7 +17,7 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, firstValueFrom, Observable } from 'rxjs';
-import RateLimiter from 'rxjs-ratelimiter';
+import RateLimiter from './rate_limiter';
 import { take } from 'rxjs/operators';
 import {
   BlockTwitterUsersRequest,

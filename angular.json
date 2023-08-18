@@ -29,8 +29,7 @@
             "i18nMissingTranslation": "error",
             "allowedCommonJsDependencies": [
               "@babel/runtime-corejs3",
-              "raf",
-              "rxjs-ratelimiter"
+              "raf"
             ],
             "outputPath": "dist/harassment-manager",
             "index": "src/index.html",

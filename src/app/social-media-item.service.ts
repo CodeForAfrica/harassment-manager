@@ -23,7 +23,7 @@ import {
   of,
   throwError,
 } from 'rxjs';
-import RateLimiter from 'rxjs-ratelimiter';
+import RateLimiter from './rate_limiter';
 import { catchError, map, shareReplay, switchMap } from 'rxjs/operators';
 import {
   GetTweetsResponse,
