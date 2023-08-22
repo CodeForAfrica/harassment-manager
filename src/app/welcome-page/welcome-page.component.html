@@ -128,7 +128,26 @@
     </div>
   </div>
 
-  <div class="panel">
+  <div class="panel" *ngIf="locale !== 'en'">
+    <img class="section-img" src="find_support_illustration.svg" />
+
+    <div class="box">
+      <h2 i18n>Find Support</h2>
+
+      <p i18n>
+        Do you want to connect with human rights defending organisations who are helping fight against online
+        harassment? FeedShield is part of an international coalition of campaigning CSOs and watchdog media industry
+        organisations who are building resources, training champions, and helping support people targeted by trolls.
+      </p>
+
+      <button class="button" routerLink="helpline">
+        <span i18n>Contact helpline</span>
+        <img src="blue_ellipse.svg" />
+      </button>
+    </div>
+  </div>
+
+  <div class="panel" *ngIf="locale === 'en'">
     <div class="box">
       <h2 i18n>Find Support</h2>
       <p i18n>

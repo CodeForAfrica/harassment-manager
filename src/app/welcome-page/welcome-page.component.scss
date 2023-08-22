@@ -176,6 +176,7 @@ h2 {
 .panel {
   background-color: #d7dceb;
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   padding-bottom: 20px + 22; // button has -22px margin-bottom
   margin-top: 44px;

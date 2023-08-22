@@ -78,6 +78,11 @@
               "localize": [
                 "fr"
               ]
+            },
+            "en": {
+              "localize": [
+                "en"
+              ]
             }
           }
         },
@@ -96,6 +101,9 @@
             },
             "fr": {
               "browserTarget": "harassment-manager:build:fr"
+            },
+            "en":{
+              "browserTarget": "harassment-manager:build:en"
             }
           },
           "defaultConfiguration": "development"
