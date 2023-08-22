@@ -166,16 +166,16 @@ export class ShareReportComponent implements AfterViewInit {
 
     this.matIconRegistry.addSvgIcon(
       'csv_icon',
-      this.sanitizer.bypassSecurityTrustResourceUrl('/csv_icon.svg')
+      this.sanitizer.bypassSecurityTrustResourceUrl('csv_icon.svg')
     )
       .addSvgIcon(
         'pdf_icon',
-        this.sanitizer.bypassSecurityTrustResourceUrl('/pdf_icon.svg')
+        this.sanitizer.bypassSecurityTrustResourceUrl('pdf_icon.svg')
       )
       .addSvgIcon(
         'hide_replies_icon',
         this.sanitizer.bypassSecurityTrustResourceUrl(
-          '/eye-off.svg'
+          'eye-off.svg'
         )
       )
 

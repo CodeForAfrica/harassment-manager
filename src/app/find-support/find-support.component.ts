@@ -53,78 +53,78 @@ export class FindSupportComponent {
   interactiveLessons: SupportResource[] = [
     {
       name: "Digital Safetea",
-      image: "/digital_safetea.svg",
+      image: "digital_safetea.svg",
       url: "https://digitalsafetea.com/",
     },
     {
       name: "Know Your Trolls",
-      image: "/totem.svg",
+      image: "totem.svg",
       url: "https://learn.totem-project.org/courses/course-v1:IWMF+IWMF_OH_EN+001/about",
     },
     {
       name: "Ayeta",
-      image: "/ayeta.svg",
+      image: "ayeta.svg",
       url: "https://paradigmhq.org/programs/digital-rights/ayeta/",
     },
   ];
   resourceKits: SupportResource[] = [
     {
       name: "Data Detox Kit",
-      image: "/ddk.png",
+      image: "ddk.png",
       url: "https://www.datadetoxkit.org",
     },
     {
       name: "Troll Tracker",
-      image: "/troll-tracker.png",
+      image: "troll-tracker.png",
       url: "https://trolltracker.investigate.africa/",
     },
     {
       name: "Guideline for Countering Online Abuse",
-      image: "/oid.png",
+      image: "oid.png",
       url: "https://openinternet.global/",
     },
   ];
   organisations: SupportResource[] = [
     {
       name: "Committee to Project Journalists",
-      image: "/cpj.svg",
+      image: "cpj.svg",
       url: "https://cpj.org/campaigns/safety-women-nonbinary-journalists-online-offline/"
     },
     {
       name: "Digital Defenders Partnership",
-      image: "/ddp.png",
+      image: "ddp.png",
       url: "https://www.digitaldefenders.org/"
     },
     {
       name: "Media Defence",
-      image: "/media-defence.png",
+      image: "media-defence.png",
       url: "https://mediadefence.org/"
     },
     {
       name: "She Persisted",
-      image: "/she-persisted.png",
+      image: "she-persisted.png",
       url: "https://she-persisted.org"
     },
   ];
   tools: SupportResource[] = [
     {
       name: "Outline VPN",
-      image: "/outline-vpn.png",
+      image: "outline-vpn.png",
       url: "https://getoutline.org/",
     },
     {
       name: "Project Shield",
-      image: "/project-shield.png",
+      image: "project-shield.png",
       url: "https://projectshield.withgoogle.com",
     },
     {
       name: "Intra",
-      image: "/intra.png",
+      image: "intra.png",
       url: "https://getintra.org",
     },
     {
       name: "Tune",
-      image: "/tune.png",
+      image: "tune.png",
       url: "https://chrome.google.com/webstore/detail/tune-experimental/gdfknffdmmjakmlikbpdngpcpbbfhbnp",
     }
   ];
@@ -135,7 +135,7 @@ export class FindSupportComponent {
   ) {
     this.iconRegistry.addSvgIcon(
       'medical_services',
-      this.sanitizer.bypassSecurityTrustResourceUrl('/medical_services.svg')
+      this.sanitizer.bypassSecurityTrustResourceUrl('medical_services.svg')
     );
   }
 }

@@ -176,18 +176,18 @@ export class RecommendedReportCardComponent {
     this.iconRegistry
       .addSvgIcon(
         'add_to_report_icon',
-        this.sanitizer.bypassSecurityTrustResourceUrl('/add_to_report.svg')
+        this.sanitizer.bypassSecurityTrustResourceUrl('add_to_report.svg')
       )
       .addSvgIcon(
         'add_to_report_icon_disabled',
         this.sanitizer.bypassSecurityTrustResourceUrl(
-          '/action_report_disabled.svg'
+          'action_report_disabled.svg'
         )
       )
       .addSvgIcon(
         'add_to_report_icon_added',
         this.sanitizer.bypassSecurityTrustResourceUrl(
-          '/action_report_added.svg'
+          'action_report_added.svg'
         )
       );
 

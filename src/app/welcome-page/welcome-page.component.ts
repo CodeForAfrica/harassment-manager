@@ -47,7 +47,7 @@ export class WelcomePageComponent {
     this.iconRegistry.addSvgIcon(
       'twitter_icon',
       this.sanitizer.bypassSecurityTrustResourceUrl(
-        '/Twitter_Logo_WhiteOnBlue.svg'
+        'Twitter_Logo_WhiteOnBlue.svg'
       )
     );
 
@@ -59,13 +59,13 @@ export class WelcomePageComponent {
   loginWithTwitter(): void {
 
     if (this.userIsSignedIn) {
-      this.router.navigate(['/home']);
+      this.router.navigate(['home']);
     }
     else {
       this.oauthApiService.authenticateTwitter().then(async () => {
         this.liveAnnouncer.announce('Logged in. Exited Twitter login page.');
         await this.firestoreService.createUserDocument();
-        this.router.navigate(['/home']);
+        this.router.navigate(['home']);
       });
     }
   }

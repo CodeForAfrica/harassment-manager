@@ -409,7 +409,7 @@ export class CreateReportComponent implements OnInit, AfterViewInit {
       .addSvgIcon(
         'close_report_icon',
         this.sanitizer.bypassSecurityTrustResourceUrl(
-          '/eye-off.svg'
+          'eye-off.svg'
         )
       )
   }
