@@ -19,10 +19,12 @@
     <a routerLink="/">
       <div class="text">{{ appName }}</div>
     </a>
-    <div *ngIf="userIsSignedIn">
-      <button class="button" (click)="revokeAuthorization()" i18n>Sign Out</button>
+    <div style="display: flex;">
+      <div *ngIf="userIsSignedIn">
+        <button class="button" (click)="revokeAuthorization()" i18n>Sign Out</button>
+      </div>
+      <app-locale-selector></app-locale-selector>
     </div>
-    <app-locale-selector></app-locale-selector>
   </div>
 
 
