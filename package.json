@@ -130,5 +130,10 @@
     "protractor": "^7.0.0",
     "ts-node": "^10.7.0",
     "typescript": "~4.4.4"
+  },
+  "overrides": {
+    "rxjs-ratelimiter": {
+      "rxjs": "7.5.4"
+    }
   }
 }
