@@ -33,6 +33,9 @@
   img {
     display: none;
   }
+  .title {
+    z-index: 2;
+  }
 }
 .header::before {
   background: url('/help_center_bg.svg') #1625d9;
