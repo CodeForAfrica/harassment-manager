@@ -302,6 +302,124 @@
           <context context-type="linenumber">57,60</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="6f8f4f6eabd0e8622760022b41f7f9c27a9d05d7" datatype="html">
+        <source>Unmask the trolls</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.html</context>
+          <context context-type="linenumber">2,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ad914ef6200fd749e642bfa89b0e740e9a84ea46" datatype="html">
+        <source> How our investigators can help </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.html</context>
+          <context context-type="linenumber">4,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3d391011292ed2a5c096d717aed737bba1b876f5" datatype="html">
+        <source> Trolls often hide behind fake accounts (what we call sock-puppets) or rely on misleading claims to smear or attack human rights defenders. CfA has Africa’s largest teams working to debunk disinformation and expose the hidden networks coordinating the abuse. Here’s how they can help you: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.html</context>
+          <context context-type="linenumber">13,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="72397ff7479b65ca2e5e1768559e7dbc511b5042" datatype="html">
+        <source>Fact-checking false claims</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.html</context>
+          <context context-type="linenumber">20,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6c779a22a3f70e1de744198834437f63b6035836" datatype="html">
+        <source> CfA’s PesaCheck is the continent’s largest fact-checking newsroom, with full-time researchers in 14 African countries. It is an accredited member of the IFCN (International Fact Checking Network), and adheres to a strict <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
+          href=&quot;https://ifcncodeofprinciples.poynter.org/know-more/the-commitments-of-the-code-of-principles&quot;
+          target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;"/>ethical code<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>. PesaCheck’s fact-checks are published by a wide network of partner media across Africa, and are also used by social media platforms such as Facebook, Instagram and TikTok to combat toxic content. Facebook alone uses PesaCheck debunks to label over two million posts per year as harmful or misleading content. PesaCheck may help research and debunk any misleading claims being used to target or harass you, if the claims meet PesaCheck’s <x id="START_LINK_1" equiv-text="&lt;a
+          href=&quot;https://pesacheck.org/our-methodology-f3d77521a1ee&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;"/>eligibility criteria<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.html</context>
+          <context context-type="linenumber">22,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7a6e75abbc4f1118dc9f82d4398741a7e86eac9c" datatype="html">
+        <source>Identifying the troll networks</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.html</context>
+          <context context-type="linenumber">37,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a3cabf2b96f36d4d902187c8333f0432dc74c17d" datatype="html">
+        <source> CfA’s iLAB at the African Network of Centres for Investigative Reporting (ANCIR) work alongside PesaCheck, as the continent’s largest network of forensic analysts who ‘connect the dots’. They do this by exposing the coordinated networks behind the abuse, mapping the influencers, diagnosing the techniques they use, and tracking the narratives. Their analyses help watchdog organisations determine whether the social media platform policies have been iolated, or whether other safeguards against amplified hate speech and toxic content have been violated. iLAB’ss dossiers serve as evidence for investigative media, and contribute to remedial action by both platforms and regulators who take down or de-platform entire networks of inauthentic accounts on social media. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.html</context>
+          <context context-type="linenumber">39,52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bbd00c91c9d8ba51dd4db688266cc5471c608e69" datatype="html">
+        <source>Meet the team</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.html</context>
+          <context context-type="linenumber">50,55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d119ed406420b7424c4b2eb320f3064f132b11db" datatype="html">
+        <source>Request technical investigative support</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.html</context>
+          <context context-type="linenumber">64,68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="567914efce86751ce92e934d39e7e0c86a9c3ece" datatype="html">
+        <source> Are you convinced that the harassment targeting you is part of a coordinated campaign, or is being amplified by an inauthentic network? Complete the simple form below so that we can help verify whether our teams are able to help. You will need to first use the FeedShield tool to analyse the harassment, and must download both the resulting PDF report and CSV (spreadsheet) dataset. Share as much extra information as you can on the form, and tell us why you think there might be a network of trolls or other coordination behind the abuse. Also tell us why you think you are being targeted, and by who. Be sure to share your contact information, so our team can get back to you. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.html</context>
+          <context context-type="linenumber">66,79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="af713ab43ad3086f05b8c9d309771abcd0620fc0" datatype="html">
+        <source> Complete the form <x id="START_LINK" ctype="x-a" equiv-text="&lt;a class=&quot;button&quot;
+          href=&quot;https://docs.google.com/forms/d/e/1FAIpQLScv6BO-r0XX1dmOFgjuJ4k52sULHdCNL6ru5Nxd734LiFdw6Q/viewform&quot;
+          target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;"/>here<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.html</context>
+          <context context-type="linenumber">79,81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4232596883793933120" datatype="html">
+        <source>Senior Investigations Manager</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.ts</context>
+          <context context-type="linenumber">19,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2774144500588204935" datatype="html">
+        <source>Senior Investigative Data Analyst</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.ts</context>
+          <context context-type="linenumber">24,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7881858792214180815" datatype="html">
+        <source>Senior Investigative Researcher</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.ts</context>
+          <context context-type="linenumber">29,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2759362467181386008" datatype="html">
+        <source>Investigative Data Analyst</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.ts</context>
+          <context context-type="linenumber">34,38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.ts</context>
+          <context context-type="linenumber">39,43</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.ts</context>
+          <context context-type="linenumber">44,48</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="640eec093c685babaa3265137215e3cc92ad704d" datatype="html">
         <source>Sign Out</source>
         <context-group purpose="location">
