@@ -353,6 +353,76 @@
           <context context-type="linenumber">156,161</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="def5d3c250619b4a80d5429951b29633f477fd27" datatype="html">
+        <source>Resource Kit</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/find-support/find-support.component.html</context>
+          <context context-type="linenumber">18,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0199bc1a495f394ccf08d9725e939696fecf80ee" datatype="html">
+        <source> Find skills, tools and partners. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/find-support/find-support.component.html</context>
+          <context context-type="linenumber">20,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3f188a357a24a40a1a4543141eedf72846882603" datatype="html">
+        <source>Interactive Lessons</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/find-support/find-support.component.html</context>
+          <context context-type="linenumber">33,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bb5f758038c15f1818453319fe11ea3ac792e1da" datatype="html">
+        <source>Resource kits</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/find-support/find-support.component.html</context>
+          <context context-type="linenumber">42,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3f79c51ded47ec7b83f17bb40bffe6f8f00cf63c" datatype="html">
+        <source>Self-help Tools</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/find-support/find-support.component.html</context>
+          <context context-type="linenumber">52,56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2a7484a0e013874203708f86d9ebf106bda7cc39" datatype="html">
+        <source>Support Organisations</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/find-support/find-support.component.html</context>
+          <context context-type="linenumber">62,66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8138119018800950456" datatype="html">
+        <source>Interactive Lessons</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/find-support/find-support.component.ts</context>
+          <context context-type="linenumber">36,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5439979040284532638" datatype="html">
+        <source>Resource Kits</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/find-support/find-support.component.ts</context>
+          <context context-type="linenumber">38,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4857781010333636716" datatype="html">
+        <source>Self-help Tools</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/find-support/find-support.component.ts</context>
+          <context context-type="linenumber">43,47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5098327722476346585" datatype="html">
+        <source>Support Organisations</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/find-support/find-support.component.ts</context>
+          <context context-type="linenumber">48,51</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="0e9e4cfe01383d396696a9ba8c873f0676cffc60" datatype="html">
         <source> Trolls use online violence to silence civic watchdogs. FeedShield is a free tool powered by Jigsaw, using its Harassment Manager toolkit, and implemented by Code for Africa (CfA) to help Twitter users document and manage online harassment and abuse. </source>
         <context-group purpose="location">
