@@ -2,6 +2,106 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="223ce8a57edb569db9d03b5c114606cd4d3c5e88" datatype="html">
+        <source>Connect with allies</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/crisis-helpline/crisis-helpline.component.html</context>
+          <context context-type="linenumber">18,23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">146,154</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">162,167</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dd8b102a605455f276a18ec67f8c788d3d5211e4" datatype="html">
+        <source>Find counselling or campaigners</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/crisis-helpline/crisis-helpline.component.html</context>
+          <context context-type="linenumber">19,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8c4cde24458120301fcbc616c7f665a5db0d7df2" datatype="html">
+        <source>Virtual Helpline</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/crisis-helpline/crisis-helpline.component.html</context>
+          <context context-type="linenumber">31,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e7ec965947394aa0ae188151bd5eab475a147245" datatype="html">
+        <source>Need help? FeedShield offers a virtual helpline for people facing online harassment to talk to trained crisis counsellors, who will help connect users with local experts or support organisations. The helpline is run by a trauma counselling CSO based, Mental 360, in Kenya, and can currently only support callers in English. FeedShield will add partners who can assist in other international languages such as Arabic and French in 2023. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/crisis-helpline/crisis-helpline.component.html</context>
+          <context context-type="linenumber">36,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="97daba0550245d4df0b09f82bf414a73177635f2" datatype="html">
+        <source> Counsellors will treat your call as confidential, protecting all your personal information, and will only share your details with our other support teams if you explicitly request them to in writing. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/crisis-helpline/crisis-helpline.component.html</context>
+          <context context-type="linenumber">44,49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dc6b5157d7ab533dc6545db938d85f4144adb441" datatype="html">
+        <source> Book your session <x id="START_LINK" ctype="x-a" equiv-text="&lt;a target=&quot;_blank&quot;
+                href=&quot;https://docs.google.com/forms/d/18Wol4P0B3ZJ89TlG20cUqdKlMBTMCU7_7q0te9bV6TU/edit&quot;&gt;"/>here<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/crisis-helpline/crisis-helpline.component.html</context>
+          <context context-type="linenumber">48,49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4402ffff443312f0450e4baf061571ef7eb643b9" datatype="html">
+        <source> *Though a counselling service, the virtual helpline is not an emergency service. If you are in imminent danger, if someone is threatening you with physical violence online or it escalates, take the following steps to ensure your safety: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/crisis-helpline/crisis-helpline.component.html</context>
+          <context context-type="linenumber">53,60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="86329f68f42643026a1d0cd4e413c14c9b5c01bb" datatype="html">
+        <source>Save screengrabs in case threatening tweets get deleted</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/crisis-helpline/crisis-helpline.component.html</context>
+          <context context-type="linenumber">60,63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7e2e70b4cbb7f56c243cdc0d9c1145110978643f" datatype="html">
+        <source>Call the police</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/crisis-helpline/crisis-helpline.component.html</context>
+          <context context-type="linenumber">61,64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="08db2bb3170a4bc2ad8dafde4fdfe1a883eed645" datatype="html">
+        <source>Do not engage any further with the person that is threatening you</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/crisis-helpline/crisis-helpline.component.html</context>
+          <context context-type="linenumber">62,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5c120bf686b4cdc3d018b85645efb17fef4cff6a" datatype="html">
+        <source>Find support</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/crisis-helpline/crisis-helpline.component.html</context>
+          <context context-type="linenumber">63,73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="13fc281083a61fc1e694214d86a305e67765b91b" datatype="html">
+        <source>Contact Helpline</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/crisis-helpline/crisis-helpline.component.html</context>
+          <context context-type="linenumber">76,83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="271400104084315088" datatype="html">
+        <source>Virtual Helpline</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/crisis-helpline/crisis-helpline.component.ts</context>
+          <context context-type="linenumber">32,36</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="a29df34a07fe45f98fd90d449c5f219d6a5fc419" datatype="html">
         <source>How it Works</source>
         <context-group purpose="location">
@@ -576,17 +676,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
           <context context-type="linenumber">156,163</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="223ce8a57edb569db9d03b5c114606cd4d3c5e88" datatype="html">
-        <source>Connect with allies</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">146,154</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">162,167</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a16dd02bd27a93d1e14932721357707d5b29cdf6" datatype="html">
