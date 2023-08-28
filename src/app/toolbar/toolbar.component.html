@@ -31,33 +31,33 @@
     <div class="nav-links nav-item">
       <a routerLinkActive="active-router-link" routerLink="/home" #homeLink role="link"
         [attr.aria-current]="homeLink.routerLinkActive ? 'page' : false">
-        <span class="text">Home</span>
+        <span class="text" i18n>Home</span>
         <img src="red_ellipse.svg" />
       </a>
       <a routerLinkActive="active-router-link" [routerLink]="getCreateReportRouterLink()" #createReportLink
         [attr.aria-current]="createReportLink.routerLinkActive ? 'page' : false">
-        <span class="text">Create Report</span>
+        <span class="text" i18n>Create Report</span>
         <img src="red_ellipse.svg" />
       </a>
       <a routerLinkActive="active-router-link" routerLink="/resources" #resourceLink
         [attr.aria-current]="resourceLink.routerLinkActive ? 'page' : false" class="find-support">
-        <span class="text">Resources</span>
+        <span class="text" i18n>Resources</span>
         <img src="red_ellipse.svg" />
       </a>
       <a routerLinkActive="active-router-link" routerLink="/opportunities/" #opportunitiesLink
         [attr.aria-current]="opportunitiesLink.routerLinkActive ? 'page' : false" class="opportunities">
-        <span class="text">Opportunities</span>
+        <span class="text" i18n>Opportunities</span>
         <img src="red_ellipse.svg" />
       </a>
       <a routerLinkActive="active-router-link" routerLink="/request-investigation" #requestInvestigationLink
         [attr.aria-current]="requestInvestigationLink.routerLinkActive ? 'page' : false">
-        <span class="text">Request an Investigation</span>
+        <span class="text" i18n>Request an Investigation</span>
         <img src="red_ellipse.svg" />
       </a>
     </div>
     <div class="nav-links nav-item sign-out-nav" *ngIf="userIsSignedIn">
       <button class="sign-out-button" (click)="revokeAuthorization()">
-        <span>Sign out</span>
+        <span i18n>Sign out</span>
       </button>
     </div>
   </mat-toolbar-row>
@@ -72,23 +72,23 @@
     <div class="nav-links nav-item">
       <a routerLinkActive="active-router-link" routerLink="/faqs" #helpCenterLink (click)="toggleMobileMenu()"
         [attr.aria-current]="helpCenterLink.routerLinkActive ? 'page' : false">
-        <span class="text">"FAQ's"</span>
+        <span class="text" i18n>FAQ's</span>
         <img src="red_ellipse.svg" />
       </a>
       <a routerLinkActive="active-router-link" routerLink="/resources" #resourceLink (click)="toggleMobileMenu()"
         [attr.aria-current]="resourceLink.routerLinkActive ? 'page' : false">
-        <span class="text">Resources</span>
+        <span class="text" i18n>Resources</span>
         <img src="red_ellipse.svg" />
       </a>
       <a routerLinkActive="active-router-link" routerLink="/opportunities/" #opportunitiesLink
         (click)="toggleMobileMenu()" [attr.aria-current]="opportunitiesLink.routerLinkActive ? 'page' : false">
-        <span class="text">Opportunities</span>
+        <span class="text" i18n>Opportunities</span>
         <img src="red_ellipse.svg" />
       </a>
     </div>
     <div class="nav-links nav-item">
       <a class="sign-out-button" (click)="revokeAuthorization()">
-        <span>Sign out</span>
+        <span i18n>Sign out</span>
       </a>
     </div>
   </mat-toolbar-row>
@@ -134,12 +134,12 @@
       [cdkConnectedOverlayScrollStrategy]="overlayScrollStrategy" cdkConnectedOverlayBackdropClass='onboarding-backdrop'
       [cdkConnectedOverlayOrigin]="anchor" [cdkConnectedOverlayOpen]="onboarding">
       <div class="onboarding-review-report" cdkTrapFocus cdkTrapFocusAutoCapture>
-        <h1>Review report</h1>
-        <div class="message">Your report will update as you add comments. Visit this page to preview comments and add
+        <h1 i18n>Review report</h1>
+        <div class="message" i18n>Your report will update as you add comments. Visit this page to preview comments and add
           context for your report.</div>
-        <span class="visually-hidden">Displays the continue button, with a shopping cart icon indicating how many
+        <span class="visually-hidden" i18n>Displays the continue button, with a shopping cart icon indicating how many
           comments are currently in the report.</span>
-        <button mat-button color="primary" (click)="nextOnboardingStep()">Got it</button>
+        <button mat-button color="primary" (click)="nextOnboardingStep()" i18n>Got it</button>
       </div>
     </ng-template>
 
