@@ -2,6 +2,238 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
+     <trans-unit id="71ddf4fb46c01020f5778091d4ebb7a452dfbbbb" datatype="html">
+        <source> Create Report </source>
+        <target>Créer un rapport</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">21,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fb8f061ae5615b5116d0e363386c8deb85ad6a22" datatype="html">
+        <source> Review and select the content you want to include in your report. Once completed, you can block or mute accounts, hide replies, or save and share your report </source>
+        <target>Examinez et sélectionnez le contenu que vous souhaitez inclure dans votre rapport. Une fois terminé, vous pouvez bloquer ou mettre en sourdine des comptes, masquer des réponses ou enregistrer et partager votre rapport. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">25,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="31eac0ff4026d31fe780135c4199e3ef516e4029" datatype="html">
+        <source>Narrow results</source>
+        <target>Restreindre les résultats</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">66,68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="215cc60f176b8a12aa67a9dd029946e96d816fb5" datatype="html">
+        <source>Search and filter to find the comments you want to add to your report.</source>
+        <target>Recherchez et filtrez pour trouver les commentaires que vous souhaitez ajouter à votre rapport.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">67,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="efe7ec3cded92052e9d61dbda4f7fdafe20b00ac" datatype="html">
+        <source>Displays the search bar, and menus for filtering by time (default since yesterday), harmful categories (5 selected by default), and more filter options (none selected by default).</source>
+        <target>Affiche la barre de recherche et les menus pour filtrer par heure (par défaut depuis hier), catégories préjudiciables (5 sélectionnées par défaut) et plus d'options de filtrage (aucune sélectionnée par défaut).</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">68,74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="553a670e08a87fb6e49a39e80334ba368e719cdd" datatype="html">
+        <source> Got it </source>
+        <target>Compris</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">71,79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a771faf49e6278163dc673408b6eb941e0973991" datatype="html">
+        <source>Loading comments from Twitter...</source>
+        <target>Chargement des commentaires de Twitter...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">94,99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="608e40dd228802f288ba380bdcdb5c019dc40d71" datatype="html">
+        <source>Last refreshed</source>
+        <target>Dernier rafraîchissement</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">96,99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="52b04d1918427eccedb58ea9ad156d9b242bcfef" datatype="html">
+        <source>Comment Preview:</source>
+        <target>Aperçu du commentaire :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">104,106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1eede69e18c5ac9c0b0295b72cabb7e64e029e74" datatype="html">
+        <source>Hide</source>
+        <target>Masquer</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">110,114</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2aba1e87039819aca3b70faa9aa848c12bf139ca" datatype="html">
+        <source>Show</source>
+        <target>Afficher</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">114,119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="da0f28184f967814dc699db29a7a88d8a1a51f23" datatype="html">
+        <source>Choose what you see</source>
+        <target>Choisissez ce que vous voyez</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">129,131</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9ceade9d3adac4f1c84c27e2a461ace216d4e245" datatype="html">
+        <source> Comments are blurred by default. Use this setting to indicate what type of content you want to see. </source>
+        <target>Les commentaires sont floutés par défaut. Utilisez ce paramètre pour indiquer le type de contenu que vous souhaitez voir. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">131,134</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bc481de1242dd0284f3ae11ec0d98098b998930d" datatype="html">
+        <source>Displays the comment blur button toggle option, set to hidden by default</source>
+        <target>Affiche le bouton de basculement du flou des commentaires, réglé par défaut sur masqué</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">133,137</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3156f1d58eee6386b304758a0e11b820f04a7f3a" datatype="html">
+        <source>Sort by:</source>
+        <target>Trier par :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">142,145</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8d01252f70de8e0bc9e516198cdb53af0af58bb6" datatype="html">
+        <source> comments loaded...</source>
+        <target> commentaires chargés...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">157,160</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1c9d47d778db2317985d833cee9450a2e9290fca" datatype="html">
+        <source>Review comments</source>
+        <target>Examiner les commentaires</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">175,177</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b9fcecc103bea42fa6cb4ed8d6a63e1148426cec" datatype="html">
+        <source>See a limited number of comments per page.</source>
+        <target>Voir un nombre limité de commentaires par page.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">176,178</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6dde37ab79b6754353df8b990237795a9af6f714" datatype="html">
+        <source>Displays the pagination buttons, showing which comments are visible on this page and the total number of comments.</source>
+        <target>Affiche les boutons de pagination, indiquant quels commentaires sont visibles sur cette page et le nombre total de commentaires.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">177,181</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bf9c2b09aa324991ba90104a601849cd0e6adf9f" datatype="html">
+        <source> Got it </source>
+        <target>Compris</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">180,187</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="96d109b0cc89dff001529127c39ffb437a6c33bf" datatype="html">
+        <source> No comments found </source>
+        <target>Aucun commentaire trouvé</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">190,193</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a6942a491c486d95672500afb9bfdaa85f52c70c" datatype="html">
+        <source> No comments found for the current filters </source>
+        <target>Aucun commentaire trouvé pour les filtres actuels</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">193,198</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d41eea8aeab8fbb8d4e3be0ed8771283a36fc748" datatype="html">
+        <source>Error loading comments. Please try again.</source>
+        <target>Erreur lors du chargement des commentaires. Veuillez réessayer.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">196,200</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="da668493dff169f820643ba8baa3f0ce3ce91482" datatype="html">
+        <source>Add comments</source>
+        <target>Ajouter des commentaires</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">228,230</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0d3306ce35a7dc1e34f2afd9965f52e4df5219eb" datatype="html">
+        <source> View comment details and select which comments to include in your report. Your work will be saved if you leave and come back. </source>
+        <target>Affichez les détails du commentaire et sélectionnez les commentaires à inclure dans votre rapport. Votre travail sera enregistré si vous partez et revenez. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">230,233</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e0052ab6528f7dad5a8449696547bae4110b972d" datatype="html">
+        <source>Displays the comment card, which includes info on how likely harmful the comment is, the comment&apos;s popularity, the time it was posted, and comment text and other metadata. It can be expanded to show more details about toxicity model scores and engagement metrics for this comment.</source>
+        <target>Affiche la carte de commentaire, qui comprend des informations sur la probabilité que le commentaire soit préjudiciable, la popularité du commentaire, l'heure à laquelle il a été publié, le texte du commentaire et d'autres métadonnées. Il peut être développé pour afficher plus de détails sur les scores du modèle de toxicité et les mesures d'engagement pour ce commentaire.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">233,238</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0b97b4ca6c6b8b96d437da16e03be2d1391c4d17" datatype="html">
+        <source> Got it </source>
+        <target>Compris</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">238,244</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="45493a221c09f4d2550f928e73f2e8ea49ceef55" datatype="html">
+        <source> Back </source>
+        <target>Retour</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">268,272</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3ebc475143f2af7323c964bac99c3784ee9f2684" datatype="html">
+        <source> Next </source>
+        <target>Suivant</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">295,301</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="223ce8a57edb569db9d03b5c114606cd4d3c5e88" datatype="html">
         <source>Connect with allies</source>
         <target>Entrer en contact avec les alliés </target>
