@@ -476,6 +476,10 @@
           <context context-type="sourcefile">src/app/footer/footer.component.html</context>
           <context context-type="linenumber">50,57</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/opportunities/opportunities.component.html</context>
+          <context context-type="linenumber">18,22</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="3c78b53bca33467190c0b7a01320bc093a2b1427" datatype="html">
         <source>Privacy</source>
@@ -491,6 +495,46 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/footer/footer.component.html</context>
           <context context-type="linenumber">57,60</context>
+        </context-group>
+      </trans-unit>
+       <trans-unit id="6481b75ffd64881c86a28cdefaef1eb1b2e32cda" datatype="html">
+        <source> Do you want to take an active role in combating online abuse? Join us! </source>
+        <target>Vous souhaitez jouer un rôle actif dans la lutte contre les abus en ligne ? Rejoignez-nous !</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/opportunities/opportunities.component.html</context>
+          <context context-type="linenumber">20,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5570341919377347960" datatype="html">
+        <source>Call for Early Adopters</source>
+        <target>Appel aux adopteurs précocese</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/opportunities/opportunities.component.ts</context>
+          <context context-type="linenumber">36,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4406004159813284966" datatype="html">
+        <source>Do trolls invade your timeline all too often? Want to filter them out before you read them?</source>
+        <target>Les trolls envahissent-ils trop souvent votre timeline ? Vous voulez les filtrer avant de les lire ? En savoir plus</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/opportunities/opportunities.component.ts</context>
+          <context context-type="linenumber">38,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7593599366780418230" datatype="html">
+        <source>Call for Research Partners</source>
+        <target>Appel à partenaires de recherche</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/opportunities/opportunities.component.ts</context>
+          <context context-type="linenumber">45,47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7477139315438511734" datatype="html">
+        <source>Do you want to take an active role in combating coordinated online abuse that targets African women journalists, election candidates or other human rights defenders ?</source>
+        <target>Voulez-vous jouer un rôle actif dans la lutte contre les abus coordonnés en ligne qui ciblent les femmes journalistes africaines, les candidats aux élections ou d'autres défenseurs des droits humains ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/opportunities/opportunities.component.ts</context>
+          <context context-type="linenumber">47,49</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6f8f4f6eabd0e8622760022b41f7f9c27a9d05d7" datatype="html">
