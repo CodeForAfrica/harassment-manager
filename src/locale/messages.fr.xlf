@@ -497,6 +497,102 @@
           <context context-type="linenumber">57,60</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="83fba82bdaac38bcb279adb73fb7049bae3d2565" datatype="html">
+        <source>Review Comments</source>
+        <target>Revoir les commentaires</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/home-page.component.html</context>
+          <context context-type="linenumber">43,46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/intro-stepper/intro-stepper.component.html</context>
+          <context context-type="linenumber">43,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="343d0e1f741d8e5e63cc79676bf5628578329755" datatype="html">
+        <source>These results are categorised by </source>
+        <target>Ces résultats sont classés par </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/home-page.component.html</context>
+          <context context-type="linenumber">45,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f979e4e5c3f4206af37bfab46f1621000f6087af" datatype="html">
+        <source>Machine learning is the processs of using computers to learn based on data.
+          This tool uses machine learning developed by Perspective API, which has been tested and
+          trained to score comments based on their possible impact.</source>
+        <target>L'apprentissage automatique est le processus d'utilisation des ordinateurs pour apprendre en fonction des données.
+          Cet outil utilise l'apprentissage automatique développé par Perspective API, qui a été testé et
+          formé pour noter les commentaires en fonction de leur impact possible.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/home-page.component.html</context>
+          <context context-type="linenumber">46,52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="184d32bd762ce8a1ae993bd4d66c4a8011bfdd7e" datatype="html">
+        <source> machine learning <x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon&gt;"/>info_outline<x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;"/></source>
+        <target> apprentissage automatiqu <x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon&gt;"/>info_outline<x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/home-page.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="acaddd0ab14c961af4ad4161a3c58b83dab755f2" datatype="html">
+        <source>based on their likeliness of containing </source>
+        <target>en fonction de leur probabilité de contenir un</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/home-page.component.html</context>
+          <context context-type="linenumber">52,54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d7cdb003290087fcbd37f7f78eebee32b66ac37c" datatype="html">
+        <source>Harmful content is rude, disrespectful, or unreasonable content that is likely to make you leave a discussion. We use this definition as a guideline when grouping and scoring comments.</source>
+        <target>Le contenu nocif est un contenu grossier, irrespectueux ou déraisonnable qui est susceptible de vous faire quitter une discussion. Nous utilisons cette définition comme ligne directrice lors du regroupement et de la notation des commentaires.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/home-page.component.html</context>
+          <context context-type="linenumber">54,58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6672d8d31935f5601a479df1a7430b2d71c5ac2a" datatype="html">
+        <source> harmful content <x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon&gt;"/>info_outline<x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;"/></source>
+        <target> contenu préjudiciable. <x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon&gt;"/>info_outline<x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/home-page.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0011d7d59256b2759f1cd4def91aa022d2648596" datatype="html">
+        <source>Start a report with grouped comments</source>
+        <target>Commencez un rapport avec des commentaires groupés</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/home-page.component.html</context>
+          <context context-type="linenumber">93,96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c94a70d81137ac42474164a5584ef89105cbd234" datatype="html">
+        <source> Comments are grouped based on priority. Use these groups to start building a report. </source>
+        <target>Les commentaires sont regroupés en fonction de leur priorité. Utilisez ces groupes pour commencer à construire un rapport.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/home-page.component.html</context>
+          <context context-type="linenumber">95,99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="05651066c29be7fea71ece2b0816aee623ee5f27" datatype="html">
+        <source>Already know what you&apos;re looking for?</source>
+        <target>Vous savez déjà ce que vous cherchez ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/home-page.component.html</context>
+          <context context-type="linenumber">103,106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cef973457854f99e0d9390dbc7d73cda24880d02" datatype="html">
+        <source>These results are categorised by machine learning based on their likeliness of containing harmful content.</source>
+        <target>Ces résultats sont classés par apprentissage automatique en fonction de leur probabilité de contenir un contenu nocif.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/home-page.component.html</context>
+          <context context-type="linenumber">104,107</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="6efb54f6cac9a6951a54e8846d726ef8d33f6d86" datatype="html">
         <source>Welcome to FeedShield</source>
         <target>Bienvenue sur FeedShield</target>
@@ -519,14 +615,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/intro-stepper/intro-stepper.component.html</context>
           <context context-type="linenumber">40,44</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="83fba82bdaac38bcb279adb73fb7049bae3d2565" datatype="html">
-        <source>Review Comments</source>
-        <target>Examiner les commentaires</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/intro-stepper/intro-stepper.component.html</context>
-          <context context-type="linenumber">43,46</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5ed6252f65008ce9ecce6cdbdcaa698b0f3f2701" datatype="html">

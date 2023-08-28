@@ -40,17 +40,17 @@
 </mat-card>
 
 <section class="jumbotron">
-  <h1>Review Comments</h1>
+  <h1 i18n>Review Comments</h1>
   <div class="subtitle">
-    These results are categorised by
-    <span class="additional-definition" #tooltip="matTooltip" matTooltip="Machine learning is the processs of using computers to learn based on data.
+    <span i18n>These results are categorised by </span>
+    <span i18n class="additional-definition" #tooltip="matTooltip" i18n-matTooltip matTooltip="Machine learning is the processs of using computers to learn based on data.
           This tool uses machine learning developed by Perspective API, which has been tested and
           trained to score comments based on their possible impact." matTooltipClass="toxicity-tooltip"
       matTooltipPosition="right" tabindex="0">
       machine learning <mat-icon>info_outline</mat-icon>
     </span>
-    based on their likeliness of containing
-    <span class="additional-definition" #tooltip="matTooltip"
+    <span i18n>based on their likeliness of containing </span>
+    <span i18n class="additional-definition" #tooltip="matTooltip" i18n-matTooltip
       matTooltip="Harmful content is rude, disrespectful, or unreasonable content that is likely to make you leave a discussion. We use this definition as a guideline when grouping and scoring comments."
       matTooltipClass="toxicity-tooltip" matTooltipPosition="right" tabindex="0">
       harmful content <mat-icon>info_outline</mat-icon>
@@ -90,8 +90,8 @@
         cdkConnectedOverlayBackdropClass='onboarding-backdrop' [cdkConnectedOverlayOrigin]="secondRecommendedCard"
         [cdkConnectedOverlayOpen]="currentOnboardingStep === OnboardingStep.HIGHLIGHT_CARD">
         <div class="onboarding-recommended-reports">
-          <h1>Start a report with grouped comments</h1>
-          <div class="message">
+          <h1 i18n>Start a report with grouped comments</h1>
+          <div class="message" i18n>
             Comments are grouped based on priority. Use these groups to start building a report.
           </div>
           <button mat-button color="primary" (click)="nextOnboardingStep()">Got it</button>
@@ -100,8 +100,8 @@
     </div>
   </div>
   <div class="subtitle subtitle-bottom">
-    <h2>Already know what you're looking for?</h2>
-    These results are categorised by machine learning based on their likeliness of containing harmful content.
+    <h2 i18n>Already know what you're looking for?</h2>
+    <span i18n>These results are categorised by machine learning based on their likeliness of containing harmful content.</span>
   </div>
   <div class="recommended-cards-wrapper">
     <app-recommended-report-card [reportData]="recommendedReports[3]" [loading]="loadingRecommendedReports"
