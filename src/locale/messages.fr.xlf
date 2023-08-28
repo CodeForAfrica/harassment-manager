@@ -901,6 +901,40 @@
           <context context-type="linenumber">55,62</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="990df3502c221edcd0b0a477f4366bf95afdcb5a" datatype="html">
+        <source>A woman walks among geometric shapes strewn about the floor. She is holding a
+            large circular shape in her arm.</source>
+            <target>Une femme marche parmi des formes géométriques éparpillées sur le sol. Elle tient un
+            grand cercle dans son bras.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/loading-dialog/loading-dialog.component.html</context>
+          <context context-type="linenumber">19,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="626b38dccfcfebe5228405fbfc95e95dcfc67dbd" datatype="html">
+        <source>Loading comments from Twitter</source>
+        <target>Chargement des commentaires de Twitter</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/loading-dialog/loading-dialog.component.html</context>
+          <context context-type="linenumber">24,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8cb5e5d62696bb185bb26e2a3a06a144a0931d30" datatype="html">
+        <source> Loading times will vary depending on how many comments you have </source>
+        <target> Les temps de chargement varieront en fonction du nombre de commentaires que vous avez </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/loading-dialog/loading-dialog.component.html</context>
+          <context context-type="linenumber">26,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="687f5d91c7ed936b04b1916f23df82dd193ece2d" datatype="html">
+        <source> <x id="INTERPOLATION" equiv-text="{{commentCount}}"/> comments loaded and more to come </source>
+        <target> <x id="INTERPOLATION" equiv-text="{{commentCount}}"/> commentaires chargés et d&apos;autres à venir </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/loading-dialog/loading-dialog.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
        <trans-unit id="6481b75ffd64881c86a28cdefaef1eb1b2e32cda" datatype="html">
         <source> Do you want to take an active role in combating online abuse? Join us! </source>
         <target>Vous souhaitez jouer un rôle actif dans la lutte contre les abus en ligne ? Rejoignez-nous !</target>
