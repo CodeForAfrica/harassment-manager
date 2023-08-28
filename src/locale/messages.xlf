@@ -476,6 +476,62 @@
           <context context-type="linenumber">57,60</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="6efb54f6cac9a6951a54e8846d726ef8d33f6d86" datatype="html">
+        <source>Welcome to FeedShield</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/intro-stepper/intro-stepper.component.html</context>
+          <context context-type="linenumber">33,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fc89e8594f88429cdf0c44b20c939d089a3cc35e" datatype="html">
+        <source>Use the tool to flag online harrasment and collect evidence about the abuse</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/intro-stepper/intro-stepper.component.html</context>
+          <context context-type="linenumber">34,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="64089e052d2a61ca8ff9ed27cd6bf79f6a9777b8" datatype="html">
+        <source>A man with a cap stands and writes on a very large document hanging on a wall. There are geometric shapes with varying textures on the ground</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/intro-stepper/intro-stepper.component.html</context>
+          <context context-type="linenumber">40,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="83fba82bdaac38bcb279adb73fb7049bae3d2565" datatype="html">
+        <source>Review Comments</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/intro-stepper/intro-stepper.component.html</context>
+          <context context-type="linenumber">43,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5ed6252f65008ce9ecce6cdbdcaa698b0f3f2701" datatype="html">
+        <source>The tool will categorise comments based on their likeliness of containing harmful content.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/intro-stepper/intro-stepper.component.html</context>
+          <context context-type="linenumber">44,49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fa125ed08ddef3e71951b862fc5ff93e23a8bf2c" datatype="html">
+        <source>A woman placing a huge, person-sized document in a similarly huge folder.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/intro-stepper/intro-stepper.component.html</context>
+          <context context-type="linenumber">50,54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="503f4205325790c55ea675124651cfbb4b8d3060" datatype="html">
+        <source>Document the evidence and take action </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/intro-stepper/intro-stepper.component.html</context>
+          <context context-type="linenumber">54,55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d7a2638397613df3ad96432e4210695eea5bf33b" datatype="html">
+        <source> Create a report. Select the comments to be included in your report. Reports can be downloaded and shared with third parties as needed. You can also block or mute accounts and hide replies, without having to review the harmful content </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/intro-stepper/intro-stepper.component.html</context>
+          <context context-type="linenumber">55,62</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="6481b75ffd64881c86a28cdefaef1eb1b2e32cda" datatype="html">
         <source> Do you want to take an active role in combating online abuse? Join us! </source>
         <context-group purpose="location">
