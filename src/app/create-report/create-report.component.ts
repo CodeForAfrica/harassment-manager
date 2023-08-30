@@ -112,7 +112,7 @@ interface MetadataFilterDropdownOption extends DropdownOption {
 }
 
 export enum SortOption {
-  PRIORITY = 'Highest priority',
+  PRIORITY =  'Highest priority',
   TIME = 'Most recent',
   POPULARITY = 'Most popular',
 }
@@ -131,7 +131,7 @@ const LOADING_COMMENT = {
 
 function getRangeLabel(page: number, pageSize: number, length: number) {
   if (length <= pageSize) {
-    return `Showing ${length} of ${length} comments`;
+    return $localize `Showing ${length} of ${length} comments`;
   }
 
   length = Math.max(length, 0);
@@ -144,7 +144,7 @@ function getRangeLabel(page: number, pageSize: number, length: number) {
     startIndex < length
       ? Math.min(startIndex + pageSize, length) 
       : startIndex + pageSize;
-  return `Showing ${startIndex + 1} – ${endIndex} of ${length} comments`;
+  return $localize `Showing ${startIndex + 1} – ${endIndex} of ${length} comments`;
 }
 
 @Injectable()

@@ -2,6 +2,18 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
+    <trans-unit id="bdaa1d416883acb5d32df5172bf341fdc50f97d5" datatype="html">
+        <source> Got it </source>
+        <target>Compris</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/api-error-dialog/api-error-dialog.component.html</context>
+          <context context-type="linenumber">40,44</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/error-dialog/error-dialog.component.html</context>
+          <context context-type="linenumber">35,39</context>
+        </context-group>
+      </trans-unit>
      <trans-unit id="71ddf4fb46c01020f5778091d4ebb7a452dfbbbb" datatype="html">
         <source> Create Report </source>
         <target>Créer un rapport</target>
@@ -39,7 +51,7 @@
         <target>Affiche la barre de recherche et les menus pour filtrer par heure (par défaut depuis hier), catégories préjudiciables (5 sélectionnées par défaut) et plus d'options de filtrage (aucune sélectionnée par défaut).</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
-          <context context-type="linenumber">68,74</context>
+          <context context-type="linenumber">68,76</context>
         </context-group>
       </trans-unit>
       <trans-unit id="553a670e08a87fb6e49a39e80334ba368e719cdd" datatype="html">
@@ -112,6 +124,22 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
           <context context-type="linenumber">133,137</context>
+        </context-group>
+      </trans-unit>
+       <trans-unit id="73930c2a2a893de488661188cdee7e22ebe020be" datatype="html">
+        <source>Got it</source>
+        <target>Compris</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">135,141</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/home-page.component.html</context>
+          <context context-type="linenumber">97,103</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">142,147</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3156f1d58eee6386b304758a0e11b820f04a7f3a" datatype="html">
@@ -232,6 +260,22 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
           <context context-type="linenumber">295,301</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6828371487077248473" datatype="html">
+        <source>Showing <x id="PH" equiv-text="length"/> of <x id="PH_1" equiv-text="length"/> comments</source>
+        <target>Affichage de <x id="PH" equiv-text="length"/> de <x id="PH_1" equiv-text="length"/> commentaires</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.ts</context>
+          <context context-type="linenumber">134</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4745351654246923046" datatype="html">
+        <source>Showing <x id="PH" equiv-text="startIndex + 1"/> – <x id="PH_1" equiv-text="endIndex"/> of <x id="PH_2" equiv-text="length"/> comments</source>
+        <target>Affichage de <x id="PH" equiv-text="startIndex + 1"/> – <x id="PH_1" equiv-text="endIndex"/> de <x id="PH_2" equiv-text="length"/> commentaires</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.ts</context>
+          <context context-type="linenumber">147</context>
         </context-group>
       </trans-unit>
       <trans-unit id="223ce8a57edb569db9d03b5c114606cd4d3c5e88" datatype="html">
@@ -975,6 +1019,30 @@
           <context context-type="linenumber">47,49</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="6fc1d651ccab183501765fc83d25d86a382caca3" datatype="html">
+        <source>Add Comments</source>
+        <target>Ajouter des commentaires</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-progress-bar/report-progress-bar.component.html</context>
+          <context context-type="linenumber">29,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="11f4a44087d201dacd5f9fe5d57e86d64e600b0b" datatype="html">
+        <source>Edit Details</source>
+        <target>Modifier les détails</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-progress-bar/report-progress-bar.component.html</context>
+          <context context-type="linenumber">46,50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9c933f037ce994da721dc723a619cd6583e819e9" datatype="html">
+        <source>Take Action</source>
+        <target>Prendre des mesures</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-progress-bar/report-progress-bar.component.html</context>
+          <context context-type="linenumber">63,66</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="6f8f4f6eabd0e8622760022b41f7f9c27a9d05d7" datatype="html">
         <source>Unmask the trolls</source>
         <target>Démasquer les trolls</target>
@@ -1115,6 +1183,14 @@
           <context context-type="linenumber">44,48</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="9acb74e64545d47afff45018b45fb19593722f06" datatype="html">
+        <source>Search by keyword, hashtag, user...</source>
+        <target>Rechercher par mot-clé, hashtag, utilisateur...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search-box/search-box.component.html</context>
+          <context context-type="linenumber">32,35</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="92eee6be6de0b11c924e3ab27db30257159c0a7c" datatype="html">
         <source>Home</source>
         <target>Accueil</target>
@@ -1175,12 +1251,12 @@
           <context context-type="linenumber">140,146</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="73930c2a2a893de488661188cdee7e22ebe020be" datatype="html">
-        <source>Got it</source>
-        <target>Compris</target>
+        <trans-unit id="8294155391154077421" datatype="html">
+        <source>Last edit</source>
+        <target>Dernière modification</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
-          <context context-type="linenumber">142,147</context>
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.ts</context>
+          <context context-type="linenumber">228,230</context>
         </context-group>
       </trans-unit>
       <trans-unit id="640eec093c685babaa3265137215e3cc92ad704d" datatype="html">

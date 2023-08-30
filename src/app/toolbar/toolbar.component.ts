@@ -225,7 +225,7 @@ export class ToolbarComponent {
   getTimeSinceLastReportEditString(): string {
     const now = Date.now();
     const msSinceLastReportEdit = now - this.reportLastEditedMs;
-    let timeStr = 'Last edit';
+    let timeStr = $localize `Last edit`;
     if (msSinceLastReportEdit < ONE_MIN_MS) {
       timeStr += ' less than 1 min ago';
     } else {
