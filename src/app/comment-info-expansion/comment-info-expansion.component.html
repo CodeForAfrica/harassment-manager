@@ -17,7 +17,7 @@
 <div class="expanded-content">
   <div class="details">
     <div class="detailed-toxicity-info">
-      <h2>Toxicity summary:</h2>
+      <h2 i18n>Toxicity summary:</h2>
       <div class="score" *ngIf="this.comment && !this.comment.scores['TOXICITY']">Unable to
         <span class="unscored-definition"
               #tooltip="matTooltip"
@@ -29,23 +29,23 @@
         </span>
       </div>
       <ng-container *ngIf="this.comment && this.comment.scores['TOXICITY']">
-        <div class="score">Toxicity - {{formatScore(comment.scores['TOXICITY'])}}%</div>
-        <div class="score">Severe Toxicity - {{formatScore(comment.scores['SEVERE_TOXICITY'])}}%</div>
-        <div class="score">Insult - {{formatScore(comment.scores['INSULT'])}}%</div>
-        <div class="score">Threat - {{formatScore(comment.scores['THREAT'])}}%</div>
-        <div class="score">Profanity - {{formatScore(comment.scores['PROFANITY'])}}%</div>
-        <div class="score">Identity Attack - {{formatScore(comment.scores['IDENTITY_ATTACK'])}}%</div>
+        <div class="score" i18n>Toxicity - {{formatScore(comment.scores['TOXICITY'])}}%</div>
+        <div class="score" i18n>Severe Toxicity - {{formatScore(comment.scores['SEVERE_TOXICITY'])}}%</div>
+        <div class="score" i18n>Insult - {{formatScore(comment.scores['INSULT'])}}%</div>
+        <div class="score" i18n>Threat - {{formatScore(comment.scores['THREAT'])}}%</div>
+        <div class="score" i18n>Profanity - {{formatScore(comment.scores['PROFANITY'])}}%</div>
+        <div class="score" i18n>Identity Attack - {{formatScore(comment.scores['IDENTITY_ATTACK'])}}%</div>
       </ng-container>
     </div>
     <div class="detailed-influence-info twitter" *ngIf="tweet">
-      <h2>Impact summary:</h2>
-      <div class="metric" *ngIf="tweet.item.retweet_count !== undefined">
+      <h2 i18n>Impact summary:</h2>
+      <div class="metric" *ngIf="tweet.item.retweet_count !== undefined" i18n>
         {{tweet.item.retweet_count | number: '1.0-0'}} Retweets
       </div>
-      <div class="metric" *ngIf="tweet.item.favorite_count !== undefined">
+      <div class="metric" *ngIf="tweet.item.favorite_count !== undefined" i18n>
         {{tweet.item.favorite_count | number: '1.0-0'}} Likes
       </div>
-      <div class="metric" *ngIf="tweet.item.reply_count !== undefined">
+      <div class="metric" *ngIf="tweet.item.reply_count !== undefined" i18n>
         {{tweet.item.reply_count | number: '1.0-0'}} Comments
       </div>
     </div>

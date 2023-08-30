@@ -2,7 +2,7 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
-    <trans-unit id="bdaa1d416883acb5d32df5172bf341fdc50f97d5" datatype="html">
+      <trans-unit id="bdaa1d416883acb5d32df5172bf341fdc50f97d5" datatype="html">
         <source> Got it </source>
         <target>Compris</target>
         <context-group purpose="location">
@@ -12,6 +12,102 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/error-dialog/error-dialog.component.html</context>
           <context context-type="linenumber">35,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4944a6829327fc6964928f930fd0bef285b665b4" datatype="html">
+        <source>Toxicity summary:</source>
+        <target>Résumé de la toxicité :</target> 
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comment-info-expansion/comment-info-expansion.component.html</context>
+          <context context-type="linenumber">20,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="59e2b7240394e517fa805aada3e1f200f93e35f9" datatype="html">
+        <source>Toxicity - <x id="INTERPOLATION" equiv-text="{{formatScore(comment.scores[&apos;TOXICITY&apos;])}}"/>%</source>
+        <target>Toxicité - <x id="INTERPOLATION" equiv-text="{{formatScore(comment.scores[&apos;TOXICITY&apos;])}}"/>%</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comment-info-expansion/comment-info-expansion.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c48d91de19c5a270f7ae09aeaa65179da6d4b391" datatype="html">
+        <source>Severe Toxicity - <x id="INTERPOLATION" equiv-text="{{formatScore(comment.scores[&apos;SEVERE_TOXICITY&apos;])}}"/>%</source>
+        <target>Toxicité sévère - <x id="INTERPOLATION" equiv-text="{{formatScore(comment.scores[&apos;SEVERE_TOXICITY&apos;])}}"/>%</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comment-info-expansion/comment-info-expansion.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ab51c3855cb716d0c0747dacaaa58d011654c826" datatype="html">
+        <source>Insult - <x id="INTERPOLATION" equiv-text="{{formatScore(comment.scores[&apos;INSULT&apos;])}}"/>%</source>
+        <target>Insulte - <x id="INTERPOLATION" equiv-text="{{formatScore(comment.scores[&apos;INSULT&apos;])}}"/>%</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comment-info-expansion/comment-info-expansion.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0cced98703eacefc53a910d31729c14de68cbc0c" datatype="html">
+        <source>Threat - <x id="INTERPOLATION" equiv-text="{{formatScore(comment.scores[&apos;THREAT&apos;])}}"/>%</source>
+        <target>Menace - <x id="INTERPOLATION" equiv-text="{{formatScore(comment.scores[&apos;THREAT&apos;])}}"/>%</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comment-info-expansion/comment-info-expansion.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="25e97bfedab9791174bc67cf2d44e20332d370f0" datatype="html">
+        <source>Profanity - <x id="INTERPOLATION" equiv-text="{{formatScore(comment.scores[&apos;PROFANITY&apos;])}}"/>%</source>
+        <target>Profanité - <x id="INTERPOLATION" equiv-text="{{formatScore(comment.scores[&apos;PROFANITY&apos;])}}"/>%</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comment-info-expansion/comment-info-expansion.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="523ea2a55d959b5491e458cf875ad2857a5b0e1f" datatype="html">
+        <source>Identity Attack - <x id="INTERPOLATION" equiv-text="{{formatScore(comment.scores[&apos;IDENTITY_ATTACK&apos;])}}"/>%</source>
+        <target>Attaque d'identité - <x id="INTERPOLATION" equiv-text="{{formatScore(comment.scores[&apos;IDENTITY_ATTACK&apos;])}}"/>%</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comment-info-expansion/comment-info-expansion.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b60cb7ab4583d7808e12238dcd773e1b8d24e757" datatype="html">
+        <source>Impact summary:</source>
+        <target>Résumé de l'impact :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comment-info-expansion/comment-info-expansion.component.html</context>
+          <context context-type="linenumber">41,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a43b29c7b4abc586e09eada050e7947325d37cfa" datatype="html">
+        <source> <x id="INTERPOLATION" equiv-text="{{tweet.item.retweet_count | number: &apos;1.0-0&apos;}}"/> Retweets </source>
+        <target> <x id="INTERPOLATION" equiv-text="{{tweet.item.retweet_count | number: &apos;1.0-0&apos;}}"/> Retweets </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comment-info-expansion/comment-info-expansion.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e89b898dfd4f33e2403925d60e732fed24056041" datatype="html">
+        <source> <x id="INTERPOLATION" equiv-text="{{tweet.item.favorite_count | number: &apos;1.0-0&apos;}}"/> Likes </source>
+        <target> <x id="INTERPOLATION" equiv-text="{{tweet.item.favorite_count | number: &apos;1.0-0&apos;}}"/> Likes </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comment-info-expansion/comment-info-expansion.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="16217886c7cf614d0304579328766151f6699d81" datatype="html">
+        <source> <x id="INTERPOLATION" equiv-text="{{tweet.item.reply_count | number: &apos;1.0-0&apos;}}"/> Comments </source>
+        <target> <x id="INTERPOLATION" equiv-text="{{tweet.item.reply_count | number: &apos;1.0-0&apos;}}"/> Comments </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comment-info-expansion/comment-info-expansion.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cea74d06adc168c65e92fb17c87c9f76ba6eebcb" datatype="html">
+        <source>View on <x id="INTERPOLATION" equiv-text="{{siteLabel}}"/></source>
+        <target>Voir sur <x id="INTERPOLATION" equiv-text="{{siteLabel}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comment-link/comment-link.component.html</context>
+          <context context-type="linenumber">21</context>
         </context-group>
       </trans-unit>
      <trans-unit id="71ddf4fb46c01020f5778091d4ebb7a452dfbbbb" datatype="html">
