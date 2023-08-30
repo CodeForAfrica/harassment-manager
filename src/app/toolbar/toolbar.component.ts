@@ -197,13 +197,13 @@ export class ToolbarComponent {
         if (event.url.includes('create-report')) {
           this.reportService.setReportStep(BuildReportStep.ADD_COMMENTS);
           this.showBuildReportStepper = true;
-        } else if (event.url === 'review-report') {
+        } else if (event.url === '/review-report') {
           this.reportService.setReportStep(BuildReportStep.EDIT_DETAILS);
           this.showBuildReportStepper = true;
-        } else if (event.url === 'share-report') {
+        } else if (event.url === '/share-report') {
           this.reportService.setReportStep(BuildReportStep.TAKE_ACTION);
           this.showBuildReportStepper = true;
-        } else if (event.url === 'report-complete') {
+        } else if (event.url === '/report-complete') {
           this.reportService.setReportStep(BuildReportStep.COMPLETE);
           this.showBuildReportStepper = false;
         } else {
@@ -227,7 +227,7 @@ export class ToolbarComponent {
     const msSinceLastReportEdit = now - this.reportLastEditedMs;
     let timeStr = $localize `Last edit`;
     if (msSinceLastReportEdit < ONE_MIN_MS) {
-      timeStr += ' less than 1 min ago';
+      timeStr += $localize `less than 1 min ago`;
     } else {
       const days =
         msSinceLastReportEdit >= ONE_DAY_MS
@@ -245,15 +245,15 @@ export class ToolbarComponent {
       );
       if (days >= 1) {
         const date = moment(this.reportLastEditedMs);
-        timeStr += ` on ${date.format('MMM D')}`;
+        timeStr += $localize ` on ${date.format('MMM D')}`;
       } else {
         if (hours >= 1) {
-          timeStr += ` ${hours} hr`;
+          timeStr += $localize ` ${hours} hr`;
         }
         if (minutes > 0) {
-          timeStr += ` ${minutes} min`;
+          timeStr += $localize ` ${minutes} min`;
         }
-        timeStr += ' ago';
+        timeStr += $localize `ago`;
       }
     }
     return timeStr;
@@ -314,9 +314,9 @@ export class ToolbarComponent {
 
   getBackButtonText(): string {
     if (this.currentStep === BuildReportStep.EDIT_DETAILS) {
-      return 'Back to Comments';
+      return $localize `Back to Comments`;
     } else if (this.currentStep === BuildReportStep.TAKE_ACTION) {
-      return 'Back to Details';
+      return $localize `Back to Details`;
     } else {
       return '';
     }
@@ -345,21 +345,21 @@ export class ToolbarComponent {
 
   getReportButtonText(): string {
     if (this.currentStep === BuildReportStep.TAKE_ACTION) {
-      return 'Close report';
+      return $localize `Close report`;
     } else {
-      return 'Continue';
+      return $localize `Continue`;
     }
   }
 
   getReportButtonA11yLabel(): string {
     if (this.currentStep === BuildReportStep.ADD_COMMENTS) {
       return this.reportDraftCommentCount + (
-        this.reportDraftCommentCount === 1 ? ' Comment' : ' Comments')
-        + ' in Report Draft. Continue.'
+        this.reportDraftCommentCount === 1 ? $localize` Comment` : $localize ` Comments`)
+        + $localize ` in Report Draft. Continue.`
     } else if (this.currentStep === BuildReportStep.EDIT_DETAILS) {
-      return 'Continue';
+      return $localize `Continue`;
     } else if (this.currentStep === BuildReportStep.TAKE_ACTION) {
-      return 'Close report';
+      return $localize `Close report`;
     } else {
       return '';
     }
@@ -384,24 +384,24 @@ export class ToolbarComponent {
 
   getNotificationTitleText(): string {
     if (!this.reportStarted) {
-      return 'Nice work! You\'ve started your report.';
+      return $localize `Nice work! You\'ve started your report.`;
     } else if (this.reportNotificationCommentCount === 1) {
-      return 'Comment added to report';
+      return $localize `Comment added to report`;
     } else {
-      return `${this.reportNotificationCommentCount} comments added to report`;
+      return $localize `${this.reportNotificationCommentCount} comments added to report`;
     }
   }
 
   getNotificationSubtitleText(): string {
     if (!this.reportStarted) {
       return (
-        'Review your report draft or continue adding comments at your ' +
-        'own pace.'
+        $localize `Review your report draft or continue adding comments at your ` +
+        $localize `own pace.`
       );
     } else {
       return (
-        'Processing harmful content can be taxing. Take a break and come ' +
-        'back anytime. Your work will be saved.'
+        $localize `Processing harmful content can be taxing. Take a break and come ` +
+        $localize `back anytime. Your work will be saved.`
       );
     }
   }

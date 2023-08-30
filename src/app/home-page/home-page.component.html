@@ -22,13 +22,13 @@
 
 <mat-card *ngIf="shouldShowWelcomeBackCard" class="welcome-back-card">
   <div>
-    <h1>Welcome back<span *ngIf="name">,<br /> {{name}}</span>!</h1>
-    <div class="welcome-back-subtitle">Continue from where you left off.</div>
+    <h1 i18n>Welcome back<span *ngIf="name">,<br /> {{name}}</span>!</h1>
+    <div class="welcome-back-subtitle" i18n>Continue from where you left off.</div>
     <app-report-progress-bar></app-report-progress-bar>
-    <button mat-button class="action-button continue-report-button" (click)="continueReport()">
+    <button mat-button class="action-button continue-report-button" (click)="continueReport()" i18n>
       Continue report
     </button>
-    <button mat-button class="action-button-stroked start-over-button" (click)="openClearReportDialog()">
+    <button mat-button class="action-button-stroked start-over-button" (click)="openClearReportDialog()" i18n>
       Start over
     </button>
   </div>
