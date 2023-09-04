@@ -1,34 +1,20 @@
-and_chr 115
-and_ff 115
-and_qq 13.1
-and_uc 15.5
-android 115
-chrome 116
-chrome 115
-chrome 114
-chrome 109
-edge 115
-edge 114
-firefox 116
-firefox 115
-firefox 114
-firefox 102
-ios_saf 16.5
-ios_saf 16.4
-ios_saf 16.3
-ios_saf 16.2
-ios_saf 16.1
-ios_saf 16.0
-kaios 3.0-3.1
-node 20.4.0
-node 18.16.0
-node 16.20.0
-op_mob 73
-opera 101
-opera 100
-opera 99
-safari 16.5
-safari 16.4
-safari 15.6
-samsung 21
-samsung 20
+# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.
+# For additional information regarding the format and rule options, please see:
+# https://github.com/browserslist/browserslist#queries
+
+# For the full list of supported browsers by the Angular framework, please see:
+# https://angular.io/guide/browser-support
+
+# You can see what browsers were selected by your queries by running:
+#   npx browserslist
+
+last 1 Chrome version
+last 1 Firefox version
+last 2 Edge major versions
+last 2 Safari major versions
+last 2 iOS major versions
+Firefox ESR
+not IE 9-10 # Angular support for IE 9-10 has been deprecated and will be removed as of Angular v11. To opt-in, remove the 'not' prefix on this line.
+not IE 11 # Angular supports IE 11 only as an opt-in. To opt-in, remove the 'not' prefix on this line.
+not ios_saf 15.2-15.3
+not safari 15.2-15.3
