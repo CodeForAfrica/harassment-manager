@@ -124,28 +124,28 @@ export class ToolbarComponent {
 
     this.iconRegistry.addSvgIcon(
       'report_icon',
-      this.sanitizer.bypassSecurityTrustResourceUrl('/report.svg')
+      this.sanitizer.bypassSecurityTrustResourceUrl('report.svg')
     ).addSvgIcon(
       'report_icon_white',
-      this.sanitizer.bypassSecurityTrustResourceUrl('/report_white.svg')
+      this.sanitizer.bypassSecurityTrustResourceUrl('report_white.svg')
     ).addSvgIcon(
       'hamburger_menu',
-      this.sanitizer.bypassSecurityTrustResourceUrl('/hamburger_menu.svg')
+      this.sanitizer.bypassSecurityTrustResourceUrl('hamburger_menu.svg')
     ).addSvgIcon(
       'close_menu',
-      this.sanitizer.bypassSecurityTrustResourceUrl('/close-menu.svg')
+      this.sanitizer.bypassSecurityTrustResourceUrl('close-menu.svg')
     );
     this.iconRegistry.addSvgIcon(
       'report_back_icon',
-      this.sanitizer.bypassSecurityTrustResourceUrl('/back-icon.svg')
+      this.sanitizer.bypassSecurityTrustResourceUrl('back-icon.svg')
     );
     this.iconRegistry.addSvgIcon(
       'report_forward_icon',
-      this.sanitizer.bypassSecurityTrustResourceUrl('/forward-icon.svg')
+      this.sanitizer.bypassSecurityTrustResourceUrl('forward-icon.svg')
     );
     this.iconRegistry.addSvgIcon(
       'report_close_icon',
-      this.sanitizer.bypassSecurityTrustResourceUrl('/close_icon.svg')
+      this.sanitizer.bypassSecurityTrustResourceUrl('close_icon.svg')
     );
 
     this.reportService.reportLastEditedChanged.subscribe(lastEditedMs => {
@@ -175,7 +175,7 @@ export class ToolbarComponent {
     });
 
     this.reportService.reportCleared.subscribe(() => {
-      this.router.navigate(['/home']);
+      this.router.navigate(['home']);
     });
 
     this.oauthApiService.twitterSignInChange.subscribe(signedIn => {
@@ -194,16 +194,16 @@ export class ToolbarComponent {
 
     this.router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {
-        if (event.url.includes('/create-report')) {
+        if (event.url.includes('create-report')) {
           this.reportService.setReportStep(BuildReportStep.ADD_COMMENTS);
           this.showBuildReportStepper = true;
-        } else if (event.url === '/review-report') {
+        } else if (event.url === 'review-report') {
           this.reportService.setReportStep(BuildReportStep.EDIT_DETAILS);
           this.showBuildReportStepper = true;
-        } else if (event.url === '/share-report') {
+        } else if (event.url === 'share-report') {
           this.reportService.setReportStep(BuildReportStep.TAKE_ACTION);
           this.showBuildReportStepper = true;
-        } else if (event.url === '/report-complete') {
+        } else if (event.url === 'report-complete') {
           this.reportService.setReportStep(BuildReportStep.COMPLETE);
           this.showBuildReportStepper = false;
         } else {
@@ -275,7 +275,7 @@ export class ToolbarComponent {
 
   onStepperButtonClick(): void {
     const nextPage = this.getStepperButtonRouterLink();
-    if (nextPage === '/report-complete') {
+    if (nextPage === 'report-complete') {
       if (this.exitDialogOpen) {
         return;
       }
@@ -299,7 +299,7 @@ export class ToolbarComponent {
               // Show 'report complete' page only if user took action on report.
               this.router.navigate([nextPage]);
             } else {
-              this.router.navigate(['/home']);
+              this.router.navigate(['home']);
             }
           }
         });
@@ -324,22 +324,22 @@ export class ToolbarComponent {
 
   getBackButtonRouterLink(): string {
     if (this.currentStep === BuildReportStep.EDIT_DETAILS) {
-      return '/create-report';
+      return 'create-report';
     } else if (this.currentStep === BuildReportStep.TAKE_ACTION) {
-      return '/review-report';
+      return 'review-report';
     } else {
       // We shouldn't get here, but if we do, navigate to home.
-      return '/home';
+      return 'home';
     }
   }
 
   getCreateReportRouterLink(): string {
     if (this.currentStep === BuildReportStep.EDIT_DETAILS) {
-      return '/review-report';
+      return 'review-report';
     } else if (this.currentStep === BuildReportStep.TAKE_ACTION) {
-      return '/share-report';
+      return 'share-report';
     } else {
-      return '/create-report';
+      return 'create-report';
     }
   }
 

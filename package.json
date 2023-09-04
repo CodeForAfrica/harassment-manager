@@ -5,7 +5,7 @@
     "build:all:dev": "npm run build:app:dev && npm run build:server",
     "build:all:prod": "npm run build:app:prod && npm run build:server",
     "build:app:dev": "ng build --configuration development",
-    "build:app:prod": "ng build --localize --configuration production",
+    "build:app:prod": "ng build --localize --configuration production && cp src/redirect.html dist/harassment-manager/index.html",
     "build:server": "tsc -p src/tsconfig.server.json",
     "check-format": "gts check",
     "develop": "concurrently --names 'tsc,server,app' --prefix-colors blue,green,red \"npm run watch:tsc\" \"npm run watch:server\" \"npm run watch:app\"",
@@ -130,5 +130,10 @@
     "protractor": "^7.0.0",
     "ts-node": "^10.7.0",
     "typescript": "~4.4.4"
+  },
+  "overrides": {
+    "rxjs-ratelimiter": {
+      "rxjs": "7.5.4"
+    }
   }
 }

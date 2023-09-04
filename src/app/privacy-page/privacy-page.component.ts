@@ -19,7 +19,7 @@ export class PrivacyPageComponent {
   ) {
     this.iconRegistry.addSvgIcon(
       'medical_services',
-      this.sanitizer.bypassSecurityTrustResourceUrl('/medical_services.svg')
+      this.sanitizer.bypassSecurityTrustResourceUrl('medical_services.svg')
     );
   }
 

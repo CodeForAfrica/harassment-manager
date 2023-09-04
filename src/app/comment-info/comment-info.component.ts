@@ -75,7 +75,7 @@ export class CommentInfoComponent implements OnChanges {
       .addSvgIcon(
         'hide_report_icon',
         this.sanitizer.bypassSecurityTrustResourceUrl(
-          '/eye-off.svg'
+          'eye-off.svg'
         )
       )
   }
