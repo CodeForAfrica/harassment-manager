@@ -112,7 +112,7 @@ interface MetadataFilterDropdownOption extends DropdownOption {
 }
 
 export enum SortOption {
-  PRIORITY =  'Highest priority',
+  PRIORITY = 'Highest priority',
   TIME = 'Most recent',
   POPULARITY = 'Most popular',
 }
