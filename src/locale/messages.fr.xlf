@@ -14,6 +14,14 @@
           <context context-type="linenumber">35,39</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="cb33b150a0b9e6b88a9aa5fa79f91888dd06784a" datatype="html">
+        <source>ltr</source>
+        <target>ltr</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">18,20</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="f2a54c4d56b8ba4f46b448a9dc105b6a37d378ae" datatype="html">
         <source>Are you sure you want to start over?</source>
         <target>Êtes-vous sûr de vouloir recommencer ?</target>

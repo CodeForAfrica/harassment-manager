@@ -19,6 +19,10 @@ export class LocaleSelectorComponent implements OnInit {
       code: 'fr',
       label: 'Français',
     },
+    {
+      code: 'ar',
+      label: 'العربية',
+    }
   ];
   constructor(
   ) { }

@@ -18,6 +18,9 @@
         "locales": {
           "fr": {
             "translation": "src/locale/messages.fr.xlf"
+          },
+          "ar": {
+            "translation": "src/locale/messages.ar.xlf"
           }
         }
       },
@@ -79,6 +82,11 @@
                 "fr"
               ]
             },
+            "ar": {
+              "localize": [
+                "ar"
+              ]
+            },
             "en": {
               "localize": [
                 "en"
@@ -101,6 +109,9 @@
             },
             "fr": {
               "browserTarget": "harassment-manager:build:fr"
+            },
+            "ar": {
+              "browserTarget": "harassment-manager:build:ar"
             },
             "en":{
               "browserTarget": "harassment-manager:build:en"
