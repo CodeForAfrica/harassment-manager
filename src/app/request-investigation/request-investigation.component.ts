@@ -16,39 +16,38 @@ export class RequestInvestigationComponent {
   teamMembers: TeamMember[] = [
     {
       name: 'Allan Cheboi',
-      title: 'Senior Investigations Manager',
-      image: '/allan-cheboi.svg'
+      title: $localize `Senior Investigations Manager`,
+      image: 'allan-cheboi.svg'
     },
     {
       name: 'Peter Kimani',
-      title: 'Senior Investigative Data Analyst',
-      image: '/peter-kimani.svg'
+      title: $localize `Senior Investigative Data Analyst`,
+      image: 'peter-kimani.svg'
     },
     {
       name: 'Lujain Alsedeg',
-      title: 'Senior Investigative Researcher',
-      image: '/lujain-alsedeg.svg'
+      title: $localize `Senior Investigative Researcher`,
+      image: 'lujain-alsedeg.svg'
     },
     {
       name: 'Leon Vambe',
-      title: 'Investigative Data Analyst',
-      image: '/leon-vambe.svg'
+      title: $localize `Investigative Data Analyst`,
+      image: 'leon-vambe.svg'
     },
     {
       name: 'Hanna Teshager',
-      title: 'Investigative Data Analyst',
-      image: '/hanna-teshager.svg'
+      title: $localize `Investigative Data Analyst`,
+      image: 'hanna-teshager.svg'
     },
     {
       name: 'Ivan Musebe',
-      title: 'Investigative Data Analyst',
-      image: '/ivan-musebe.svg'
+      title: $localize `Investigative Data Analyst`,
+      image: 'ivan-musebe.svg'
     },
     {
       name: 'Anita Igbine',
-      title: 'Investigative Data Analyst',
-      image: '/anita-igbine.svg'
+      title: `Investigative Data Analyst`,
+      image: 'anita-igbine.svg'
     }
-
   ];
 }

@@ -26,7 +26,7 @@
       *ngIf="currentStep > BuildReportStep.ADD_COMMENTS">
       <mat-icon>check_circle_filled</mat-icon>
     </span>
-    Add Comments
+    <span i18n>Add Comments</span>
   </button>
 
   <div class="divider" [class.half-filled]="currentStep === BuildReportStep.ADD_COMMENTS"
@@ -43,7 +43,7 @@
       *ngIf="currentStep > BuildReportStep.EDIT_DETAILS">
       <mat-icon>check_circle_filled</mat-icon>
     </span>
-    Edit Details
+    <span i18n>Edit Details</span>
   </button>
 
   <div class="divider" [class.half-filled]="currentStep === BuildReportStep.EDIT_DETAILS"
@@ -60,6 +60,6 @@
       *ngIf="currentStep > BuildReportStep.TAKE_ACTION">
       <mat-icon>check_circle_filled</mat-icon>
     </span>
-    Take Action
+    <span i18n>Take Action</span>
   </button>
 </div>

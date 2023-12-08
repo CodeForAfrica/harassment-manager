@@ -2,6 +2,845 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="bdaa1d416883acb5d32df5172bf341fdc50f97d5" datatype="html">
+        <source> Got it </source>
+        <target>Compris</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/api-error-dialog/api-error-dialog.component.html</context>
+          <context context-type="linenumber">40,44</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/error-dialog/error-dialog.component.html</context>
+          <context context-type="linenumber">35,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f2a54c4d56b8ba4f46b448a9dc105b6a37d378ae" datatype="html">
+        <source>Are you sure you want to start over?</source>
+        <target>Êtes-vous sûr de vouloir recommencer ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clear-report-dialog/clear-report-dialog.component.html</context>
+          <context context-type="linenumber">25,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="09461ea35d3d34a4844f36fce0805f432c209eee" datatype="html">
+        <source> Restarting will remove all comments from this report so that you can start over. You may only create one report at a time. </source>
+        <target>Le redémarrage supprimera tous les commentaires de ce rapport afin que vous puissiez recommencer. Vous ne pouvez créer qu'un seul rapport à la fois. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clear-report-dialog/clear-report-dialog.component.html</context>
+          <context context-type="linenumber">28,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="067533b9bd17464e81a23f9afeda252bd01aae01" datatype="html">
+        <source> No thanks </source>
+        <target>Non merci</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clear-report-dialog/clear-report-dialog.component.html</context>
+          <context context-type="linenumber">35,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ed5eb3264b12c8b0e1eabcaa5d1cd48acc465e90" datatype="html">
+        <source> Yes, start report over </source>
+        <target>Oui, recommencer le rapport</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clear-report-dialog/clear-report-dialog.component.html</context>
+          <context context-type="linenumber">40,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4944a6829327fc6964928f930fd0bef285b665b4" datatype="html">
+        <source>Toxicity summary:</source>
+        <target>Résumé de la toxicité :</target> 
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comment-info-expansion/comment-info-expansion.component.html</context>
+          <context context-type="linenumber">20,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="59e2b7240394e517fa805aada3e1f200f93e35f9" datatype="html">
+        <source>Toxicity - <x id="INTERPOLATION" equiv-text="{{formatScore(comment.scores[&apos;TOXICITY&apos;])}}"/>%</source>
+        <target>Toxicité - <x id="INTERPOLATION" equiv-text="{{formatScore(comment.scores[&apos;TOXICITY&apos;])}}"/>%</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comment-info-expansion/comment-info-expansion.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c48d91de19c5a270f7ae09aeaa65179da6d4b391" datatype="html">
+        <source>Severe Toxicity - <x id="INTERPOLATION" equiv-text="{{formatScore(comment.scores[&apos;SEVERE_TOXICITY&apos;])}}"/>%</source>
+        <target>Toxicité sévère - <x id="INTERPOLATION" equiv-text="{{formatScore(comment.scores[&apos;SEVERE_TOXICITY&apos;])}}"/>%</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comment-info-expansion/comment-info-expansion.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ab51c3855cb716d0c0747dacaaa58d011654c826" datatype="html">
+        <source>Insult - <x id="INTERPOLATION" equiv-text="{{formatScore(comment.scores[&apos;INSULT&apos;])}}"/>%</source>
+        <target>Insulte - <x id="INTERPOLATION" equiv-text="{{formatScore(comment.scores[&apos;INSULT&apos;])}}"/>%</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comment-info-expansion/comment-info-expansion.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0cced98703eacefc53a910d31729c14de68cbc0c" datatype="html">
+        <source>Threat - <x id="INTERPOLATION" equiv-text="{{formatScore(comment.scores[&apos;THREAT&apos;])}}"/>%</source>
+        <target>Menace - <x id="INTERPOLATION" equiv-text="{{formatScore(comment.scores[&apos;THREAT&apos;])}}"/>%</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comment-info-expansion/comment-info-expansion.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="25e97bfedab9791174bc67cf2d44e20332d370f0" datatype="html">
+        <source>Profanity - <x id="INTERPOLATION" equiv-text="{{formatScore(comment.scores[&apos;PROFANITY&apos;])}}"/>%</source>
+        <target>Profanité - <x id="INTERPOLATION" equiv-text="{{formatScore(comment.scores[&apos;PROFANITY&apos;])}}"/>%</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comment-info-expansion/comment-info-expansion.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="523ea2a55d959b5491e458cf875ad2857a5b0e1f" datatype="html">
+        <source>Identity Attack - <x id="INTERPOLATION" equiv-text="{{formatScore(comment.scores[&apos;IDENTITY_ATTACK&apos;])}}"/>%</source>
+        <target>Attaque d'identité - <x id="INTERPOLATION" equiv-text="{{formatScore(comment.scores[&apos;IDENTITY_ATTACK&apos;])}}"/>%</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comment-info-expansion/comment-info-expansion.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b60cb7ab4583d7808e12238dcd773e1b8d24e757" datatype="html">
+        <source>Impact summary:</source>
+        <target>Résumé de l'impact :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comment-info-expansion/comment-info-expansion.component.html</context>
+          <context context-type="linenumber">41,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a43b29c7b4abc586e09eada050e7947325d37cfa" datatype="html">
+        <source> <x id="INTERPOLATION" equiv-text="{{tweet.item.retweet_count | number: &apos;1.0-0&apos;}}"/> Retweets </source>
+        <target> <x id="INTERPOLATION" equiv-text="{{tweet.item.retweet_count | number: &apos;1.0-0&apos;}}"/> Retweets </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comment-info-expansion/comment-info-expansion.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e89b898dfd4f33e2403925d60e732fed24056041" datatype="html">
+        <source> <x id="INTERPOLATION" equiv-text="{{tweet.item.favorite_count | number: &apos;1.0-0&apos;}}"/> Likes </source>
+        <target> <x id="INTERPOLATION" equiv-text="{{tweet.item.favorite_count | number: &apos;1.0-0&apos;}}"/> Likes </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comment-info-expansion/comment-info-expansion.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="16217886c7cf614d0304579328766151f6699d81" datatype="html">
+        <source> <x id="INTERPOLATION" equiv-text="{{tweet.item.reply_count | number: &apos;1.0-0&apos;}}"/> Comments </source>
+        <target> <x id="INTERPOLATION" equiv-text="{{tweet.item.reply_count | number: &apos;1.0-0&apos;}}"/> Comments </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comment-info-expansion/comment-info-expansion.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cea74d06adc168c65e92fb17c87c9f76ba6eebcb" datatype="html">
+        <source>View on <x id="INTERPOLATION" equiv-text="{{siteLabel}}"/></source>
+        <target>Voir sur <x id="INTERPOLATION" equiv-text="{{siteLabel}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comment-link/comment-link.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+     <trans-unit id="71ddf4fb46c01020f5778091d4ebb7a452dfbbbb" datatype="html">
+        <source> Create Report </source>
+        <target>Créer un rapport</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">21,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fb8f061ae5615b5116d0e363386c8deb85ad6a22" datatype="html">
+        <source> Review and select the content you want to include in your report. Once completed, you can block or mute accounts, hide replies, or save and share your report </source>
+        <target>Examinez et sélectionnez le contenu que vous souhaitez inclure dans votre rapport. Une fois terminé, vous pouvez bloquer ou mettre en sourdine des comptes, masquer des réponses ou enregistrer et partager votre rapport. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">25,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="31eac0ff4026d31fe780135c4199e3ef516e4029" datatype="html">
+        <source>Narrow results</source>
+        <target>Restreindre les résultats</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">66,68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="215cc60f176b8a12aa67a9dd029946e96d816fb5" datatype="html">
+        <source>Search and filter to find the comments you want to add to your report.</source>
+        <target>Recherchez et filtrez pour trouver les commentaires que vous souhaitez ajouter à votre rapport.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">67,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="efe7ec3cded92052e9d61dbda4f7fdafe20b00ac" datatype="html">
+        <source>Displays the search bar, and menus for filtering by time (default since yesterday), harmful categories (5 selected by default), and more filter options (none selected by default).</source>
+        <target>Affiche la barre de recherche et les menus pour filtrer par heure (par défaut depuis hier), catégories préjudiciables (5 sélectionnées par défaut) et plus d'options de filtrage (aucune sélectionnée par défaut).</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">68,76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="553a670e08a87fb6e49a39e80334ba368e719cdd" datatype="html">
+        <source> Got it </source>
+        <target>Compris</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">71,79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a771faf49e6278163dc673408b6eb941e0973991" datatype="html">
+        <source>Loading comments from Twitter...</source>
+        <target>Chargement des commentaires de Twitter...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">94,99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="608e40dd228802f288ba380bdcdb5c019dc40d71" datatype="html">
+        <source>Last refreshed</source>
+        <target>Dernier rafraîchissement</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">96,99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="52b04d1918427eccedb58ea9ad156d9b242bcfef" datatype="html">
+        <source>Comment Preview:</source>
+        <target>Aperçu du commentaire :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">104,106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1eede69e18c5ac9c0b0295b72cabb7e64e029e74" datatype="html">
+        <source>Hide</source>
+        <target>Masquer</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">110,114</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2aba1e87039819aca3b70faa9aa848c12bf139ca" datatype="html">
+        <source>Show</source>
+        <target>Afficher</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">114,119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="da0f28184f967814dc699db29a7a88d8a1a51f23" datatype="html">
+        <source>Choose what you see</source>
+        <target>Choisissez ce que vous voyez</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">129,131</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9ceade9d3adac4f1c84c27e2a461ace216d4e245" datatype="html">
+        <source> Comments are blurred by default. Use this setting to indicate what type of content you want to see. </source>
+        <target>Les commentaires sont floutés par défaut. Utilisez ce paramètre pour indiquer le type de contenu que vous souhaitez voir. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">131,134</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bc481de1242dd0284f3ae11ec0d98098b998930d" datatype="html">
+        <source>Displays the comment blur button toggle option, set to hidden by default</source>
+        <target>Affiche le bouton de basculement du flou des commentaires, réglé par défaut sur masqué</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">133,137</context>
+        </context-group>
+      </trans-unit>
+       <trans-unit id="73930c2a2a893de488661188cdee7e22ebe020be" datatype="html">
+        <source>Got it</source>
+        <target>Compris</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">135,141</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/home-page.component.html</context>
+          <context context-type="linenumber">97,103</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">142,147</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3156f1d58eee6386b304758a0e11b820f04a7f3a" datatype="html">
+        <source>Sort by:</source>
+        <target>Trier par :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">142,145</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8d01252f70de8e0bc9e516198cdb53af0af58bb6" datatype="html">
+        <source> comments loaded...</source>
+        <target> commentaires chargés...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">157,160</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1c9d47d778db2317985d833cee9450a2e9290fca" datatype="html">
+        <source>Review comments</source>
+        <target>Examiner les commentaires</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">175,177</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b9fcecc103bea42fa6cb4ed8d6a63e1148426cec" datatype="html">
+        <source>See a limited number of comments per page.</source>
+        <target>Voir un nombre limité de commentaires par page.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">176,178</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6dde37ab79b6754353df8b990237795a9af6f714" datatype="html">
+        <source>Displays the pagination buttons, showing which comments are visible on this page and the total number of comments.</source>
+        <target>Affiche les boutons de pagination, indiquant quels commentaires sont visibles sur cette page et le nombre total de commentaires.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">177,181</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bf9c2b09aa324991ba90104a601849cd0e6adf9f" datatype="html">
+        <source> Got it </source>
+        <target>Compris</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">180,187</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="96d109b0cc89dff001529127c39ffb437a6c33bf" datatype="html">
+        <source> No comments found </source>
+        <target>Aucun commentaire trouvé</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">190,193</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a6942a491c486d95672500afb9bfdaa85f52c70c" datatype="html">
+        <source> No comments found for the current filters </source>
+        <target>Aucun commentaire trouvé pour les filtres actuels</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">193,198</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d41eea8aeab8fbb8d4e3be0ed8771283a36fc748" datatype="html">
+        <source>Error loading comments. Please try again.</source>
+        <target>Erreur lors du chargement des commentaires. Veuillez réessayer.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">196,200</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="da668493dff169f820643ba8baa3f0ce3ce91482" datatype="html">
+        <source>Add comments</source>
+        <target>Ajouter des commentaires</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">228,230</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0d3306ce35a7dc1e34f2afd9965f52e4df5219eb" datatype="html">
+        <source> View comment details and select which comments to include in your report. Your work will be saved if you leave and come back. </source>
+        <target>Affichez les détails du commentaire et sélectionnez les commentaires à inclure dans votre rapport. Votre travail sera enregistré si vous partez et revenez. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">230,233</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e0052ab6528f7dad5a8449696547bae4110b972d" datatype="html">
+        <source>Displays the comment card, which includes info on how likely harmful the comment is, the comment&apos;s popularity, the time it was posted, and comment text and other metadata. It can be expanded to show more details about toxicity model scores and engagement metrics for this comment.</source>
+        <target>Affiche la carte de commentaire, qui comprend des informations sur la probabilité que le commentaire soit préjudiciable, la popularité du commentaire, l'heure à laquelle il a été publié, le texte du commentaire et d'autres métadonnées. Il peut être développé pour afficher plus de détails sur les scores du modèle de toxicité et les mesures d'engagement pour ce commentaire.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">233,238</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0b97b4ca6c6b8b96d437da16e03be2d1391c4d17" datatype="html">
+        <source> Got it </source>
+        <target>Compris</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">238,244</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="45493a221c09f4d2550f928e73f2e8ea49ceef55" datatype="html">
+        <source> Back </source>
+        <target>Retour</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">268,272</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3ebc475143f2af7323c964bac99c3784ee9f2684" datatype="html">
+        <source> Next </source>
+        <target>Suivant</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.html</context>
+          <context context-type="linenumber">295,301</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6828371487077248473" datatype="html">
+        <source>Showing <x id="PH" equiv-text="length"/> of <x id="PH_1" equiv-text="length"/> comments</source>
+        <target>Affichage de <x id="PH" equiv-text="length"/> de <x id="PH_1" equiv-text="length"/> commentaires</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.ts</context>
+          <context context-type="linenumber">134</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4745351654246923046" datatype="html">
+        <source>Showing <x id="PH" equiv-text="startIndex + 1"/> – <x id="PH_1" equiv-text="endIndex"/> of <x id="PH_2" equiv-text="length"/> comments</source>
+        <target>Affichage de <x id="PH" equiv-text="startIndex + 1"/> – <x id="PH_1" equiv-text="endIndex"/> de <x id="PH_2" equiv-text="length"/> commentaires</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/create-report/create-report.component.ts</context>
+          <context context-type="linenumber">147</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="223ce8a57edb569db9d03b5c114606cd4d3c5e88" datatype="html">
+        <source>Connect with allies</source>
+        <target>Entrer en contact avec les alliés </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/crisis-helpline/crisis-helpline.component.html</context>
+          <context context-type="linenumber">18,23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">146,154</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
+          <context context-type="linenumber">162,167</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dd8b102a605455f276a18ec67f8c788d3d5211e4" datatype="html">
+        <source>Find counselling or campaigners</source>
+        <target>Trouver des conseils ou des militants</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/crisis-helpline/crisis-helpline.component.html</context>
+          <context context-type="linenumber">19,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8c4cde24458120301fcbc616c7f665a5db0d7df2" datatype="html">
+        <source>Virtual Helpline</source>
+        <target>Ligne d'assistance virtuelle</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/crisis-helpline/crisis-helpline.component.html</context>
+          <context context-type="linenumber">31,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e7ec965947394aa0ae188151bd5eab475a147245" datatype="html">
+        <source>Need help? FeedShield offers a virtual helpline for people facing online harassment to talk to trained crisis counsellors, who will help connect users with local experts or support organisations. The helpline is run by a trauma counselling CSO based, Mental 360, in Kenya, and can currently only support callers in English. FeedShield will add partners who can assist in other international languages such as Arabic and French in 2023. </source>
+        <target>Besoin d'aide ? FeedShield propose une ligne d'assistance virtuelle pour les personnes confrontées au harcèlement en ligne, afin qu'elles puissent parler à des conseillers en cas de crise qualifiés, qui les mettront en contact avec des experts locaux ou des organisations de soutien. La ligne d'assistance est gérée par une OSC spécialisée dans le conseil en traumatologie, Mental 360, au Kenya, et ne peut pour l'instant répondre aux appels qu'en anglais. En 2023, FeedShield ajoutera des partenaires capables de fournir une assistance dans d'autres langues internationales telles que l'arabe et le français.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/crisis-helpline/crisis-helpline.component.html</context>
+          <context context-type="linenumber">36,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="97daba0550245d4df0b09f82bf414a73177635f2" datatype="html">
+        <source> Counsellors will treat your call as confidential, protecting all your personal information, and will only share your details with our other support teams if you explicitly request them to in writing. </source>
+        <target>Les conseillers traiteront votre appel de manière confidentielle, en protégeant toutes vos informations personnelles, et ne partageront vos coordonnées avec nos autres équipes d'assistance que si vous le leur demandez explicitement par écrit. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/crisis-helpline/crisis-helpline.component.html</context>
+          <context context-type="linenumber">44,49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dc6b5157d7ab533dc6545db938d85f4144adb441" datatype="html">
+        <source> Book your session <x id="START_LINK" ctype="x-a" equiv-text="&lt;a target=&quot;_blank&quot;
+                href=&quot;https://docs.google.com/forms/d/18Wol4P0B3ZJ89TlG20cUqdKlMBTMCU7_7q0te9bV6TU/edit&quot;&gt;"/>here<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target>Réservez votre session  <x id="START_LINK" ctype="x-a" equiv-text="&lt;a target=&quot;_blank&quot;
+                href=&quot;https://docs.google.com/forms/d/18Wol4P0B3ZJ89TlG20cUqdKlMBTMCU7_7q0te9bV6TU/edit&quot;&gt;"/>ici<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/crisis-helpline/crisis-helpline.component.html</context>
+          <context context-type="linenumber">48,49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4402ffff443312f0450e4baf061571ef7eb643b9" datatype="html">
+        <source> *Though a counselling service, the virtual helpline is not an emergency service. If you are in imminent danger, if someone is threatening you with physical violence online or it escalates, take the following steps to ensure your safety: </source>
+        <target>*Bien qu'il s'agisse d'un service de conseil, le service d'assistance téléphonique virtuel n'est pas un service d'urgence.  Si vous êtes en danger imminent, si quelqu'un vous menace de violence physique en ligne ou si la situation s'aggrave, prenez les mesures suivantes pour assurer votre sécurité : </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/crisis-helpline/crisis-helpline.component.html</context>
+          <context context-type="linenumber">53,60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="86329f68f42643026a1d0cd4e413c14c9b5c01bb" datatype="html">
+        <source>Save screengrabs in case threatening tweets get deleted</source>
+        <target>Enregistrez des captures d'écran au cas où les tweets menaçants seraient supprimés.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/crisis-helpline/crisis-helpline.component.html</context>
+          <context context-type="linenumber">60,63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7e2e70b4cbb7f56c243cdc0d9c1145110978643f" datatype="html">
+        <source>Call the police</source>
+        <target>Appelez la police</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/crisis-helpline/crisis-helpline.component.html</context>
+          <context context-type="linenumber">61,64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="08db2bb3170a4bc2ad8dafde4fdfe1a883eed645" datatype="html">
+        <source>Do not engage any further with the person that is threatening you</source>
+        <target>N'entrez plus en contact avec la personne qui vous menace.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/crisis-helpline/crisis-helpline.component.html</context>
+          <context context-type="linenumber">62,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5c120bf686b4cdc3d018b85645efb17fef4cff6a" datatype="html">
+        <source>Find support</source>
+        <target>Trouvez de l'aide</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/crisis-helpline/crisis-helpline.component.html</context>
+          <context context-type="linenumber">63,73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="13fc281083a61fc1e694214d86a305e67765b91b" datatype="html">
+        <source>Contact Helpline</source>
+        <target>Contactez la ligne d'assistance</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/crisis-helpline/crisis-helpline.component.html</context>
+          <context context-type="linenumber">76,83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="271400104084315088" datatype="html">
+        <source>Virtual Helpline</source>
+        <target>Ligne d'assistance virtuelle</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/crisis-helpline/crisis-helpline.component.ts</context>
+          <context context-type="linenumber">32,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a29df34a07fe45f98fd90d449c5f219d6a5fc419" datatype="html">
+        <source>How it Works</source>
+        <target>Comment ça fonctionne</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faqs/faqs.component.html</context>
+          <context context-type="linenumber">18,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="879bc585be3ff4b857aa813ca0d77dad1755a331" datatype="html">
+        <source> Answers to frequently asked questions </source>
+        <target>Réponses aux questions fréquemment posées</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faqs/faqs.component.html</context>
+          <context context-type="linenumber">20,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7128109358021057367" datatype="html">
+        <source>What is it?</source>
+        <target>Qu'est-ce que FeedShield ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faqs/faqs.component.ts</context>
+          <context context-type="linenumber">23,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="638757219209056327" datatype="html">
+        <source>FeedShield helps you to take back control of your Twitter feed. It is a free web application designed for human rights defenders, such as journalists and activists, but open for anyone to use. It syncs with the user’s Twitter account, automatically recognising and flagging harmful comments from the last one week. The resulting analysis helps users limit their exposure to abusive content, by allowing them to block, mute or save comments at scale. It also allows users to create reports to store or share with investigators or other watchdogs as needed. FeedShield further helps users connect with allies, from crisis counsellors on a dedicated helpline, to local experts or support organisations.</source>
+        <target>FeedShield vous aide à reprendre le contrôle de votre fil Twitter. Il s'agit d'une application web gratuite conçue pour les défenseurs des droits humains, tels que les journalistes et les militants, mais ouverte à tous. Synchronisée avec le compte Twitter de l'utilisateur, elle reconnaît et signale automatiquement les commentaires préjudiciables de la semaine écoulée. L'analyse qui en résulte aide les utilisateurs à limiter leur exposition aux contenus abusifs, en leur permettant de bloquer, de mettre en sourdine ou de sauvegarder des commentaires à grande échelle. Elle permet également aux utilisateurs de créer des rapports à stocker ou à partager avec des enquêteurs ou d'autres personnes chargées de la surveillance, le cas échéant. FeedShield aide en outre les utilisateurs à entrer en contact avec des alliés, qu'il s'agisse de conseillers en cas de crise sur une ligne d'assistance dédiée, d'experts locaux ou d'organisations de soutien.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faqs/faqs.component.ts</context>
+          <context context-type="linenumber">94,95</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5082529789755711823" datatype="html">
+        <source>Why is it important?</source>
+        <target>Pourquoi est-ce important ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faqs/faqs.component.ts</context>
+          <context context-type="linenumber">28,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1148886656872104037" datatype="html">
+        <source>Human rights defenders are increasingly being targeted by online trolls, who often coordinate their attacks. Women journalists, activists and public leaders are being especially targeted by toxic campaigns that seek to flood their victim’s social feeds with demeaning or threatening content as a way of drowning out or silencing women’s voices. The victims have, up until now, had no easy way to analyse the abuse or collect the evidence. FeedShield aims to change that by offering a combination of digital tools and investigative support. Get more information about why, in the launch announcement here.</source>
+        <target>Les défenseurs des droits humains sont de plus en plus souvent la cible de trolls en ligne, qui coordonnent souvent leurs attaques. Les femmes journalistes, militantes et responsables publiques sont particulièrement visées par des campagnes toxiques qui cherchent à inonder les fils sociaux de leurs victimes de contenus dégradants ou menaçants afin d'étouffer ou de réduire au silence la voix des femmes. Jusqu'à présent, les victimes n'avaient aucun moyen facile d'analyser les abus ou de recueillir des preuves. FeedShield vise à changer cela en offrant une combinaison d'outils numériques et d'aide à l'enquête. Pour en savoir plus, consultez le communiqué de presse ici. (lien vers le blog du communiqué de presse sur le Medium du CfA). 
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faqs/faqs.component.ts</context>
+          <context context-type="linenumber">99,101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="841852702834367585" datatype="html">
+        <source>Who is behind it?</source>
+        <target>Qui est à l'origine de ce projet ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faqs/faqs.component.ts</context>
+          <context context-type="linenumber">33,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="918777882313454764" datatype="html">
+        <source> FeedShield is an initiative of Africas largest network of civic technology and digital democracy labs, Code for Africa. CfA has full-time staff/labs in 21 African countries that work in support of networks of watchdog media, human rights defending CSOs, and progressive development agencies. CfA has partnered with Googles Jigsaw team to customise its &lt;a href=&quot;https://jigsaw.google.com/harassment-manager/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; &gt; Harassment Manager toolkit&lt;/a&gt; for African conditions. The toolkit also includes resources created by a global coalition of other civic organisations who have developed support materials, ranging from tipsheets and training courses, to campaign materials and other complementary tools. Read more about the resources &lt;a href=&quot;/resources&quot;&gt;here&lt;/a&gt;.</source>
+        <target>
+        FeedShield est une initiative du plus grand réseau africain de laboratoires de technologie civique et de démocratie numérique, Code for Africa. CfA dispose d'un personnel et de laboratoires à plein temps dans 21 pays africains qui travaillent pour soutenir les réseaux de médias de surveillance, les OSC qui défendent les droits humains et les agences de développement progressistes. CfA s'est associé à l'équipe Jigsaw de Google pour adapter sa &lt;a href=&quot;https://jigsaw.google.com/harassment-manager/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; &gt; Harassment Manager toolkit&lt;/a&gt; aux spécificités africaines. La boîte à outils comprend également des ressources créées par une coalition mondiale d'autres organisations civiques qui ont développé du matériel de soutien, allant de fiches de conseils et de cours de formation à du matériel de campagne et d'autres outils complémentaires. Pour en savoir plus sur ces ressources, cliquez &lt;a href=&quot;/resources&quot;&gt;ici&lt;/a&gt;..
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faqs/faqs.component.ts</context>
+          <context context-type="linenumber">104,106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2919439246055518882" datatype="html">
+        <source>Who can use it?</source>
+        <target>Qui peut l'utiliser ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faqs/faqs.component.ts</context>
+          <context context-type="linenumber">38,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3947288299097463558" datatype="html">
+        <source>FeedShield is designed for frontline human rights defenders, such as journalists and activists. CfA is also emphasising support for women thought-leaders who are being targeted online. However, the tool is free to use by anyone, and CfA will consider support requests regardless of users&apos; profession or gender.</source>
+        <target>FeedShield est conçu pour les défenseurs des droits humains en première ligne, tels que les journalistes et les activistes. CfA met également l'accent sur le soutien aux femmes leaders d'opinion qui sont ciblées en ligne. Cependant, l'utilisation de l'outil est gratuite pour tout le monde, et CfA examinera les demandes de soutien indépendamment de la profession ou du sexe de l'utilisateur.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faqs/faqs.component.ts</context>
+          <context context-type="linenumber">109,111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="567806854524689603" datatype="html">
+        <source>How do I use it?</source>
+        <target>Comment l'utiliser ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faqs/faqs.component.ts</context>
+          <context context-type="linenumber">43,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5497660337457369428" datatype="html">
+        <source>Once you’ve logged on to your dashboard through your Twitter account, FeedShield rates each tweet that mentions you within the last one week and assigns each one a toxicity score based on how likely they are to be harmful. You can then view or hide comments within FeedShield, curate them into reports and even share them with other parties that can support you deal with the abuse. You can also export your report and save it either on Google Drive or locally by downloading a PDF, printing a copy, or saving a CSV file without notifying the abusers. FeedShield won&apos;t post anything on your behalf. Find out more in this tutorial  &lt;a href=&apos;/&apos;&gt;here&lt;/a&gt;.</source>
+        <target>Une fois que vous vous êtes connecté à votre tableau de bord via votre compte Twitter, FeedShield évalue chaque tweet qui vous mentionne au cours de la semaine écoulée et lui attribue un score de toxicité basé sur la probabilité qu'il soit nuisible. Vous pouvez ensuite afficher ou masquer les commentaires dans FeedShield, les regrouper dans des rapports et même les partager avec d'autres parties qui peuvent vous aider à gérer l'abus. Vous pouvez également exporter votre rapport et le sauvegarder sur Google Drive ou localement en PDF, en imprimant une copie ou en sauvegardant un fichier CSV sans en informer les auteurs des abus. FeedShield ne publiera rien en votre nom. Pour en savoir plus, consultez &lt;a href=&apos;/&apos;&gt;ce&lt;/a&gt; tutoriel . 
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faqs/faqs.component.ts</context>
+          <context context-type="linenumber">114,116</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1849914658443182788" datatype="html">
+        <source>Is my data private?</source>
+        <target>Mes données sont-elles confidentielles ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faqs/faqs.component.ts</context>
+          <context context-type="linenumber">48,50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7659213369864635143" datatype="html">
+        <source>Neither CfA nor Jigsaw will access any of the personal data within your Twitter account. No personal data is stored within the tool - your dashboard is wiped each time you finish a session. Only draft reports - designed to be downloaded and shared with third parties by you alone – are temporarily stored in the tool. Once completed, the report will be deleted from FeedShield. Read our detailed privacy policy &lt;a href=&quot;/privacy-policy&quot;&gt;here&lt;/a&gt;.</source>
+        <target>Ni CfA ni Jigsaw n'ont accès aux données personnelles de votre compte Twitter. Aucune donnée personnelle n'est stockée dans l'outil - votre tableau de bord est effacé chaque fois que vous terminez une session. Seules les ébauches de rapports - conçues pour être téléchargées et partagées avec des tiers par vous seul - sont temporairement stockées dans l'outil. Une fois terminé, le rapport sera supprimé de FeedShield. Lisez notre politique de confidentialité détaillée &lt;a href=&quot;/privacy-policy&quot;&gt;ici&lt;/a&gt;.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faqs/faqs.component.ts</context>
+          <context context-type="linenumber">119,121</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1835571697430546322" datatype="html">
+        <source>Why does it only work on Twitter?</source>
+        <target>Pourquoi ne fonctionne-t-il que sur Twitter ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faqs/faqs.component.ts</context>
+          <context context-type="linenumber">53,55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4576219347618336018" datatype="html">
+        <source>Google’s Jigsaw and Twitter partnered in 2020 to pioneer ways to tackle the surging tide of online harassment targeting journalists and activists across the world. The resulting technology that underpins FeedShield uses Google’s &lt;a href=&quot;https://perspectiveapi.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; &gt;Perspective API&lt;/a&gt; and Twitter’s API to prove it is possible to give social media users ways to manage their exposure to online abuse. CfA and its partners welcome any opportunities to grow this cross-sector collaboration and expand the technology to other platforms, making it more accessible to human rights defenders around the world. Find the open source code &lt;a href=&quot;https://github.com/conversationai/harassment-manager&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;here&lt;/a&gt;.</source>
+        <target>
+        En 2020, Jigsaw de Google et Twitter se sont associés pour trouver des moyens de lutter contre la vague croissante de harcèlement en ligne ciblant les journalistes et les activistes du monde entier. La technologie qui sous-tend FeedShield utilise  &lt;a href=&quot;https://perspectiveapi.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; &gt;Perspective API&lt;/a&gt; et l'API de Twitter pour prouver qu'il est possible de donner aux utilisateurs de médias sociaux des moyens de gérer leur exposition aux abus en ligne. CfA et ses partenaires se réjouissent de toute opportunité de développer cette collaboration intersectorielle et d'étendre la technologie à d'autres plateformes, la rendant ainsi plus accessible aux défenseurs des droits humains dans le monde entier. Vous trouverez le code source ouvert &lt;a href=&quot;https://github.com/conversationai/harassment-manager&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;ici&lt;/a&gt;
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faqs/faqs.component.ts</context>
+          <context context-type="linenumber">124,126</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3951366052161488594" datatype="html">
+        <source>What languages are covered?</source>
+        <target>Quelles sont les langues couvertes ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faqs/faqs.component.ts</context>
+          <context context-type="linenumber">58,60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7058536337901123238" datatype="html">
+        <source>&lt;a href=&quot;https://perspectiveapi.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Perspective&lt;/a&gt;, the free API powering FeedShield, can detect harmful content in &lt;a href=&quot;https://developers.perspectiveapi.com/s/about-the-api-attributes-and-languages&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;multiple languages&lt;/a&gt;, however Feedshield will initially support English at launch. CfA will launch Arabic and French versions of FeedShield in 2023, and is working with Jigsaw to improve Perspective’s detection in indigenous African languages.</source>
+        <target>
+        &lt;a href=&quot;https://perspectiveapi.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Perspective&lt;/a&gt;, l'API gratuite qui alimente FeedShield, peut détecter les contenus nocifs dans &lt;a href=&quot;https://developers.perspectiveapi.com/s/about-the-api-attributes-and-languages&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;plusieurs langues&lt;/a&gt;, mais Feedshield prendra en charge l'anglais au lancement. CfA lancera des versions arabes et françaises de FeedShield en 2023, et travaille avec Jigsaw pour améliorer la détection de Perspective dans les langues africaines indigènes.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faqs/faqs.component.ts</context>
+          <context context-type="linenumber">129,131</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6472016896035514897" datatype="html">
+        <source>Can it detect harmful images and videos?</source>
+        <target>Peut-il détecter les images et les vidéos préjudiciables ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faqs/faqs.component.ts</context>
+          <context context-type="linenumber">63,64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="360780919236539149" datatype="html">
+        <source>FeedShield has been designed to identify and filter abusive words and phrases, rather than images and videos.</source>
+        <target>FeedShield a été conçu pour identifier et filtrer les mots et les syntagmes abusifs, plutôt que les images et les vidéos.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faqs/faqs.component.ts</context>
+          <context context-type="linenumber">134,136</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="134837423613347345" datatype="html">
+        <source>Can it analyse direct messages (DMs)?</source>
+        <target>Peut-il analyser les messages directs ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faqs/faqs.component.ts</context>
+          <context context-type="linenumber">68,70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3682702175349243858" datatype="html">
+        <source>FeedShield does not currently identify abusive DMs. It only analyses public Tweets and comments.</source>
+        <target>FeedShield n'identifie pas actuellement les messages en privé abusifs. Il n'analyse que les tweets et les commentaires publics</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faqs/faqs.component.ts</context>
+          <context context-type="linenumber">139,141</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="25882508694048899" datatype="html">
+        <source>How do I give feedback?</source>
+        <target>Comment puis-je donner mon avis ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faqs/faqs.component.ts</context>
+          <context context-type="linenumber">73,75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4833157325083746413" datatype="html">
+        <source>FeedShield is a pilot project. We would therefore love to hear your feedback, and answer any questions not covered by these FAQs. Please email &lt;a href=&quot;mailto:feedshield@codeforafrica.org&quot;&gt;feedshield@codeforafrica.org&lt;/a&gt; and our team will get back to you as quickly as possible. This email address is not monitored 24/7 and should not be used to contact CfA for urgent assistance with any harassment. If you need urgent help, use the helpline &lt;a&gt;here&lt;/a&gt;</source>
+        <target>FeedShield est un projet pilote. Nous serions ravis de recevoir vos commentaires et de répondre à toutes les questions qui ne sont pas couvertes par cette FAQ. Veuillez envoyer un email à &lt;a href=&quot;mailto:feedshield@codeforafrica.org&quot;&gt;feedshield@codeforafrica.org&lt;/a&gt; et notre équipe vous répondra dans les plus brefs délais. Cette adresse électronique n'est pas surveillée 24 heures sur 24, 7 jours sur 7, et ne doit pas être utilisée pour contacter CfA afin d'obtenir une aide urgente en cas de harcèlement. Si vous avez besoin d'une aide urgente, utilisez la ligne d'assistance téléphonique ici. (lien vers la page de connexion)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faqs/faqs.component.ts</context>
+          <context context-type="linenumber">144,146</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2157308545966138489" datatype="html">
+        <source>How do I learn about future opportunities?</source>
+        <target>Comment puis-je être informé des opportunités à venir ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faqs/faqs.component.ts</context>
+          <context context-type="linenumber">149,151</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1396960228136166151" datatype="html">
+        <source>Report Timeframe</source>
+        <target>Délai de rapport</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faqs/faqs.component.ts</context>
+          <context context-type="linenumber">83,84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4273560192946503524" datatype="html">
+        <source>The FeedShield team will be offering regular training, and other material and technical support to institutional partners. We will be also offering research fellowships to better understand how online trolls are coordinating their harassment of women in particular.If you are interested in keeping updated, email &lt;a href=&quot;mailto:feedshield@codeforafrica.org&quot;&gt;feedshield@codeforafrica.org&lt;/a&gt;  with a request to be added to our community list.</source>
+        <target>L'équipe de FeedShield propose régulièrement des formations et d'autres supports matériels et techniques aux partenaires institutionnels. Nous offrirons également des bourses de recherche afin de mieux comprendre comment les trolls en ligne coordonnent leur harcèlement envers les femmes en particulier. Si vous souhaitez être tenue au courant, envoyez un courriel à &lt;a href=&quot;mailto:feedshield@codeforafrica.org&quot;&gt;feedshield@codeforafrica.org&lt;/a&gt;  pour demander à être ajoutée à notre liste de diffusion.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faqs/faqs.component.ts</context>
+          <context context-type="linenumber">151,154</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="575435742856801976" datatype="html">
+        <source>What is the timeframe for which I can create a report on my Tweets using Feedshield?</source>
+        <target>Dans quel délai puis-je créer un rapport sur mes tweets à l'aide de Feedshield ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faqs/faqs.component.ts</context>
+          <context context-type="linenumber">154,155</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2090239289146961762" datatype="html">
+        <source>FeedShield allows you to generate reports on tweets that have been live within the most recent 7 days.</source>
+        <target>FeedShield vous permet de générer des rapports sur les tweets publiés au cours des 7 derniers jours.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faqs/faqs.component.ts</context>
+          <context context-type="linenumber">156,161</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="def5d3c250619b4a80d5429951b29633f477fd27" datatype="html">
+        <source>Resource Kit</source>
+        <target>Kit de ressources</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/find-support/find-support.component.html</context>
+          <context context-type="linenumber">18,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0199bc1a495f394ccf08d9725e939696fecf80ee" datatype="html">
+        <source> Find skills, tools and partners. </source>
+        <target> Trouver des compétences, des outils et des partenaires.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/find-support/find-support.component.html</context>
+          <context context-type="linenumber">20,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3f188a357a24a40a1a4543141eedf72846882603" datatype="html">
+        <source>Interactive Lessons</source>
+        <target>Leçons interactives</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/find-support/find-support.component.html</context>
+          <context context-type="linenumber">33,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bb5f758038c15f1818453319fe11ea3ac792e1da" datatype="html">
+        <source>Resource kits</source>
+        <target>Kits de ressources</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/find-support/find-support.component.html</context>
+          <context context-type="linenumber">42,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3f79c51ded47ec7b83f17bb40bffe6f8f00cf63c" datatype="html">
+        <source>Self-help Tools</source>
+        <target>Outils d'auto-assistance</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/find-support/find-support.component.html</context>
+          <context context-type="linenumber">52,56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2a7484a0e013874203708f86d9ebf106bda7cc39" datatype="html">
+        <source>Support Organisations</source>
+        <target>Organisations de soutien</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/find-support/find-support.component.html</context>
+          <context context-type="linenumber">62,66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8138119018800950456" datatype="html">
+        <source>Interactive Lessons</source>
+        <target>Leçons interactives</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/find-support/find-support.component.ts</context>
+          <context context-type="linenumber">36,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5439979040284532638" datatype="html">
+        <source>Resource Kits</source>
+        <target>Kits de ressources</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/find-support/find-support.component.ts</context>
+          <context context-type="linenumber">38,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4857781010333636716" datatype="html">
+        <source>Self-help Tools</source>
+        <target>Outils d'auto-assistance</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/find-support/find-support.component.ts</context>
+          <context context-type="linenumber">43,47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5098327722476346585" datatype="html">
+        <source>Support Organisations</source>
+        <target>Organisations de soutien</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/find-support/find-support.component.ts</context>
+          <context context-type="linenumber">48,51</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="0e9e4cfe01383d396696a9ba8c873f0676cffc60" datatype="html">
         <source> Trolls use online violence to silence civic watchdogs. FeedShield is a free tool powered by Jigsaw, using its Harassment Manager toolkit, and implemented by Code for Africa (CfA) to help Twitter users document and manage online harassment and abuse. </source>
         <target>Les trolls utilisent la violence en ligne pour réduire au silence les gens pratiquant la surveillance civique. FeedShield est un outil gratuit développé par Jigsaw, utilisant sa boîte à outils de gestion du harcèlement, et mis en œuvre par Code for Africa (CfA) pour aider les utilisateurs de Twitter à documenter et à gérer le harcèlement et les abus en ligne.</target>
@@ -25,6 +864,14 @@
           <context context-type="sourcefile">src/app/footer/footer.component.html</context>
           <context context-type="linenumber">48,51</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">44,48</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">80,84</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="f7f98574774e362681a21f0c35ee6704fa910652" datatype="html">
         <source>FAQ&apos;s</source>
@@ -33,6 +880,10 @@
           <context context-type="sourcefile">src/app/footer/footer.component.html</context>
           <context context-type="linenumber">50,55</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">75,78</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="e4024d08158fa16a98f3178a7dd1734b2024031f" datatype="html">
         <source>Opportunities</source>
@@ -40,6 +891,18 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/footer/footer.component.html</context>
           <context context-type="linenumber">50,57</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/opportunities/opportunities.component.html</context>
+          <context context-type="linenumber">18,22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">49,52</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">85,90</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3c78b53bca33467190c0b7a01320bc093a2b1427" datatype="html">
@@ -58,12 +921,1556 @@
           <context context-type="linenumber">57,60</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="0cae08cfa3b7a3bc8831a956561890ac3b194d5c" datatype="html">
+        <source>Welcome back<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span *ngIf=&quot;name&quot;&gt;"/>,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> <x id="INTERPOLATION" equiv-text="{{name}}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="span&gt;"/>!</source>
+        <target>Bienvenue <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span *ngIf=&quot;name&quot;&gt;"/>,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> <x id="INTERPOLATION" equiv-text="{{name}}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="span&gt;"/>!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/home-page.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="30401f29f8fa1cdc16faf1f5ff43a0af0a7d8c29" datatype="html">
+        <source>Continue from where you left off.</source>
+        <target>Continuez là où vous vous étiez arrêté.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/home-page.component.html</context>
+          <context context-type="linenumber">26,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="792eaf23665d6b7b252e9f0087aca88307f91da4" datatype="html">
+        <source> Continue report </source>
+        <target> Continuer le rapport </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/home-page.component.html</context>
+          <context context-type="linenumber">29,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bac2f60528deb86bab08645e3dc230d02e4ebc8b" datatype="html">
+        <source> Start over </source>
+        <target> Recommencer </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/home-page.component.html</context>
+          <context context-type="linenumber">32,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="83fba82bdaac38bcb279adb73fb7049bae3d2565" datatype="html">
+        <source>Review Comments</source>
+        <target>Revoir les commentaires</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/home-page.component.html</context>
+          <context context-type="linenumber">43,46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/intro-stepper/intro-stepper.component.html</context>
+          <context context-type="linenumber">43,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="343d0e1f741d8e5e63cc79676bf5628578329755" datatype="html">
+        <source>These results are categorised by </source>
+        <target>Ces résultats sont classés par </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/home-page.component.html</context>
+          <context context-type="linenumber">45,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f979e4e5c3f4206af37bfab46f1621000f6087af" datatype="html">
+        <source>Machine learning is the processs of using computers to learn based on data.
+          This tool uses machine learning developed by Perspective API, which has been tested and
+          trained to score comments based on their possible impact.</source>
+        <target>L'apprentissage automatique est le processus d'utilisation des ordinateurs pour apprendre en fonction des données.
+          Cet outil utilise l'apprentissage automatique développé par Perspective API, qui a été testé et
+          formé pour noter les commentaires en fonction de leur impact possible.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/home-page.component.html</context>
+          <context context-type="linenumber">46,52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="184d32bd762ce8a1ae993bd4d66c4a8011bfdd7e" datatype="html">
+        <source> machine learning <x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon&gt;"/>info_outline<x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;"/></source>
+        <target> apprentissage automatiqu <x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon&gt;"/>info_outline<x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/home-page.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="acaddd0ab14c961af4ad4161a3c58b83dab755f2" datatype="html">
+        <source>based on their likeliness of containing </source>
+        <target>en fonction de leur probabilité de contenir un</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/home-page.component.html</context>
+          <context context-type="linenumber">52,54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d7cdb003290087fcbd37f7f78eebee32b66ac37c" datatype="html">
+        <source>Harmful content is rude, disrespectful, or unreasonable content that is likely to make you leave a discussion. We use this definition as a guideline when grouping and scoring comments.</source>
+        <target>Le contenu nocif est un contenu grossier, irrespectueux ou déraisonnable qui est susceptible de vous faire quitter une discussion. Nous utilisons cette définition comme ligne directrice lors du regroupement et de la notation des commentaires.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/home-page.component.html</context>
+          <context context-type="linenumber">54,58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6672d8d31935f5601a479df1a7430b2d71c5ac2a" datatype="html">
+        <source> harmful content <x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon&gt;"/>info_outline<x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;"/></source>
+        <target> contenu préjudiciable. <x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon&gt;"/>info_outline<x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/home-page.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0011d7d59256b2759f1cd4def91aa022d2648596" datatype="html">
+        <source>Start a report with grouped comments</source>
+        <target>Commencez un rapport avec des commentaires groupés</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/home-page.component.html</context>
+          <context context-type="linenumber">93,96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c94a70d81137ac42474164a5584ef89105cbd234" datatype="html">
+        <source> Comments are grouped based on priority. Use these groups to start building a report. </source>
+        <target>Les commentaires sont regroupés en fonction de leur priorité. Utilisez ces groupes pour commencer à construire un rapport.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/home-page.component.html</context>
+          <context context-type="linenumber">95,99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="05651066c29be7fea71ece2b0816aee623ee5f27" datatype="html">
+        <source>Already know what you&apos;re looking for?</source>
+        <target>Vous savez déjà ce que vous cherchez ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/home-page.component.html</context>
+          <context context-type="linenumber">103,106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cef973457854f99e0d9390dbc7d73cda24880d02" datatype="html">
+        <source>These results are categorised by machine learning based on their likeliness of containing harmful content.</source>
+        <target>Ces résultats sont classés par apprentissage automatique en fonction de leur probabilité de contenir un contenu nocif.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/home-page.component.html</context>
+          <context context-type="linenumber">104,107</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6efb54f6cac9a6951a54e8846d726ef8d33f6d86" datatype="html">
+        <source>Welcome to FeedShield</source>
+        <target>Bienvenue sur FeedShield</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/intro-stepper/intro-stepper.component.html</context>
+          <context context-type="linenumber">33,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fc89e8594f88429cdf0c44b20c939d089a3cc35e" datatype="html">
+        <source>Use the tool to flag online harrasment and collect evidence about the abuse</source>
+        <target>Utilisez l&apos;outil pour signaler le harcèlement en ligne et recueillir des preuves sur les abus</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/intro-stepper/intro-stepper.component.html</context>
+          <context context-type="linenumber">34,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="64089e052d2a61ca8ff9ed27cd6bf79f6a9777b8" datatype="html">
+        <source>A man with a cap stands and writes on a very large document hanging on a wall. There are geometric shapes with varying textures on the ground</source>
+        <target>Un homme avec une casquette se tient debout et écrit sur un très grand document accroché au mur. Il y a des formes géométriques avec des textures variées sur le sol</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/intro-stepper/intro-stepper.component.html</context>
+          <context context-type="linenumber">40,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5ed6252f65008ce9ecce6cdbdcaa698b0f3f2701" datatype="html">
+        <source>The tool will categorise comments based on their likeliness of containing harmful content.</source>
+        <target>L&apos;outil classera les commentaires en fonction de leur probabilité de contenir un contenu nocif.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/intro-stepper/intro-stepper.component.html</context>
+          <context context-type="linenumber">44,49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fa125ed08ddef3e71951b862fc5ff93e23a8bf2c" datatype="html">
+        <source>A woman placing a huge, person-sized document in a similarly huge folder.</source>
+        <target>Une femme place un document énorme de la taille d&apos;une personne dans un dossier tout aussi énorme.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/intro-stepper/intro-stepper.component.html</context>
+          <context context-type="linenumber">50,54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="503f4205325790c55ea675124651cfbb4b8d3060" datatype="html">
+        <source>Document the evidence and take action </source>
+        <target>Documenter les preuves et agir</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/intro-stepper/intro-stepper.component.html</context>
+          <context context-type="linenumber">54,55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d7a2638397613df3ad96432e4210695eea5bf33b" datatype="html">
+        <source> Create a report. Select the comments to be included in your report. Reports can be downloaded and shared with third parties as needed. You can also block or mute accounts and hide replies, without having to review the harmful content </source>
+        <target>Créer un rapport. Sélectionnez les commentaires à inclure dans votre rapport. Les rapports peuvent être téléchargés et partagés avec des tiers au besoin. Vous pouvez également bloquer ou masquer des comptes et masquer des réponses, sans avoir à examiner le contenu nocif</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/intro-stepper/intro-stepper.component.html</context>
+          <context context-type="linenumber">55,62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="990df3502c221edcd0b0a477f4366bf95afdcb5a" datatype="html">
+        <source>A woman walks among geometric shapes strewn about the floor. She is holding a
+            large circular shape in her arm.</source>
+            <target>Une femme marche parmi des formes géométriques éparpillées sur le sol. Elle tient un
+            grand cercle dans son bras.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/loading-dialog/loading-dialog.component.html</context>
+          <context context-type="linenumber">19,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="626b38dccfcfebe5228405fbfc95e95dcfc67dbd" datatype="html">
+        <source>Loading comments from Twitter</source>
+        <target>Chargement des commentaires de Twitter</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/loading-dialog/loading-dialog.component.html</context>
+          <context context-type="linenumber">24,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8cb5e5d62696bb185bb26e2a3a06a144a0931d30" datatype="html">
+        <source> Loading times will vary depending on how many comments you have </source>
+        <target> Les temps de chargement varieront en fonction du nombre de commentaires que vous avez </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/loading-dialog/loading-dialog.component.html</context>
+          <context context-type="linenumber">26,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="687f5d91c7ed936b04b1916f23df82dd193ece2d" datatype="html">
+        <source> <x id="INTERPOLATION" equiv-text="{{commentCount}}"/> comments loaded and more to come </source>
+        <target> <x id="INTERPOLATION" equiv-text="{{commentCount}}"/> commentaires chargés et d&apos;autres à venir </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/loading-dialog/loading-dialog.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+       <trans-unit id="6481b75ffd64881c86a28cdefaef1eb1b2e32cda" datatype="html">
+        <source> Do you want to take an active role in combating online abuse? Join us! </source>
+        <target>Vous souhaitez jouer un rôle actif dans la lutte contre les abus en ligne ? Rejoignez-nous !</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/opportunities/opportunities.component.html</context>
+          <context context-type="linenumber">20,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5570341919377347960" datatype="html">
+        <source>Call for Early Adopters</source>
+        <target>Appel aux adopteurs précocese</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/opportunities/opportunities.component.ts</context>
+          <context context-type="linenumber">36,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4406004159813284966" datatype="html">
+        <source>Do trolls invade your timeline all too often? Want to filter them out before you read them?</source>
+        <target>Les trolls envahissent-ils trop souvent votre timeline ? Vous voulez les filtrer avant de les lire ? En savoir plus</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/opportunities/opportunities.component.ts</context>
+          <context context-type="linenumber">38,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7593599366780418230" datatype="html">
+        <source>Call for Research Partners</source>
+        <target>Appel à partenaires de recherche</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/opportunities/opportunities.component.ts</context>
+          <context context-type="linenumber">45,47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7477139315438511734" datatype="html">
+        <source>Do you want to take an active role in combating coordinated online abuse that targets African women journalists, election candidates or other human rights defenders ?</source>
+        <target>Voulez-vous jouer un rôle actif dans la lutte contre les abus coordonnés en ligne qui ciblent les femmes journalistes africaines, les candidats aux élections ou d'autres défenseurs des droits humains ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/opportunities/opportunities.component.ts</context>
+          <context context-type="linenumber">47,49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="311dd84b33aeffc1a1804f1a25db9fe0157caace" datatype="html">
+        <source>Report Summary</source>
+        <target>Rapport sommaire</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-pdf/report-pdf.component.html</context>
+          <context context-type="linenumber">24,28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review-report/review-report.component.html</context>
+          <context context-type="linenumber">21,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="395e62cb7ab67d2ec38a989a2fa1e90dc38fbde8" datatype="html">
+        <source>Here&apos;s an overview of your harassment report. View Summary in Page 2.</source>
+        <target>Voici un aperçu de votre rapport de harcèlement. Voir le résumé à la page 2.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-pdf/report-pdf.component.html</context>
+          <context context-type="linenumber">25,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a229fa24f24e55bffc079d4524db01f78e59f0f3" datatype="html">
+        <source>Total Comments:</source>
+        <target>Total des commentaires :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-pdf/report-pdf.component.html</context>
+          <context context-type="linenumber">29,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2baccbead688c4b5e4c2ab264d4b822b8122292b" datatype="html">
+        <source>Directed At:</source>
+        <target>Dirigé à :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-pdf/report-pdf.component.html</context>
+          <context context-type="linenumber">30,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="445866f3c1ab38f37cec6c5d7051961160d871c5" datatype="html">
+        <source>Date Created:</source>
+        <target>Date de création :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-pdf/report-pdf.component.html</context>
+          <context context-type="linenumber">31,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="29ac091685518320433b08c39b45089f7754e8ef" datatype="html">
+        <source>Date Range:</source>
+        <target>Période :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-pdf/report-pdf.component.html</context>
+          <context context-type="linenumber">39,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e20cdf6f275f9d6a6b4d07d64eec9b5d49c362cc" datatype="html">
+        <source>Toxicity:</source>
+        <target>Toxicité :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-pdf/report-pdf.component.html</context>
+          <context context-type="linenumber">41,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5bf647ec1dc25e3b360870e7cf207251d16a0dc2" datatype="html">
+        <source>Reported Due to:</source>
+        <target>Rapporté en raison de :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-pdf/report-pdf.component.html</context>
+          <context context-type="linenumber">43,47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="72ffedac700136af63833f0caf21b6c723fd0320" datatype="html">
+        <source>Additional Context:</source>
+        <target>Contexte supplémentaire :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-pdf/report-pdf.component.html</context>
+          <context context-type="linenumber">45,52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4d31f309681c5388dfe090726f8e0ec1be8e850e" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="FeedShield Report Details&lt;/h1&gt;
+      &lt;/div&gt;
+      &lt;table mat-table [dataSource]=&quot;dataSource&quot; class=&quot;mat-elevation-z8 page-2&quot;&gt;
+        &lt;ng-container matColumnDef=&quot;comment&quot;&gt;
+          &lt;th ma"/> FeedShield Report Details</source>
+        <target>Détails du rapport FeedShield</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-pdf/report-pdf.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a3d57cb09b8c89d3e10ceaf70f53ad0d454144ee" datatype="html">
+        <source> Comment </source>
+        <target> Commentaire </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-pdf/report-pdf.component.html</context>
+          <context context-type="linenumber">59,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="383fb13dff3d1e4a0d47ef965f18cedf547a0418" datatype="html">
+        <source> Image </source>
+        <target> Image </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-pdf/report-pdf.component.html</context>
+          <context context-type="linenumber">65,67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4eeee7d3257b588f47ccbe288239ef21e504046f" datatype="html">
+        <source> Hashtag </source>
+        <target> Hashtag </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-pdf/report-pdf.component.html</context>
+          <context context-type="linenumber">71,74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0fe7da29bfc334905b2635622d2eea9d3a8227de" datatype="html">
+        <source> Author </source>
+        <target> Auteur </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-pdf/report-pdf.component.html</context>
+          <context context-type="linenumber">78,80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="483b1b6188578aa29a7b14ac622dc538062b75fe" datatype="html">
+        <source> Time Posted </source>
+        <target> Heure de publication </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-pdf/report-pdf.component.html</context>
+          <context context-type="linenumber">84,86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="45f32a0e303738a13674f4711211b7b98b7cf11d" datatype="html">
+        <source> Tweet ID </source>
+        <target> ID du Tweet </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-pdf/report-pdf.component.html</context>
+          <context context-type="linenumber">90,93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="35612c50388eee221fc4afaf3a88ab63a9176927" datatype="html">
+        <source> Comment ID </source>
+        <target> ID du commentaire </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-pdf/report-pdf.component.html</context>
+          <context context-type="linenumber">97,100</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ac2db4ff4f554b3884e2b17c75d2eb442adef32e" datatype="html">
+        <source> Toxicity (%) </source>
+        <target> Toxicité (%) </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-pdf/report-pdf.component.html</context>
+          <context context-type="linenumber">104,106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="75e86ccecfc757ceb49471b6c4bdf9d9ca9e7ef7" datatype="html">
+        <source> Severe (%) </source>
+        <target> Grave (%) </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-pdf/report-pdf.component.html</context>
+          <context context-type="linenumber">110,112</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="94e3b02af7982c093e99488b2ae442b210ede7c8" datatype="html">
+        <source> Insult (%) </source>
+        <target> Insulte (%) </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-pdf/report-pdf.component.html</context>
+          <context context-type="linenumber">116,118</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="569c307382153f6c20baa502ad734d3713c3906a" datatype="html">
+        <source> Profanity (%) </source>
+        <target> Obscénité (%) </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-pdf/report-pdf.component.html</context>
+          <context context-type="linenumber">122,124</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="be1dfcffd3ce20faac1b458709fbc4375afc6a0d" datatype="html">
+        <source> Threat (%) </source>
+        <target> Menace (%) </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-pdf/report-pdf.component.html</context>
+          <context context-type="linenumber">128,130</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b4b1cba7bc03bc90e12b2b042585e80ce94b2c7c" datatype="html">
+        <source> Identity (%) </source>
+        <target> Identité (%) </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-pdf/report-pdf.component.html</context>
+          <context context-type="linenumber">134,137</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="04aec20251f707dcda26d10e7b8ee64afcbfea67" datatype="html">
+        <source> Retweets </source>
+        <target> Retweets </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-pdf/report-pdf.component.html</context>
+          <context context-type="linenumber">142,144</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5d1a5ee63014dcf325f3bca69c3a082a3f8b3981" datatype="html">
+        <source> Likes </source>
+        <target> J&apos;aime </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-pdf/report-pdf.component.html</context>
+          <context context-type="linenumber">148,150</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="68703921ffaf0bec26899af8debba1d300afd4c2" datatype="html">
+        <source> Comments </source>
+        <target> Commentaires </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-pdf/report-pdf.component.html</context>
+          <context context-type="linenumber">154,156</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6fc1d651ccab183501765fc83d25d86a382caca3" datatype="html">
+        <source>Add Comments</source>
+        <target>Ajouter des commentaires</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-progress-bar/report-progress-bar.component.html</context>
+          <context context-type="linenumber">29,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="11f4a44087d201dacd5f9fe5d57e86d64e600b0b" datatype="html">
+        <source>Edit Details</source>
+        <target>Modifier les détails</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-progress-bar/report-progress-bar.component.html</context>
+          <context context-type="linenumber">46,50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9c933f037ce994da721dc723a619cd6583e819e9" datatype="html">
+        <source>Take Action</source>
+        <target>Prendre des mesures</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/report-progress-bar/report-progress-bar.component.html</context>
+          <context context-type="linenumber">63,66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6f8f4f6eabd0e8622760022b41f7f9c27a9d05d7" datatype="html">
+        <source>Unmask the trolls</source>
+        <target>Démasquer les trolls</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.html</context>
+          <context context-type="linenumber">2,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ad914ef6200fd749e642bfa89b0e740e9a84ea46" datatype="html">
+        <source> How our investigators can help </source>
+        <target>Comment nos enquêteurs peuvent aider</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.html</context>
+          <context context-type="linenumber">4,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3d391011292ed2a5c096d717aed737bba1b876f5" datatype="html">
+        <source> Trolls often hide behind fake accounts (what we call sock-puppets) or rely on misleading claims to smear or attack human rights defenders. CfA has Africa’s largest teams working to debunk disinformation and expose the hidden networks coordinating the abuse. Here’s how they can help you: </source>
+        <target>Les trolls se cachent souvent derrière de faux comptes (ce que nous appelons des sock-puppets) ou s'appuient sur des affirmations trompeuses pour diffamer ou attaquer les défenseurs des droits humains. CfA dispose des plus grandes équipes d'Afrique qui travaillent à démystifier la désinformation et à exposer les réseaux cachés qui coordonnent les abus. Voici comment elles peuvent vous aider :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.html</context>
+          <context context-type="linenumber">13,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="72397ff7479b65ca2e5e1768559e7dbc511b5042" datatype="html">
+        <source>Fact-checking false claims</source>
+        <target>Vérification des fausses affirmations</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.html</context>
+          <context context-type="linenumber">20,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6c779a22a3f70e1de744198834437f63b6035836" datatype="html">
+        <source> CfA’s PesaCheck is the continent’s largest fact-checking newsroom, with full-time researchers in 14 African countries. It is an accredited member of the IFCN (International Fact Checking Network), and adheres to a strict <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
+          href=&quot;https://ifcncodeofprinciples.poynter.org/know-more/the-commitments-of-the-code-of-principles&quot;
+          target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;"/>ethical code<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>. PesaCheck’s fact-checks are published by a wide network of partner media across Africa, and are also used by social media platforms such as Facebook, Instagram and TikTok to combat toxic content. Facebook alone uses PesaCheck debunks to label over two million posts per year as harmful or misleading content. PesaCheck may help research and debunk any misleading claims being used to target or harass you, if the claims meet PesaCheck’s <x id="START_LINK_1" equiv-text="&lt;a
+          href=&quot;https://pesacheck.org/our-methodology-f3d77521a1ee&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;"/>eligibility criteria<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>. </source>
+          <target>
+          Le programme PesaCheck de CfA est la plus grande salle de rédaction de vérification des faits sur le continent, avec des chercheurs à plein temps dans 14 pays africains. Il est membre accrédité de l'IFCN (Réseau international de vérification des faits) et adhère à un <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
+          href=&quot;https://ifcncodeofprinciples.poynter.org/know-more/the-commitments-of-the-code-of-principles&quot;
+          target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;"/> code éthique strict<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>. Les vérifications de faits de PesaCheck sont publiées par un large réseau de médias partenaires à travers l'Afrique, et sont également utilisées par des plateformes de médias sociaux telles que Facebook, Instagram et TikTok pour lutter contre les contenus toxiques. À lui seul, Facebook utilise les démystifications de PesaCheck pour étiqueter plus de deux millions d’affirmations par an de contenus nuisibles ou trompeurs. PesaCheck peut aider à rechercher et à démystifier toute affirmation trompeuse utilisée pour vous cibler ou vous harceler, si les allégations répondent aux <x id="START_LINK_1" equiv-text="&lt;a
+          href=&quot;https://pesacheck.org/our-methodology-f3d77521a1ee&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;"/>critères d'éligibilité<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> de PesaCheck.
+          </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.html</context>
+          <context context-type="linenumber">22,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7a6e75abbc4f1118dc9f82d4398741a7e86eac9c" datatype="html">
+        <source>Identifying the troll networks</source>
+        <target>Identifier les réseaux de trolls</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.html</context>
+          <context context-type="linenumber">37,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a3cabf2b96f36d4d902187c8333f0432dc74c17d" datatype="html">
+        <source> CfA’s iLAB at the African Network of Centres for Investigative Reporting (ANCIR) work alongside PesaCheck, as the continent’s largest network of forensic analysts who ‘connect the dots’. They do this by exposing the coordinated networks behind the abuse, mapping the influencers, diagnosing the techniques they use, and tracking the narratives. Their analyses help watchdog organisations determine whether the social media platform policies have been iolated, or whether other safeguards against amplified hate speech and toxic content have been violated. iLAB’ss dossiers serve as evidence for investigative media, and contribute to remedial action by both platforms and regulators who take down or de-platform entire networks of inauthentic accounts on social media. </source>
+        <target>L'iLAB du CfA au sein du Réseau africain des centres de journalisme d'investigation (ANCIR) travaille aux côtés de PesaCheck et est le plus grand réseau d'analystes du continent qui "relient les liens pour tirer des conclusions". Pour ce faire, ils mettent au jour les réseaux coordonnés à l'origine des abus, cartographient les personnes influentes, diagnostiquent les techniques qu'elles utilisent et suivent les récits. Leurs analyses aident les organismes de surveillance à déterminer si les politiques des plateformes de médias sociaux ont été violées ou si d'autres mesures de protection contre l'amplification des discours haineux et des contenus toxiques ont été enfreintes. Les dossiers d'iLAB servent de preuves aux médias d'investigation et contribuent aux mesures correctives prises par les plateformes et les régulateurs qui suppriment ou déplateforment des réseaux entiers de comptes inauthentiques sur les médias sociaux.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.html</context>
+          <context context-type="linenumber">39,52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bbd00c91c9d8ba51dd4db688266cc5471c608e69" datatype="html">
+        <source>Meet the team</source>
+        <target>Voici l'équipe</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.html</context>
+          <context context-type="linenumber">50,55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d119ed406420b7424c4b2eb320f3064f132b11db" datatype="html">
+        <source>Request technical investigative support</source>
+        <target>Demande d'assistance technique d'enquête</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.html</context>
+          <context context-type="linenumber">64,68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="567914efce86751ce92e934d39e7e0c86a9c3ece" datatype="html">
+        <source> Are you convinced that the harassment targeting you is part of a coordinated campaign, or is being amplified by an inauthentic network? Complete the simple form below so that we can help verify whether our teams are able to help. You will need to first use the FeedShield tool to analyse the harassment, and must download both the resulting PDF report and CSV (spreadsheet) dataset. Share as much extra information as you can on the form, and tell us why you think there might be a network of trolls or other coordination behind the abuse. Also tell us why you think you are being targeted, and by who. Be sure to share your contact information, so our team can get back to you. </source>
+        <target>Êtes-vous convaincu que le harcèlement qui vous vise fait partie d'une campagne coordonnée ou qu'il est amplifié par un réseau inauthentique ? Remplissez le formulaire ci-dessous afin que nous puissions vérifier si nos équipes sont en mesure de vous aider. Vous devrez d'abord utiliser l'outil FeedShield pour analyser le harcèlement, puis télécharger le rapport PDF et l'ensemble de données CSV (feuille de calcul) qui en résultent. Fournissez autant d'informations supplémentaires que possible sur le formulaire et dites-nous pourquoi vous pensez qu'un réseau de trolls ou une autre coordination est à l'origine de l'abus. Dites-nous également pourquoi vous pensez être ciblé et par qui. N'oubliez pas de nous communiquer vos coordonnées afin que notre équipe puisse vous recontacter.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.html</context>
+          <context context-type="linenumber">66,79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="af713ab43ad3086f05b8c9d309771abcd0620fc0" datatype="html">
+        <source> Complete the form <x id="START_LINK" ctype="x-a" equiv-text="&lt;a class=&quot;button&quot;
+          href=&quot;https://docs.google.com/forms/d/e/1FAIpQLScv6BO-r0XX1dmOFgjuJ4k52sULHdCNL6ru5Nxd734LiFdw6Q/viewform&quot;
+          target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;"/>here<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+          <target>Remplissez le formulaire <x id="START_LINK" ctype="x-a" equiv-text="&lt;a class=&quot;button&quot;
+          href=&quot;https://docs.google.com/forms/d/e/1FAIpQLScv6BO-r0XX1dmOFgjuJ4k52sULHdCNL6ru5Nxd734LiFdw6Q/viewform&quot;
+          target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;"/>ici<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.html</context>
+          <context context-type="linenumber">79,81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4232596883793933120" datatype="html">
+        <source>Senior Investigations Manager</source>
+        <target>Directeur principal des enquêtes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.ts</context>
+          <context context-type="linenumber">19,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2774144500588204935" datatype="html">
+        <source>Senior Investigative Data Analyst</source>
+        <target>Analyste principal des données d'enquête</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.ts</context>
+          <context context-type="linenumber">24,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7881858792214180815" datatype="html">
+        <source>Senior Investigative Researcher</source>
+        <target>Chercheur principal en enquête</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.ts</context>
+          <context context-type="linenumber">29,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2759362467181386008" datatype="html">
+        <source>Investigative Data Analyst</source>
+        <target>Analyste de données d'enquête</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.ts</context>
+          <context context-type="linenumber">34,38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.ts</context>
+          <context context-type="linenumber">39,43</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/request-investigation/request-investigation.component.ts</context>
+          <context context-type="linenumber">44,48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="311dd84b33aeffc1a1804f1a25db9fe0157caace" datatype="html">
+        <source>Report Summary</source>
+        <target>Résumé du rapport</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review-report/review-report.component.html</context>
+          <context context-type="linenumber">21,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d04d5b5d13ac9acf9750f1807f0227eeee98b247" datatype="html">
+        <source>Total</source>
+        <target>Total</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review-report/review-report.component.html</context>
+          <context context-type="linenumber">23,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0f7d0e458345cc8cd71b0bda83837dfa4911aa20" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="Comments&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;summary-attribute-name&quot; i18n&gt;Toxicity Average&lt;/div&gt;
+        &lt;div class=&quot;details&quot;&gt;"/> Comments</source>
+        <target><x id="INTERPOLATION" equiv-text="Commentaires&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;summary-attribute-name&quot; i18n&gt;Moyenne de toxicité&lt;/div&gt;
+        &lt;div class=&quot;details&quot;&gt;"/> Commentaires</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review-report/review-report.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review-report/review-report.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="531f9f2ea7ffde31306b88c13fd038f154609663" datatype="html">
+        <source>Toxicity Average</source>
+        <target>Moyenne de toxicité</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review-report/review-report.component.html</context>
+          <context context-type="linenumber">27,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e1949946c487a632422f4905db3c7f07ac17b284" datatype="html">
+        <source>Toxicity types</source>
+        <target>Types de toxicité</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review-report/review-report.component.html</context>
+          <context context-type="linenumber">31,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4d13a9cd5ed3dcee0eab22cb25198d43886942be" datatype="html">
+        <source>Users</source>
+        <target>Utilisateurs</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review-report/review-report.component.html</context>
+          <context context-type="linenumber">37,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a8db53a47543132da1a68066f0a9cba0551a8933" datatype="html">
+        <source>1 Comment</source>
+        <target>1 commentaire</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review-report/review-report.component.html</context>
+          <context context-type="linenumber">47,50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4d229980d5153b95a9d5236754a008d04ab481da" datatype="html">
+        <source>We&apos;ve hidden and summarized the full contents of your report. You can unhide this information at any time.</source>
+        <target>Nous avons masqué et résumé le contenu complet de votre rapport. Vous pouvez afficher ces informations à tout moment.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review-report/review-report.component.html</context>
+          <context context-type="linenumber">48,51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7a77befc0dde9579d59c0608e7a1b5e02f82bba5" datatype="html">
+        <source>Hide comments</source>
+        <target>Masquer les commentaires</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review-report/review-report.component.html</context>
+          <context context-type="linenumber">51,53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6431bb39c864d46d5e9d0def3739a8fa5a89d365" datatype="html">
+        <source>Show comments</source>
+        <target>Afficher les commentaires</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review-report/review-report.component.html</context>
+          <context context-type="linenumber">52,55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="16568619015cfb2352e3b2596ba04fc1c82e44ef" datatype="html">
+        <source>Remove all</source>
+        <target>Supprimer tout</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review-report/review-report.component.html</context>
+          <context context-type="linenumber">57,60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="08da3d38b59866023f1e26d15c35afe88fc2e055" datatype="html">
+        <source>Type of harassment</source>
+        <target>Type de harcèlement</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review-report/review-report.component.html</context>
+          <context context-type="linenumber">67,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f5380d97157471f79a30aede88361f22493485f1" datatype="html">
+        <source>Additional notes</source>
+        <target>Notes supplémentaires</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review-report/review-report.component.html</context>
+          <context context-type="linenumber">77,80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c7b9a9d070b6d4cd298fb292e8f3736202c067d4" datatype="html">
+        <source> Add any details or context you want to record or share when you share this report. </source>
+        <target>Ajoutez tous les détails ou contextes que vous souhaitez enregistrer ou partager lorsque vous partagez ce rapport.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review-report/review-report.component.html</context>
+          <context context-type="linenumber">79,82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2c7cdf3bafb0e09f9d91035df38bdcd6bde19705" datatype="html">
+        <source>Additional notes (1200 character limit)</source>
+        <target>Notes supplémentaires (limite de 1200 caractères)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review-report/review-report.component.html</context>
+          <context context-type="linenumber">83,90</context>
+        </context-group>
+      </trans-unit>
+        <trans-unit id="2560016686409490975" datatype="html">
+        <source>Harassment</source>
+        <target>Harcèlement</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review-report/review-report.component.ts</context>
+          <context context-type="linenumber">43,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5866590289554241121" datatype="html">
+        <source>Specific violent threats involving physical safety or well-being</source>
+        <target>Menaces violentes spécifiques impliquant la sécurité physique ou le bien-être</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review-report/review-report.component.ts</context>
+          <context context-type="linenumber">44,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5259715568681104032" datatype="html">
+        <source>Exposed private information or photo</source>
+        <target>Informations ou photos privées exposées</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review-report/review-report.component.ts</context>
+          <context context-type="linenumber">45,47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="909482695044664041" datatype="html">
+        <source>Spam</source>
+        <target>Spam</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review-report/review-report.component.ts</context>
+          <context context-type="linenumber">46,47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="205789793517528983" datatype="html">
+        <source>Directs hate against a protected category (for example, race, religion, gender, orientation, or disability)</source>
+        <target>Dirige la haine contre une catégorie protégée (par exemple, race, religion, sexe, orientation ou handicap) </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review-report/review-report.component.ts</context>
+          <context context-type="linenumber">47,52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9acb74e64545d47afff45018b45fb19593722f06" datatype="html">
+        <source>Search by keyword, hashtag, user...</source>
+        <target>Rechercher par mot-clé, hashtag, utilisateur...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search-box/search-box.component.html</context>
+          <context context-type="linenumber">32,35</context>
+        </context-group>
+      </trans-unit>
+        <trans-unit id="744e0d35ac3593e1a5b4fee2595c2dcebe1561ea" datatype="html">
+        <source>Take next steps</source>
+        <target>Passer à l'étape suivante</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.html</context>
+          <context context-type="linenumber">30,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="99453ec632fd741a6b99da9e4acb68964be3f444" datatype="html">
+        <source> You can block or mute accounts, hide replies, or save and share your report. </source>
+        <target>Vous pouvez bloquer ou masquer des comptes, masquer des réponses ou enregistrer et partager votre rapport.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.html</context>
+          <context context-type="linenumber">33,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2fd4cc6a92860faf7e82aa4cd6fc86e810bc15d5" datatype="html">
+        <source>Send Report to Twitter</source>
+        <target>Envoyer le rapport à Twitter</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.html</context>
+          <context context-type="linenumber">45,48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="eed8d4c67c48919a36ff68146b3781895904b9e5" datatype="html">
+        <source> Inform Twitter&apos;s moderator of your harassment. <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;"/>Learn More<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+        <target> Informez le modérateur de Twitter de votre harcèlement. <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;"/>En savoir plus<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+          <context context-type="sourcefile">src/app/share-report/share-report.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dcc5325deba8baaa65e9d196a457f66a94cf3503" datatype="html">
+        <source>Send to Twitter</source>
+        <target>Envoyer à Twitter</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.html</context>
+          <context context-type="linenumber">57,64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="23b12c581e2b95ce6e5101a679f902b60a2050a7" datatype="html">
+        <source>Manage your audience on Twitter</source>
+        <target>Gérez votre public sur Twitter</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.html</context>
+          <context context-type="linenumber">68,72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f42bc1211c13e71fc77da08ca24a64b250b0602e" datatype="html">
+        <source> Block or mute the accounts listed in your report. <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
+              href=&quot;https://help.twitter.com/en/using-twitter#blocking-and-muting&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;"/>Learn more<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target> Bloquez ou masquez les comptes répertoriés dans votre rapport. <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
+              href=&quot;https://help.twitter.com/en/using-twitter#blocking-and-muting&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;"/>En savoir plus<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.html</context>
+          <context context-type="linenumber">71,72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f359bc3d78edf122173ace9032403b63ac450293" datatype="html">
+        <source> Only 50 accounts can be blocked every 15 minutes. We recommend dividing blocks across multiple reports. </source>
+        <target> Seuls 50 comptes peuvent être bloqués toutes les 15 minutes. Nous vous recommandons de diviser les blocages entre plusieurs rapports. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.html</context>
+          <context context-type="linenumber">78,82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a57da51449361336e5c5928a1de0f6220841d4e0" datatype="html">
+        <source> Only 50 accounts can be muted every 15 minutes. We recommend dividing mutes across multiple reports. </source>
+        <target> Seuls 50 comptes peuvent être masqués toutes les 15 minutes. Nous vous recommandons de diviser les masques entre plusieurs rapports. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.html</context>
+          <context context-type="linenumber">82,88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4274684bdbafa313abf86ad08c2608a0b58b2b61" datatype="html">
+        <source>Hide replies on Twitter</source>
+        <target>Masquer les réponses sur Twitter</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.html</context>
+          <context context-type="linenumber">103,107</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c156cbc4ac6081b65f69dc88162f3851e3b3eb56" datatype="html">
+        <source> Direct replies to your tweets will be hidden. <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
+              href=&quot;https://help.twitter.com/en/using-twitter/mentions-and-replies#:~:text=Hidden%20replies&amp;text=When%20a%20Tweet%20author%20hides,reply%20will%20not%20be%20notified.&amp;text=From%20a%20reply%20to%20one,right%20of%20your%20original%20Tweet.&quot;
+              target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;"/>Learn more<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target> Les réponses directes à vos tweets seront masquées. <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
+              href=&quot;https://help.twitter.com/en/using-twitter/mentions-and-replies#:~:text=Hidden%20replies&amp;text=When%20a%20Tweet%20author%20hides,reply%20will%20not%20be%20notified.&amp;text=From%20a%20reply%20to%20one,right%20of%20your%20original%20Tweet.&quot;
+              target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;"/>En savoir plus<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.html</context>
+          <context context-type="linenumber">106,108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5564541cdad838d35d17a8174a851836e1825e58" datatype="html">
+        <source> Only 50 replies can be hidden every 15 minutes. We recommend dividing the replies across multiple reports. </source>
+        <target> Seules 50 réponses peuvent être masquées toutes les 15 minutes. Nous vous recommandons de diviser les réponses entre plusieurs rapports. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.html</context>
+          <context context-type="linenumber">112,118</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4d47f9cbdb2e1e76e17217af2b675cf37409ea48" datatype="html">
+        <source>Hiding replies...</source>
+        <target>Masquer les réponses...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.html</context>
+          <context context-type="linenumber">121,124</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a605986d1a4069ebb1ed03cdd904222ab8d00228" datatype="html">
+        <source>Replies hidden</source>
+        <target>Réponses masquées</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.html</context>
+          <context context-type="linenumber">126,129</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="90aa363095423181e8e985c929005ccae30609c7" datatype="html">
+        <source>Hide replies</source>
+        <target>Masquer les réponses</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.html</context>
+          <context context-type="linenumber">130,138</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0a3c345d278343a17575f6b3db8f47874f794844" datatype="html">
+        <source>Save locally</source>
+        <target>Enregistrer localement</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.html</context>
+          <context context-type="linenumber">143,148</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ade75efc378e8f8b31b50810eacefd77ad5a1e1f" datatype="html">
+        <source> Download a PDF, print a copy, or save CSV file to review later. </source>
+        <target>Téléchargez un PDF, imprimez une copie ou enregistrez un fichier CSV pour le réviser ultérieurement.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.html</context>
+          <context context-type="linenumber">146,150</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="64a8625524824685302570a8aa790ac3385ab7d8" datatype="html">
+        <source> Text may be rendered differently depending on the file format. </source>
+        <target>Le texte peut être rendu différemment selon le format du fichier.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.html</context>
+          <context context-type="linenumber">150,153</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="51f0fa84bbcc933478008e25d6fd5f3e68dd5c47" datatype="html">
+        <source>Save on Google Drive</source>
+        <target>Enregistrer sur Google Drive</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.html</context>
+          <context context-type="linenumber">165,169</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="097227d31d7a16aebfe4f134ba164846e9bb2cd8" datatype="html">
+        <source> View, share, download, or print your report with Google sheets anytime. <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.google.com/sheets/about/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;"/>Learn More<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target>Affichez, partagez, téléchargez ou imprimez votre rapport avec Google Sheets à tout moment. <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.google.com/sheets/about/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;"/>En savoir plus<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.html</context>
+          <context context-type="linenumber">168,169</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8773eba17376fad43ecb92442301b3c417269ab3" datatype="html">
+        <source>Save on Drive</source>
+        <target>Enregistrer sur Drive</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.html</context>
+          <context context-type="linenumber">177,179</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="405a0813606465f1538ed98cdb5363aaa261a099" datatype="html">
+        <source>Saved on Drive</source>
+        <target>Enregistré sur Drive</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.html</context>
+          <context context-type="linenumber">178,182</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3497d869b1f01d6a6477c0de7b78f57550289040" datatype="html">
+        <source>View in Drive</source>
+        <target>Afficher dans Drive</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.html</context>
+          <context context-type="linenumber">183,192</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2280421609807146729" datatype="html">
+        <source>Download PDF</source>
+        <target>Télécharger le PDF</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">88,92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2329337412629614989" datatype="html">
+        <source>Download CSV</source>
+        <target>Télécharger le CSV</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">93,98</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1659152154726590066" datatype="html">
+        <source>Print Report</source>
+        <target>Imprimer le rapport</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">99,104</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3690561241256206348" datatype="html">
+        <source>Block accounts</source>
+        <target>Bloquer les comptes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">107,109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7948140930099359849" datatype="html">
+        <source>Accounts blocked</source>
+        <target>Comptes bloqués</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">108,110</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3844485373393931192" datatype="html">
+        <source>Blocking...</source>
+        <target>Blocage en cours...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">109,113</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6153318133818249953" datatype="html">
+        <source>Mute accounts</source>
+        <target>Masquer les comptes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">114,116</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5038047605342283810" datatype="html">
+        <source>Accounts muted</source>
+        <target>Comptes masqués</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">115,117</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2265908944007690020" datatype="html">
+        <source>Muting...</source>
+        <target>Masquage en cours...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">116,120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8693570723094180634" datatype="html">
+        <source>Missing author ID for comment </source>
+        <target>ID de l&apos;auteur manquant pour le commentaire </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">216,219</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4319122389922561738" datatype="html">
+        <source>Missing author screenname for comment: </source>
+        <target>Nom d&apos;écran de l&apos;auteur manquant pour le commentaire : </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">219,223</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5426608820877809294" datatype="html">
+        <source>Block accounts?</source>
+        <target>Bloquer les comptes ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">274,276</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7172721391662222418" datatype="html">
+        <source>All accounts included in your report will be blocked. This action can be reversed on twitter.com.</source>
+        <target>Tous les comptes inclus dans votre rapport seront bloqués. Cette action peut être annulée sur twitter.com.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">276,278</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2369320429176739408" datatype="html">
+        <source>Block all</source>
+        <target>Tout bloquer</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">279,284</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8501768793096840756" datatype="html">
+        <source>Only 50 users can be blocked every 15 minutes. If you&apos;d  like to block more than 50 users, you have a couple of options. You can either divide the users across up to another 50 users blocked. Note that with both options you&apos;ll need to wait 15 minutes, remove the previously submitted users, and select up to 50 additional new users.</source>
+        <target>Seuls 50 utilisateurs peuvent être bloqués toutes les 15 minutes. Si vous souhaitez bloquer plus de 50 utilisateurs, vous avez plusieurs options. Vous pouvez soit diviser les utilisateurs entre jusqu&apos;à 50 autres utilisateurs bloqués. Notez que dans les deux options, vous devrez attendre 15 minutes, supprimer les utilisateurs précédemment soumis et sélectionner jusqu&apos;à 50 nouveaux utilisateurs supplémentaires.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">303,312</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2721334318769039254" datatype="html">
+        <source><x id="PH" equiv-text="numFailures"/> <x id="PH_1" equiv-text="numFailures === 1 ? &apos;user&apos; : &apos;users&apos;"/> could not be blocked</source>
+        <target><x id="PH" equiv-text="numFailures"/> <x id="PH_1" equiv-text="numFailures === 1 ? &apos;utilisateur&apos; : &apos;utilisateurs&apos;"/> n&apos;ont pas pu être bloqués</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">304</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">317</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8011766999165506941" datatype="html">
+        <source>The following users could not be blocked. These accounts may no longer be active or an unknown error may have occurred.</source>
+        <target>Les utilisateurs suivants n&apos;ont pas pu être bloqués. Ces comptes peuvent ne plus être actifs ou une erreur inconnue s&apos;est produite.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">316,317</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5402188056322608637" datatype="html">
+        <source>There was a problem connecting with Twitter. Please try again in a few minutes.</source>
+        <target>Un problème est survenu lors de la connexion à Twitter. Veuillez réessayer dans quelques minutes.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">330,332</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">405,407</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">478,480</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7709961124418761921" datatype="html">
+        <source>Unable to block users</source>
+        <target>Impossible de bloquer les utilisateurs</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">331,334</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5899877502738217633" datatype="html">
+        <source>Mute accounts?</source>
+        <target>Masquer les comptes ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">349,351</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4273908708398635091" datatype="html">
+        <source>All accounts included in your report will be muted. To reverse this action, visit your muted account settings on twitter.com or your apps settings on Twitter for iOS or Android.</source>
+        <target>Tous les comptes inclus dans votre rapport seront masqués. Pour annuler cette action, rendez-vous dans les paramètres de vos comptes masqués sur twitter.com ou dans les paramètres de vos applications sur Twitter pour iOS ou Android.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">351,353</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7455114085219104367" datatype="html">
+        <source>Mute all</source>
+        <target>Tout masquer</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">354,359</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3100510403648838042" datatype="html">
+        <source>Only 50 users can be muted every 15 minutes. If you&apos;d  like to mute more than 50 users, you have a couple of options. You can either divide the users across multiple reports or you can resend the report to have up to another 50 users muted. Note that with both options you&apos;ll need to wait 15 minutes, remove the previously submitted users, and select up to 50 additional new users.</source>
+        <target>Seuls 50 utilisateurs peuvent être masqués toutes les 15 minutes. Si vous souhaitez masquer plus de 50 utilisateurs, vous avez plusieurs options. Vous pouvez soit diviser les utilisateurs entre plusieurs rapports, soit renvoyer le rapport pour masquer jusqu&apos;à 50 autres utilisateurs. Notez que dans les deux options, vous devrez attendre 15 minutes, supprimer les utilisateurs précédemment soumis et sélectionner jusqu&apos;à 50 nouveaux utilisateurs supplémentaires.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">378,387</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1147011494324779501" datatype="html">
+        <source><x id="PH" equiv-text="numFailures"/> <x id="PH_1" equiv-text="numFailures === 1 ? &apos;user&apos; : &apos;users&apos;"/> could not be muted</source>
+        <target><x id="PH" equiv-text="numFailures"/> <x id="PH_1" equiv-text="numFailures === 1 ? &apos;utilisateur&apos; : &apos;utilisateurs&apos;"/> n&apos;ont pas pu être masqués</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">379</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">392</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5547233468174583561" datatype="html">
+        <source>The following users could not be muted. These accounts may no longer be active or an unknown error may have occurred.</source>
+        <target>Les utilisateurs suivants n&apos;ont pas pu être masqués. Ces comptes peuvent ne plus être actifs ou une erreur inconnue s&apos;est produite.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">391,392</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7666450067466127082" datatype="html">
+        <source>Unable to mute users</source>
+        <target>Impossible de masquer les utilisateurs</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">406,409</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4782631879340292391" datatype="html">
+        <source>Hide replies?</source>
+        <target>Masquer les réponses ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">424,426</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="376827091650032776" datatype="html">
+        <source>This will apply to all Direct Replies included in your report. Retweets and Quoted Replies will not be hidden.</source>
+        <target>Ceci s&apos;appliquera à toutes les réponses directes incluses dans votre rapport. Les retweets et les réponses citées ne seront pas masqués.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">426,428</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4985631238907885269" datatype="html">
+        <source>Hide replies</source>
+        <target>Masquer les réponses</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">429,434</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1148040476115140227" datatype="html">
+        <source>Only 50 replies can be hidden every 15 minutes. If you&apos;d like to hide more than 50 replies, you have a couple  of options. You can either divide the replies across multiple reports or you can resend the report to have up to another 50 replies removed. Note that with both options you&apos;ll need to wait 15 minutes, remove the previously submitted replies, and select up to 50 additional new replies.</source>
+        <target>Seules 50 réponses peuvent être masquées toutes les 15 minutes. Si vous souhaitez masquer plus de 50 réponses, vous avez plusieurs options. Vous pouvez soit diviser les réponses entre plusieurs rapports, soit renvoyer le rapport pour supprimer jusqu&apos;à 50 autres réponses. Notez que dans les deux options, vous devrez attendre 15 minutes, supprimer les réponses précédemment soumises et sélectionner jusqu&apos;à 50 nouvelles réponses supplémentaires.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">454,464</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8254630166841610865" datatype="html">
+        <source><x id="PH" equiv-text="numFailures"/> <x id="PH_1" equiv-text="numFailures === 1 ? &apos;reply&apos; : &apos;replies&apos;"/> could not be hidden</source>
+        <target><x id="PH" equiv-text="numFailures"/> <x id="PH_1" equiv-text="numFailures === 1 ? &apos;réponse&apos; : &apos;réponses&apos;"/> n&apos;ont pas pu être masquées</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">455</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">466</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4475405865856879019" datatype="html">
+        <source>Some replies could not be hidden. These replies may no longer exist or an unknown error may have occurred.</source>
+        <target>Certaines réponses n&apos;ont pas pu être masquées. Ces réponses peuvent ne plus exister ou une erreur inconnue s&apos;est produite.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">465,466</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="825119302900052027" datatype="html">
+        <source>Unable to hide replies</source>
+        <target>Impossible de masquer les réponses</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">479,482</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4949075506399566775" datatype="html">
+        <source>Error authenticating with Google sheets: <x id="PH" equiv-text="error"/></source>
+        <target>Erreur d&apos;authentification avec Google Sheets : <x id="PH" equiv-text="error"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">509</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="201426950227394586" datatype="html">
+        <source>Sorry, we’re unable to print your report</source>
+        <target>Désolé, nous ne pouvons pas imprimer votre rapport</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">558,560</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4175641006029324068" datatype="html">
+        <source>To resolve the issue, temporarily disable ad blocker for the print feature to work. You can always print after downloading or exporting the report as well.</source>
+        <target>Pour résoudre le problème, désactivez temporairement le bloqueur de publicité pour que la fonction d&apos;impression fonctionne. Vous pouvez toujours imprimer après avoir téléchargé ou exporté le rapport.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/share-report/share-report.component.ts</context>
+          <context context-type="linenumber">560,565</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="92eee6be6de0b11c924e3ab27db30257159c0a7c" datatype="html">
+        <source>Home</source>
+        <target>Accueil</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">34,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9dcefdb1408f4a237c120bd2e837515374362dcd" datatype="html">
+        <source>Create Report</source>
+        <target>Créer un rapport</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">39,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="419ebee8d82bad4f85fa5fed38aa8269d780e1f4" datatype="html">
+        <source>Request an Investigation</source>
+        <target>Demander une enquête</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">54,59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5d22c795daf43877a5f708dca2bccd549eb0471d" datatype="html">
+        <source>Sign out</source>
+        <target>Se déconnecter</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">60,66</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">91,98</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c1b97eada24a1ad4e669ef65d24da9313f56beee" datatype="html">
+        <source>Review report</source>
+        <target>Créer un rapport</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">137,139</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="63a55910c06dab4878a8efc4148f2e64ceec0a8c" datatype="html">
+        <source>Your report will update as you add comments. Visit this page to preview comments and add context for your report.</source>
+        <target>Votre rapport sera mis à jour au fur et à mesure que vous ajouterez des commentaires. Visitez cette page pour prévisualiser les commentaires et ajouter du contexte à votre rapport.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">138,141</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3b2bd07f2bceb063fd0033678d7f52f5094862c9" datatype="html">
+        <source>Displays the continue button, with a shopping cart icon indicating how many comments are currently in the report.</source>
+        <target>Affiche le bouton Continuer, avec une icône de panier indiquant le nombre de commentaires actuellement dans le rapport.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">140,146</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8294155391154077421" datatype="html">
+        <source>Last edit</source>
+        <target>Dernière modification</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.ts</context>
+          <context context-type="linenumber">228,230</context>
+        </context-group>
+      </trans-unit>
+       <trans-unit id="2484698351319847260" datatype="html">
+        <source>less than 1 min ago</source>
+        <target>il y a moins d'une minute</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.ts</context>
+          <context context-type="linenumber">230,233</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2609553584322707110" datatype="html">
+        <source> on <x id="PH" equiv-text="date.format(&apos;MMM D&apos;)"/></source>
+        <target>le <x id="PH" equiv-text="date.format(&apos;D MMM&apos;)"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.ts</context>
+          <context context-type="linenumber">248</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5924196973725703030" datatype="html">
+        <source> <x id="PH" equiv-text="hours"/> hr</source>
+        <target> <x id="PH" equiv-text="hours"/> h</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.ts</context>
+          <context context-type="linenumber">251</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6112087784618070926" datatype="html">
+        <source> <x id="PH" equiv-text="minutes"/> min</source>
+        <target> <x id="PH" equiv-text="minutes"/> min</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.ts</context>
+          <context context-type="linenumber">254</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6375445208254803120" datatype="html">
+        <source>ago</source>
+        <target>il y a</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.ts</context>
+          <context context-type="linenumber">256,262</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6759180813597637688" datatype="html">
+        <source>Back to Comments</source>
+        <target>Retour aux commentaires</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.ts</context>
+          <context context-type="linenumber">317,318</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7149021330340809963" datatype="html">
+        <source>Back to Details</source>
+        <target>Retour aux détails</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.ts</context>
+          <context context-type="linenumber">319,325</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3621763709254270239" datatype="html">
+        <source>Close report</source>
+        <target>Fermer le rapport</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.ts</context>
+          <context context-type="linenumber">348,354</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.ts</context>
+          <context context-type="linenumber">362,369</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6962699013778688473" datatype="html">
+        <source>Continue</source>
+        <target>Continuer</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.ts</context>
+          <context context-type="linenumber">350,355</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.ts</context>
+          <context context-type="linenumber">360,362</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4318317941395555753" datatype="html">
+        <source> Comment</source>
+        <target> Commentaire</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.ts</context>
+          <context context-type="linenumber">357,358</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8609492544418535497" datatype="html">
+        <source> Comments</source>
+        <target> Commentaires</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.ts</context>
+          <context context-type="linenumber">357,359</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6066874178756626832" datatype="html">
+        <source> in Report Draft. Continue.</source>
+        <target> dans le brouillon du rapport. Continuer.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.ts</context>
+          <context context-type="linenumber">358,360</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="610581289681719422" datatype="html">
+        <source>Nice work! You&apos;ve started your report.</source>
+        <target>Beau travail ! Vous avez commencé votre rapport.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.ts</context>
+          <context context-type="linenumber">387,390</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8324805522795256204" datatype="html">
+        <source>Comment added to report</source>
+        <target>Commentaire ajouté au rapport</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.ts</context>
+          <context context-type="linenumber">389,391</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6612449089043347497" datatype="html">
+        <source><x id="PH" equiv-text="this.reportNotificationCommentCount"/> comments added to report</source>
+        <target><x id="PH" equiv-text="this.reportNotificationCommentCount"/> commentaires ajoutés au rapport</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.ts</context>
+          <context context-type="linenumber">391</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2876776020329169598" datatype="html">
+        <source>Review your report draft or continue adding comments at your </source>
+        <target>Examinez votre brouillon de rapport ou continuez à ajouter des commentaires à votre </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.ts</context>
+          <context context-type="linenumber">398,402</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2363133054745736489" datatype="html">
+        <source>own pace.</source>
+        <target>propre rythme.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.ts</context>
+          <context context-type="linenumber">399,403</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2435375095159659033" datatype="html">
+        <source>Processing harmful content can be taxing. Take a break and come </source>
+        <target>Traiter un contenu nocif peut être épuisant. Prenez une pause et revenez </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.ts</context>
+          <context context-type="linenumber">403,405</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2558720473843579924" datatype="html">
+        <source>back anytime. Your work will be saved.</source>
+        <target>à tout moment. Votre travail sera enregistré.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.ts</context>
+          <context context-type="linenumber">404,410</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="640eec093c685babaa3265137215e3cc92ad704d" datatype="html">
         <source>Sign Out</source>
         <target>Se déconnecter</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">23,31</context>
+          <context context-type="linenumber">24,32</context>
         </context-group>
       </trans-unit>
       <trans-unit id="555eb356a0e45e76ba9bba4f96a0278331fb7170" datatype="html">
@@ -71,7 +2478,7 @@
         <target>Trois personnes.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">31,41</context>
+          <context context-type="linenumber">33,43</context>
         </context-group>
       </trans-unit>
       <trans-unit id="74135f6c1af1a57905b19ffa8b1e48f363582360" datatype="html">
@@ -97,7 +2504,7 @@
       &lt;div"/>Dites adieu aux<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> trolls en ligne </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">36</context>
+          <context context-type="linenumber">38</context>
         </context-group>
       </trans-unit>
       <trans-unit id="add64b79a1cb931f4f1765d1abc10984ef15db75" datatype="html">
@@ -105,14 +2512,14 @@
          <target> Désabonnez-vous, mettez en sourdine et bloquez les contenus toxiques.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> Reprenez le contrôle de votre expérience en ligne avec FeedShield. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">41</context>
+          <context context-type="linenumber">43</context>
         </context-group>
       </trans-unit>
       <trans-unit id="71f1fb2a7cebc36a28d6d09b19a144829ba233c1" datatype="html">
         <source> Visit Dashboard </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">49,53</context>
+          <context context-type="linenumber">51,55</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a8f9e922aae6e1c0f8ec11abef6f6ee4993ce80e" datatype="html">
@@ -120,7 +2527,7 @@
         <target>Démarrer avec Twitter</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">52,60</context>
+          <context context-type="linenumber">54,62</context>
         </context-group>
       </trans-unit>
       <trans-unit id="cf1c180ed19b50685f2d79c81cc88d6d6a9853ed" datatype="html">
@@ -164,7 +2571,7 @@
          <target>Découvrez comment utiliser FeedShield pour signaler les contenus abusifs qui vous ciblent, afin que vous puissiez les signaler aux plateformes ou demander à nos enquêteurs de retrouver les coupables. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">83,89</context>
+          <context context-type="linenumber">85,91</context>
         </context-group>
       </trans-unit>
       <trans-unit id="89ee8fee86055ecb50754a30c70fb3b0722a07f8" datatype="html">
@@ -172,7 +2579,7 @@
         <target>Découvrez comment</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">88,96</context>
+          <context context-type="linenumber">90,98</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a857ccefb24ca39d7acb2353694282b57da3e488" datatype="html">
@@ -186,7 +2593,7 @@
         largest network) and forensic investigators are also on standby to help"/>Vous n&apos;êtes<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> pas seul!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">96</context>
+          <context context-type="linenumber">98</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b725a05679c50b921d57e605af4773bd239fedc2" datatype="html">
@@ -194,7 +2601,7 @@
         <target>FeedShield met en place un réseau d'alliés. Nos vérificateurs de faits (le plus grand réseau d'Afrique) et nos enquêteurs sont également prêts à vous aider à démystifier les allégations ou à démasquer les responsables des campagnes de diffamation. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">98,105</context>
+          <context context-type="linenumber">100,107</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6507df4ba7b9f90050274bb62a8959e34f8bade5" datatype="html">
@@ -202,14 +2609,14 @@
         <target>Contacter les enquêteurs</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">105,110</context>
+          <context context-type="linenumber">107,112</context>
         </context-group>
       </trans-unit>
       <trans-unit id="dbcb1043ef9863a615caf8fe43167602d997a020" datatype="html">
         <source>Need help?</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">117,121</context>
+          <context context-type="linenumber">119,123</context>
         </context-group>
       </trans-unit>
       <trans-unit id="aa556ecefe228bfc82fd9d5c55da26007277da3d" datatype="html">
@@ -217,7 +2624,7 @@
         <target>Contactez un expert professionnel du conseil en cas de crise, formé pour vous mettre en relation avec les organismes sectoriels locaux appropriés ou les agences de soutien et veiller à ce que les incidents soient traités de manière appropriée </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">120,126</context>
+          <context context-type="linenumber">122,128</context>
         </context-group>
       </trans-unit>
       <trans-unit id="050f9286ddecaeeb7b6af2bd8b0e88f68f9bb40b" datatype="html">
@@ -225,7 +2632,7 @@
         <target>Contacter le service d'assistance téléphonique</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">125,132</context>
+          <context context-type="linenumber">127,134</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e2f673871ee0494b07f83bfc40c178217dd5c732" datatype="html">
@@ -233,7 +2640,7 @@
          <target>Trouver du soutien</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">152,155</context>
+          <context context-type="linenumber">154,157</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1ec3858a0d658f54695f596d9fcc92ac62463b04" datatype="html">
@@ -241,7 +2648,7 @@
         <target>Voulez-vous entrer en contact avec des organisations de défense des droits humains qui aident à lutter contre le harcèlement en ligne ? FeedShield fait partie d'une coalition internationale d'organisations de la société civile et d'organisations de surveillance de l'industrie des médias qui mettent en place des ressources, forment des champions et aident à soutenir les personnes ciblées par les trolls.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">154,161</context>
+          <context context-type="linenumber">156,163</context>
         </context-group>
       </trans-unit>
       <trans-unit id="223ce8a57edb569db9d03b5c114606cd4d3c5e88" datatype="html">
@@ -249,7 +2656,7 @@
         <target>Se connecter avec des alliés</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">160,165</context>
+          <context context-type="linenumber">162,167</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a16dd02bd27a93d1e14932721357707d5b29cdf6" datatype="html">
@@ -257,7 +2664,7 @@
         <target>Rejoignez-nous</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">172,176</context>
+          <context context-type="linenumber">174,178</context>
         </context-group>
       </trans-unit>
       <trans-unit id="51f052a81d838a6283dc1886f8c9e780dbfff10e" datatype="html">
@@ -265,7 +2672,7 @@
         <target>Voulez-vous jouer un rôle actif dans la lutte contre les abus en ligne ? Souhaitez-vous être l'un des premiers utilisateurs de l'outil FeedShield ? Y a-t-il d'autres façons de travailler avec nous ?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">175,181</context>
+          <context context-type="linenumber">177,183</context>
         </context-group>
       </trans-unit>
       <trans-unit id="de7fc693d631c240623c69aefec49bb7300e8a15" datatype="html">
@@ -273,7 +2680,7 @@
         <target>Trouver des opportunités</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">180,191</context>
+          <context context-type="linenumber">182,193</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ba5d43bddb88a8e7518f7a9ac506ae9c41fed6b1" datatype="html">
@@ -281,7 +2688,7 @@
         <target>Foire aux questions (FAQs)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">190,193</context>
+          <context context-type="linenumber">192,195</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f35bbaad38ae77d18037ba3ea2551a24651269f4" datatype="html">
@@ -289,7 +2696,7 @@
         <target>Comment fonctionne FeedShield?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">193,196</context>
+          <context context-type="linenumber">195,198</context>
         </context-group>
       </trans-unit>
       <trans-unit id="eb12a7a003dc539c7ff0f7d873b3a409c8086eb2" datatype="html">
@@ -297,7 +2704,7 @@
         <target>FeedShield se synchronise avec votre compte Twitter et utilise une technologie d'apprentissage automatique pour identifier les commentaires abusifs. L'outil attribue à chaque commentaire un score de toxicité et vous permet d'agir - en supprimant ou en bloquant des comptes en masse - sans avoir à lire les messages abusifs. Tous les commentaires sont automatiquement masqués, mais vous pouvez les désactiver si vous le souhaitez</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">196,202</context>
+          <context context-type="linenumber">198,204</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ef9a55b9fba2a9385cf1d73723a3d057cf84ac6b" datatype="html">
@@ -305,7 +2712,7 @@
         <target>Vous pouvez également rassembler les commentaires préjudiciables dans un rapport unique. Ce rapport peut être téléchargé et partagé avec Twitter et d'autres tiers de confiance si nécessaire.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">201,206</context>
+          <context context-type="linenumber">203,208</context>
         </context-group>
       </trans-unit>
       <trans-unit id="69f24bdf75d2e1c257b0531c1f90acc5921115e9" datatype="html">
@@ -313,7 +2720,7 @@
         <target>Les comptes abusifs ne sauront pas qu'ils ont fait l'objet d'un rapport. Aucune tierce partie - y compris Code for Africa et Twitter - ne pourra accéder aux rapports que vous créez, à moins qu'ils ne soient partagés directement avec eux. Les projets de rapports sont temporairement stockés dans l'outil pour vous permettre de les compléter. Une fois téléchargé ou abandonné, le rapport sera supprimé de FeedShield </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">205,212</context>
+          <context context-type="linenumber">207,214</context>
         </context-group>
       </trans-unit>
       <trans-unit id="30ae9a2e7b16716a1d0a1b53a0dd3df40dbbccbc" datatype="html">
@@ -321,7 +2728,7 @@
         <target>Comment mes données sont-elles protégées ?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">213,216</context>
+          <context context-type="linenumber">215,218</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0d990342633dec535cef03cd0acd6af5f763a72c" datatype="html">
@@ -329,7 +2736,7 @@
         <target>Oui, vos données restent confidentielles lorsque vous utilisez FeedShield. Nous ne recueillons que les informations essentielles telles que votre nom et votre adresse électronique, et nous ne partagerons jamais vos données personnelles avec des tiers sans votre consentement. Nous n'utilisons vos données personnelles que dans le but pour lequel elles ont été collectées.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">216,224</context>
+          <context context-type="linenumber">218,226</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c59445038f320e26bab4f7cd32a5d5d3fa2240e3" datatype="html">
@@ -337,7 +2744,7 @@
         <target>Dans quelle langue l'outil fonctionne-t-il ?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">225,228</context>
+          <context context-type="linenumber">227,230</context>
         </context-group>
       </trans-unit>
       <trans-unit id="90b2b5a85620926042d374e6fc5a2b6716c3a9af" datatype="html">
@@ -345,7 +2752,7 @@
         <target>L'outil FeedShield est actuellement disponible en anglais. Nous travaillons sur les langues française et arabe, alors revenez bientôt pour des mises à jour. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">228,235</context>
+          <context context-type="linenumber">230,237</context>
         </context-group>
       </trans-unit>
       <trans-unit id="60437a8c6233c6957aca9adad1903b0924111a1a" datatype="html">
@@ -353,7 +2760,7 @@
         <target>Explorer les foires aux questions (FAQs)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome-page/welcome-page.component.html</context>
-          <context context-type="linenumber">234,238</context>
+          <context context-type="linenumber">236,240</context>
         </context-group>
       </trans-unit>
     </body>

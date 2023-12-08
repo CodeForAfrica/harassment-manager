@@ -85,18 +85,18 @@ export class ShareReportComponent implements AfterViewInit {
   readonly saveOptions: ActionButtonOption[] = [
     {
       action: ReportAction.DOWNLOAD_PDF,
-      text: 'Download PDF',
+      text: $localize `Download PDF`,
       svgIcon: 'pdf_icon',
     },
     {
       action: ReportAction.DOWNLOAD_CSV,
-      text: 'Download CSV',
+      text: $localize `Download CSV`,
       svgIcon: 'csv_icon',
     },
 
     {
       action: ReportAction.PRINT,
-      text: 'Print Report',
+      text: $localize `Print Report`,
       iconText: 'print',
     },
   ];
@@ -104,16 +104,16 @@ export class ShareReportComponent implements AfterViewInit {
   readonly twitterActionOptions: ActionButtonOption[] = [
     {
       action: ReportAction.BLOCK_TWITTER,
-      text: 'Block accounts',
-      actionCompletedText: 'Accounts blocked',
-      actionInProgressText: 'Blocking...',
+      text: $localize `Block accounts`,
+      actionCompletedText: $localize `Accounts blocked`,
+      actionInProgressText: $localize `Blocking...`,
       iconText: 'block',
     },
     {
       action: ReportAction.MUTE_TWITTER,
-      text: 'Mute accounts',
-      actionCompletedText: 'Accounts muted',
-      actionInProgressText: 'Muting...',
+      text: $localize `Mute accounts`,
+      actionCompletedText: $localize `Accounts muted`,
+      actionInProgressText: $localize `Muting...`,
       iconText: 'volume_off',
     },
   ];
@@ -213,10 +213,10 @@ export class ShareReportComponent implements AfterViewInit {
     const comments = this.reportService.getCommentsForReport();
     for (const comment of comments) {
       if (!comment.item.authorId) {
-        throw new Error('Missing author ID for comment ' + comment);
+        throw new Error($localize `Missing author ID for comment ` + comment);
       }
       if (!comment.item.authorScreenName) {
-        throw new Error('Missing author screenname for comment: ' + comment);
+        throw new Error($localize `Missing author screenname for comment: ` + comment);
       }
     }
     const users = comments.map(
@@ -271,13 +271,12 @@ export class ShareReportComponent implements AfterViewInit {
       const dialogRef = this.dialog.open(ActionWarningDialogComponent, {
         panelClass: 'action-warning-dialog-container',
         data: {
-          actionTitle: 'Block accounts?',
+          actionTitle: $localize `Block accounts?`,
           actionText:
-            'All accounts included in your report will be blocked. This action' +
-            ' can be reversed on twitter.com.',
+          $localize `All accounts included in your report will be blocked. This action can be reversed on twitter.com.`,
           learnMoreLink:
             'https://help.twitter.com/en/using-twitter#blocking-and-muting',
-          confirmationText: 'Block all',
+          confirmationText: $localize `Block all`,
         },
       });
       dialogRef
@@ -301,15 +300,8 @@ export class ShareReportComponent implements AfterViewInit {
                     panelClass: 'api-error-dialog-container',
                     data: {
                       message:
-                        'Only 50 users can be blocked every 15 minutes. If you\'d ' +
-                        'like to block more than 50 users, you have a couple ' +
-                        'of options. You can either divide the users across ' +
-                        'multiple reports or you can resend the report to have ' +
-                        'up to another 50 users blocked. Note that with both ' +
-                        'options you\'ll need to wait 15 minutes, remove the ' +
-                        'previously submitted users, and select up to 50 ' +
-                        'additional new users.',
-                      title: `${numFailures} ${numFailures === 1 ? 'user' : 'users'
+                      $localize `Only 50 users can be blocked every 15 minutes. If you\'d  like to block more than 50 users, you have a couple of options. You can either divide the users across up to another 50 users blocked. Note that with both options you\'ll need to wait 15 minutes, remove the previously submitted users, and select up to 50 additional new users.`,
+                      title: $localize `${numFailures} ${numFailures === 1 ? 'user' : 'users'
                         } could not be blocked`,
                     },
                   });
@@ -321,10 +313,8 @@ export class ShareReportComponent implements AfterViewInit {
                       data: {
                         failures,
                         message:
-                          'The following users could not be blocked. These accounts ' +
-                          'may no longer be active or an unknown error may have ' +
-                          'occurred.',
-                        title: `${failures.length} ${failures.length === 1 ? 'user' : 'users'
+                        $localize `The following users could not be blocked. These accounts may no longer be active or an unknown error may have occurred.`,
+                        title: $localize `${failures.length} ${failures.length === 1 ? 'user' : 'users'
                           } could not be blocked`,
                       },
                     });
@@ -337,9 +327,8 @@ export class ShareReportComponent implements AfterViewInit {
                   panelClass: 'api-error-dialog-container',
                   data: {
                     message:
-                      'There was a problem connecting with Twitter. ' +
-                      'Please try again in a few minutes.',
-                    title: `Unable to block users`,
+                    $localize `There was a problem connecting with Twitter. Please try again in a few minutes.`,
+                    title: $localize `Unable to block users`,
                   },
                 });
                 resolve(false);
@@ -357,14 +346,12 @@ export class ShareReportComponent implements AfterViewInit {
       const dialogRef = this.dialog.open(ActionWarningDialogComponent, {
         panelClass: 'action-warning-dialog-container',
         data: {
-          actionTitle: 'Mute accounts?',
+          actionTitle: $localize `Mute accounts?`,
           actionText:
-            'All accounts included in your report will be muted. To reverse' +
-            ' this action, visit your muted account settings on twitter.com' +
-            ' or your apps settings on Twitter for iOS or Android.',
+          $localize `All accounts included in your report will be muted. To reverse this action, visit your muted account settings on twitter.com or your apps settings on Twitter for iOS or Android.`,
           learnMoreLink:
             'https://help.twitter.com/en/using-twitter#blocking-and-muting',
-          confirmationText: 'Mute all',
+          confirmationText: $localize `Mute all`,
         },
       });
       dialogRef
@@ -388,15 +375,8 @@ export class ShareReportComponent implements AfterViewInit {
                     panelClass: 'api-error-dialog-container',
                     data: {
                       message:
-                        'Only 50 users can be muted every 15 minutes. If you\'d ' +
-                        'like to mute more than 50 users, you have a couple ' +
-                        'of options. You can either divide the users across ' +
-                        'multiple reports or you can resend the report to have ' +
-                        'up to another 50 users muted. Note that with both ' +
-                        'options you\'ll need to wait 15 minutes, remove the ' +
-                        'previously submitted users, and select up to 50 ' +
-                        'additional new users.',
-                      title: `${numFailures} ${numFailures === 1 ? 'user' : 'users'
+                      $localize `Only 50 users can be muted every 15 minutes. If you\'d  like to mute more than 50 users, you have a couple of options. You can either divide the users across multiple reports or you can resend the report to have up to another 50 users muted. Note that with both options you\'ll need to wait 15 minutes, remove the previously submitted users, and select up to 50 additional new users.`,
+                      title: $localize `${numFailures} ${numFailures === 1 ? 'user' : 'users'
                         } could not be muted`,
                     },
                   });
@@ -408,10 +388,8 @@ export class ShareReportComponent implements AfterViewInit {
                       data: {
                         failures,
                         message:
-                          'The following users could not be muted. These accounts ' +
-                          'may no longer be active or an unknown error may have ' +
-                          'occurred.',
-                        title: `${failures.length} ${failures.length === 1 ? 'user' : 'users'
+                        $localize `The following users could not be muted. These accounts may no longer be active or an unknown error may have occurred.`,
+                        title: $localize `${failures.length} ${failures.length === 1 ? 'user' : 'users'
                           } could not be muted`,
                       },
                     });
@@ -424,9 +402,8 @@ export class ShareReportComponent implements AfterViewInit {
                   panelClass: 'api-error-dialog-container',
                   data: {
                     message:
-                      'There was a problem connecting with Twitter. ' +
-                      'Please try again in a few minutes.',
-                    title: `Unable to mute users`,
+                    $localize `There was a problem connecting with Twitter. Please try again in a few minutes.`,
+                    title: $localize `Unable to mute users`,
                   },
                 });
                 resolve(false);
@@ -444,13 +421,12 @@ export class ShareReportComponent implements AfterViewInit {
       const dialogRef = this.dialog.open(ActionWarningDialogComponent, {
         panelClass: 'action-warning-dialog-container',
         data: {
-          actionTitle: 'Hide replies?',
+          actionTitle: $localize `Hide replies?`,
           actionText:
-            'This will apply to all Direct Replies included in your report.' +
-            ' Retweets and Quoted Replies will not be hidden.',
+          $localize `This will apply to all Direct Replies included in your report. Retweets and Quoted Replies will not be hidden.`,
           learnMoreLink:
             'https://help.twitter.com/en/using-twitter/mentions-and-replies#:~:text=Hidden%20replies&text=When%20a%20Tweet%20author%20hides,reply%20will%20not%20be%20notified.&text=From%20a%    20reply%20to%20one,right%20of%20your%20original%20Tweet.',
-          confirmationText: 'Hide replies',
+          confirmationText: $localize `Hide replies`,
         },
       });
       dialogRef
@@ -475,15 +451,8 @@ export class ShareReportComponent implements AfterViewInit {
                     panelClass: 'api-error-dialog-container',
                     data: {
                       message:
-                        'Only 50 replies can be hidden every 15 minutes. If you\'d ' +
-                        'like to hide more than 50 replies, you have a couple ' +
-                        'of options. You can either divide the replies across ' +
-                        'multiple reports or you can resend the report to have ' +
-                        'up to another 50 replies removed. Note that with both ' +
-                        'options you\'ll need to wait 15 minutes, remove the ' +
-                        'previously submitted replies, and select up to 50 ' +
-                        'additional new replies.',
-                      title: `${numFailures} ${numFailures === 1 ? 'reply' : 'replies'
+                      $localize `Only 50 replies can be hidden every 15 minutes. If you\'d like to hide more than 50 replies, you have a couple  of options. You can either divide the replies across multiple reports or you can resend the report to have up to another 50 replies removed. Note that with both options you\'ll need to wait 15 minutes, remove the previously submitted replies, and select up to 50 additional new replies.`,
+                      title: $localize `${numFailures} ${numFailures === 1 ? 'reply' : 'replies'
                         } could not be hidden`,
                     },
                   });
@@ -493,10 +462,8 @@ export class ShareReportComponent implements AfterViewInit {
                     panelClass: 'api-error-dialog-container',
                     data: {
                       message:
-                        'Some replies could not be hidden. These replies ' +
-                        'may no longer exist or an unknown error may have ' +
-                        'occurred.',
-                      title: `${numOtherFailures} ${numOtherFailures === 1 ? 'reply' : 'replies'
+                      $localize `Some replies could not be hidden. These replies may no longer exist or an unknown error may have occurred.`,
+                      title: $localize `${numOtherFailures} ${numOtherFailures === 1 ? 'reply' : 'replies'
                         } could not be hidden`,
                     },
                   });
@@ -508,9 +475,8 @@ export class ShareReportComponent implements AfterViewInit {
                   panelClass: 'api-error-dialog-container',
                   data: {
                     message:
-                      'There was a problem connecting with Twitter. ' +
-                      'Please try again in a few minutes.',
-                    title: `Unable to hide replies`,
+                    $localize `There was a problem connecting with Twitter. Please try again in a few minutes.`,
+                    title: $localize `Unable to hide replies`,
                   },
                 });
                 resolve(false);
@@ -540,7 +506,7 @@ export class ShareReportComponent implements AfterViewInit {
           });
       })
       .catch((error) => {
-        throw new Error(`Error authenticating with Google sheets: ${error}`);
+        throw new Error($localize `Error authenticating with Google sheets: ${error}`);
       });
   }
 
@@ -589,11 +555,9 @@ export class ShareReportComponent implements AfterViewInit {
     this.adblockErrorOpen = true;
     const dialogRef = this.dialog.open(ErrorDialogComponent, {
       data: {
-        errorTitle: 'Sorry, we’re unable to print your report',
+        errorTitle: $localize `Sorry, we’re unable to print your report`,
         errorText:
-          'To resolve the issue, temporarily disable ad blocker for' +
-          ' the print feature to work. You can always print after downloading' +
-          ' or exporting the report as well.',
+        $localize `To resolve the issue, temporarily disable ad blocker for the print feature to work. You can always print after downloading or exporting the report as well.`,
       },
     });
     dialogRef

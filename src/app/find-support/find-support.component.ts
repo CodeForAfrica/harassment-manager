@@ -33,19 +33,19 @@ interface SupportResource {
 })
 export class FindSupportComponent {
   sideMenuSections: SideMenuSection[] = [
-    { title: 'Interactive Lessons', anchorSelector: '.interactive-lessons', selected: true },
+    { title: $localize `Interactive Lessons`, anchorSelector: '.interactive-lessons', selected: true },
     {
-      title: 'Resource Kits',
+      title:  $localize `Resource Kits`,
       anchorSelector: '.resource-kits',
       selected: false,
     },
     {
-      title: 'Self-help Tools',
+      title:  $localize `Self-help Tools`,
       anchorSelector: '.tools',
       selected: false,
     },
     {
-      title: 'Support Organisations',
+      title:  $localize `Support Organisations`,
       anchorSelector: '.organisations',
       selected: false,
     },

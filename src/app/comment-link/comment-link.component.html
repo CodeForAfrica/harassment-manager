@@ -18,7 +18,7 @@
       *ngIf="comment && comment.url"
       (click)="$event.stopPropagation()">
   <a href="{{comment.url}}" target="_blank" rel="noopener noreferrer">
-    <span>View on {{siteLabel}}</span>
+    <span i18n>View on {{siteLabel}}</span>
     <mat-icon>launch</mat-icon>
   </a>
 </span>

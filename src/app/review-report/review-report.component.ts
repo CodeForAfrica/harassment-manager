@@ -40,11 +40,11 @@ export class ReviewReportComponent {
 
   reportReasonOptions: string[] = [];
   readonly reportReasonOptionsTwitter = [
-    'Harassment',
-    'Specific violent threats involving physical safety or well-being',
-    'Exposed private information or photo',
-    'Spam',
-    'Directs hate against a protected category (for example, race, religion, gender, orientation, or disability)',
+    $localize `Harassment`,
+    $localize `Specific violent threats involving physical safety or well-being`,
+    $localize `Exposed private information or photo`,
+    $localize `Spam`,
+    $localize `Directs hate against a protected category (for example, race, religion, gender, orientation, or disability)`,
   ];
   hasReportReasons: boolean[] = [];
   context = '';

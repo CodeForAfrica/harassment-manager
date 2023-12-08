@@ -29,7 +29,7 @@ export class CrisisHelplineComponent {
 
   sideMenuSections: SideMenuSection[] = [
     {
-      title: 'Virtual Helpline',
+      title: $localize `Virtual Helpline`,
       anchorSelector: '.item-1',
       selected: false
     },
