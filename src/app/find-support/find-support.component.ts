@@ -19,6 +19,7 @@ import { MatIconRegistry } from '@angular/material/icon';
 import { DomSanitizer } from '@angular/platform-browser';
 
 import { SideMenuSection } from '../scrollable-side-menu/scrollable-side-menu.component';
+import { Direction } from '@angular/cdk/bidi';
 
 interface SupportResource {
   name: string;
@@ -32,6 +33,8 @@ interface SupportResource {
   styleUrls: ['./find-support.component.scss'],
 })
 export class FindSupportComponent {
+  dir: Direction  = $localize.locale?.startsWith('ar') ? 'rtl' : 'ltr' || 'ltr';
+
   sideMenuSections: SideMenuSection[] = [
     { title: $localize `Interactive Lessons`, anchorSelector: '.interactive-lessons', selected: true },
     {

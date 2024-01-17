@@ -9,7 +9,7 @@ export interface Locale {
   templateUrl: './locale-selector.component.html',
   styleUrls: ['./locale-selector.component.scss'],
 })
-export class LocaleSelectorComponent implements OnInit {
+export class LocaleSelectorComponent {
   locales: Locale[] = [
     {
       code: 'en',
@@ -27,5 +27,4 @@ export class LocaleSelectorComponent implements OnInit {
   constructor(
   ) { }
 
-  ngOnInit(): void { }
 }

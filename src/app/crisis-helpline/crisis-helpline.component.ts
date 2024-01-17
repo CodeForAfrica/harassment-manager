@@ -16,6 +16,7 @@
 
 import { Component } from '@angular/core';
 import { SideMenuSection } from '../scrollable-side-menu/scrollable-side-menu.component';
+import { Direction } from '@angular/cdk/bidi';
 
 
 @Component({
@@ -26,6 +27,7 @@ import { SideMenuSection } from '../scrollable-side-menu/scrollable-side-menu.co
 export class CrisisHelplineComponent {
   // Height for the mat-expansion-panel-header.
   expansionPanelHeaderHeight = '82px';
+  dir: Direction  = $localize.locale?.startsWith('ar') ? 'rtl' : 'ltr' || 'ltr';
 
   sideMenuSections: SideMenuSection[] = [
     {

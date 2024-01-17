@@ -168,6 +168,11 @@ mat-panel-title {
       right: 0;
       top: 0;
     }
+    
+    img.rtl {
+      left: 0;
+      right: auto;
+    }
   }
   .header::before {
     left: calc((728px - 100vw) / 2);
