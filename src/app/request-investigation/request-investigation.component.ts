@@ -1,3 +1,4 @@
+import { Direction } from '@angular/cdk/bidi';
 import { Component } from '@angular/core';
 
 interface TeamMember {
@@ -12,6 +13,7 @@ interface TeamMember {
   styleUrls: ['./request-investigation.component.scss']
 })
 export class RequestInvestigationComponent {
+  dir: Direction  = $localize.locale?.startsWith('ar') ? 'rtl' : 'ltr' || 'ltr';
 
   teamMembers: TeamMember[] = [
     {

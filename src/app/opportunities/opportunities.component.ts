@@ -14,6 +14,7 @@
  * limitations under the License.
  */
 
+import { Direction } from '@angular/cdk/bidi';
 import { Component } from '@angular/core';
 
 interface Opportunity {
@@ -31,6 +32,8 @@ interface Opportunity {
   styleUrls: ['./opportunities.component.scss'],
 })
 export class OpportunitiesComponent {
+  dir: Direction  = $localize.locale?.startsWith('ar') ? 'rtl' : 'ltr' || 'ltr';
+
   opportunities: Opportunity[] = [
     {
       title: $localize `Call for Early Adopters`,
